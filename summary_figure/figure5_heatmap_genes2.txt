@@ -1,0 +1,576 @@
+gene_id	NCBI Accession	annotation	gene_symbol	pathway	pathway2	module	cluster	d1_category	d3_category
+aug_v2a.06560	XP_015780619	"GRAM domain-containing protein 4-like, partial"	GRAMD4	apoptosis_GOKEGG	apoptosis-both_down	14	0	similar_up	independent_Hup
+aug_v2a.13321	XP_015755132	apoptotic chromatin condensation inducer in the nucleus	ACIN1	apoptosis-both	apoptosis-both_down	18	0	independent_Hup	NA
+aug_v2a.19466	XP_015755133	apoptotic chromatin condensation inducer in the nucleus	ACIN1	apoptosis-both	apoptosis-both_down	18	0	independent_Hup	NA
+aug_v2a.07350	XP_015759861	Caspase recruitment domain-containing protein 11	CARD11	apoptosis-both	apoptosis-both_down	18	0	independent_Hup	NA
+aug_v2a.14264	XP_015780504	Caspase-3 	CASP3	apoptosis-both	apoptosis-both_down	18	0	independent_Hup	NA
+aug_v2a.07328	XP_015762978	serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B beta isoform-like	PPP2R2B	apoptosis-both	apoptosis-both_down	22	2	canceled_Hup	NA
+aug_v2a.17260	XP_015774399	caspase 3		immune-recognition_GOKEGG	apoptosis-both_down	17	0	NA	combinatorial_Sdown_Hdown_Shup
+aug_v2a.18450	XP_015770685	extracellular calcium-sensing receptor-like		immune-recognition_GOKEGG	apoptosis-both_down	12	0	independent_Hup	cancelled_Sdown_Hup
+aug_v2a.03384	XP_015751269	salvador-like 1	SAV1	apoptosis_GOKEGG	apoptosis-both_down	18	0	cancelled_Hup	NA
+aug_v2a.22682	XP_015759686	transcription factor BTF3 homolog 4-like isoform X2	BTF3L4	apoptosis_GOKEGG	apoptosis-both_up	6	0	similar_down	independent_Hdown
+aug_v2a.23668	XP_015759686	transcription factor BTF3 homolog 4-like isoform X2	BTF3L4	apoptosis_GOKEGG	apoptosis-both_up	7	0	similar_down	independent_Hdown
+aug_v2a.21038	XP_015753014	apoptosis inhibitor 5-A	API5	apoptosis-both	apoptosis-both_up	6	0	NA	independent_Hdown
+aug_v2a.05778	XP_015753014	apoptosis inhibitor 5-A	API5	apoptosis-both	apoptosis-both_up	6	0	NA	independent_Hdown
+aug_v2a.05412	XP_015762525	Caspase-7	CASP7	apoptosis-both	apoptosis-both_up	6	0	NA	combinatorial_Shdown
+aug_v2a.10962	XP_015749947	Caspase-X	CASPX	apoptosis-both	apoptosis-both_up	8	0	NA	canceled_Sdown
+aug_v2a.04862	XP_015748693	Caspase-X 	CASPX	apoptosis-both	apoptosis-both_up	4	0	canceled_Hdown	NA
+aug_v2a.17973	XP_015774270	serine/threonine-protein kinase 40-like		oxidative_phosphorylation_GOKEGG	apoptosis-both_up	8	0	similar_down	NA
+aug_v2a.20485	XP_015770334	ubiquitin thioesterase CYLD	CYLD	apoptosis_GOKEGG	apoptosis-extrinsic_down	18	0	independent_Hup	similar_up
+aug_v2a.09611	XP_015768209	Caspase	CASP	apoptosis-extrinsic	apoptosis-extrinsic_down	21	0	independent_Hup	independent_Hup
+aug_v2a.17832	XP_015756325	Caspase 8	CASP8	apoptosis-extrinsic	apoptosis-extrinsic_down	12	0	similar_up	NA
+aug_v2a.15940	XP_015752631	FAS-associated factor 1	FAS	apoptosis-extrinsic	apoptosis-extrinsic_down	21	0	independent_Hup	independent_Hup
+aug_v2a.14805	XP_015780934	ranBP-type and C3HC4-type zinc finger-containing protein 1-like		immune-recognition_GOKEGG	apoptosis-extrinsic_down	12	0	independent_Hup	similar_up
+aug_v2a.15107	XP_015761741	transcription factor 7-like 2		immune-recognition_GOKEGG	apoptosis-extrinsic_down	13	0	similar_up	combinatorial_Sdown_Hdown_Shup
+aug_v2a.04258	XP_015752214	fas apoptotic inhibitory molecule 1-like	FAIM	apoptosis_GOKEGG	apoptosis-extrinsic_up	7	0	independent_Sdown	
+aug_v2a.17629	XP_015747899	leucine-rich repeats and death domain-containing protein	LRDD	apoptosis_GOKEGG	apoptosis-intrinsic_down	18	0	independent_Hup	similar_up
+aug_v2a.21328	XP_015749718	apoptosis-resistant E3 ubiquitin protein ligase 1	AREL1	apoptosis-intrinsic	apoptosis-intrinsic_down	14	0	independent_Hup	NA
+aug_v2a.04131	XP_015776369	Apoptotic protease-activating factor 1	Apaf-1	apoptosis-intrinsic	apoptosis-intrinsic_down	18	0	independent_Hup	similar_up
+aug_v2a.00172	XP_015757242	BAK1	BAK1	apoptosis-intrinsic	apoptosis-intrinsic_down	21	0	canceled_Hup	NA
+aug_v2a.12531	XP_015748222	p53-induced protein with a death domain	PIDD	apoptosis-intrinsic	apoptosis-intrinsic_down	18	0	independent_Hup	similar_up
+aug_v2a.23783	XP_015748225	p53-induced protein with a death domain	PIDD	apoptosis-intrinsic	apoptosis-intrinsic_down	18	0	independent_Hup	combinatorial_Sup_Hup_Shnone
+aug_v2a.12624	XP_015778642	p53-induced protein with a death domain	PIDD	apoptosis-intrinsic	apoptosis-intrinsic_down	18	0	independent_Hup	independent_Hup
+aug_v2a.03511	XP_015752087	Protein disulfide-isomerase 1 	PDI	apoptosis-intrinsic	apoptosis-intrinsic_down	21	3	independent_Hup	canceled_Hup
+aug_v2a.05077	XP_015767434	LOW QUALITY PROTEIN: apoptosis regulator BAX-like		er_processing_stress_GOKEGG	apoptosis-intrinsic_down	24	0	NA	prioritized_Hup
+aug_v2a.07076	XP_015755186	apoptosis regulator Bcl-2	Bcl-2	apoptosis-intrinsic	apoptosis-intrinsic_up	8	0	independent_Sdown	NA
+aug_v2a.04994	XP_015752935	"Apoptosis-inducing factor 1, mitochondrial"	AIF	apoptosis-intrinsic	apoptosis-intrinsic_up	4	0	independent_Hdown	independent_Hdown
+aug_v2a.00181	XP_015757234	Bcl-like protein	Bcl	apoptosis-intrinsic	apoptosis-intrinsic_up	7	0	independent_Sdown	NA
+aug_v2a.10327	XP_015751668	p53 and DNA damage-regulated protein 1	PDRG1	apoptosis-intrinsic	apoptosis-intrinsic_up	22	0	prioritized_Sdown	NA
+aug_v2a.05639	XP_015752790	probable Bax inhibitor 1	Bl-1	apoptosis-intrinsic	apoptosis-intrinsic_up	25	0	canceled_Sdown	NA
+aug_v2a.13262	XP_015759560	"pyruvate dehydrogenase (acetyl-transferring) kinase isozyme 2, mitochondrial-like"	PDK2	oxidative_phosphorylation_GOKEGG	apoptosis-intrinsic_up	7	0	independent_Sdown	independent_Hdown
+aug_v2a.04837	XP_015777887	beclin-1-like	BECN1	autophagy_GOKEGG	autophagy_down	22	0	cancelled_Hup	NA
+aug_v2a.00084	XP_015777887	beclin-1-like	BECN1	autophagy_GOKEGG	autophagy_down	18	0	similar_up	NA
+aug_v2a.18892	XP_015765412	putative Ras-related protein Rab-33	Rab33	autophagy_GOKEGG	autophagy_down	22	0	cancelled_Hup	NA
+aug_v2a.01430	XP_015751990	tectonin beta-propeller repeat-containing protein 1-like	TECPR1	autophagy_GOKEGG	autophagy_down	14	0	independent_Hup	similar_up
+aug_v2a.05147	XP_015755818	vacuole membrane protein 1-like	VMP1	autophagy_GOKEGG	autophagy_down	18	0	independent_Hup	NA
+aug_v2a.06844	XP_015751494	zinc finger FYVE domain-containing protein 1-like	ZFYVE1	autophagy_GOKEGG	autophagy_down	12	0	similar_up	NA
+aug_v2a.02698	XP_015775422	"ubiquitin-like-conjugating enzyme ATG10, partial"	ATG10	autophagy_GOKEGG	autophagy_up	6	0	independent_Hdown	similar_down
+aug_v2a.17679	XP_015753012	autophagy-related protein 13-like	ATG13	autophagy_GOKEGG	autophagy_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.15425	XP_015767506	autophagy-related protein 2 homolog B-like	ATG2	autophagy_GOKEGG	autophagy_up	13	0	cancelled_Hdown	NA
+aug_v2a.17623	XP_015753348	ubiquitin-like-conjugating enzyme ATG3	ATG3	autophagy_GOKEGG	autophagy_up	24	0	cancelled_Sdown_Hup	NA
+aug_v2a.05004	XP_015778280	cysteine protease ATG4D-like	ATG4D	autophagy_GOKEGG	autophagy_up	6	0	similar_down	NA
+aug_v2a.04427	XP_015753199	autophagy protein 5-like	ATG5	autophagy_GOKEGG	autophagy_up	6	0	similar_down	independent_Hdown
+aug_v2a.05959	XP_015751120	death-associated protein 1-like	DAP1	autophagy_GOKEGG	autophagy_up	6	0	similar_down	independent_Hdown
+aug_v2a.20234	XP_015778516	target of rapamycin complex subunit lst8-like	MLST8	autophagy_GOKEGG	autophagy_up	6	0	similar_down	independent_Hdown
+aug_v2a.24431	XP_015773750	"serine/threonine-protein phosphatase PGAM5, mitochondrial-like isoform X3"	PGAM5	immune-recognition_GOKEGG	autophagy_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.03018	XP_015773750	"serine/threonine-protein phosphatase PGAM5, mitochondrial-like isoform X3"	PGAM5	immune-recognition_GOKEGG	autophagy_up	6	0	independent_Hdown	NA
+aug_v2a.04270	XP_015756489	phosphoinositide 3-kinase regulatory subunit 4-like	PIK3R4	autophagy_GOKEGG	autophagy_up	5	0	cancelled_Sup_Hdown	NA
+aug_v2a.02599	XP_015756489	phosphoinositide 3-kinase regulatory subunit 4-like	PIK3R4	autophagy_GOKEGG	autophagy_up	4	0	independent_Hdown	cancelled_Hdown
+aug_v2a.06515	XP_015752114	phosphoinositide 3-kinase regulatory subunit 4-like	PIK3R4	autophagy_GOKEGG	autophagy_up	17	0	independent_Sup	NA
+aug_v2a.02770	XP_015779201	phosphoinositide 3-kinase regulatory subunit 4-like isoform X1	PIK3R4	autophagy_GOKEGG	autophagy_up	4	0	independent_Hdown	cancelled_Hdown
+aug_v2a.13603	0	"phosphoinositide-3-kinase, regulatory subunit 4"	PIK3R4	autophagy_GOKEGG	autophagy_up	6	0	independent_Hdown	NA
+aug_v2a.14165	XP_015752657	ras-related GTP-binding protein A-like	RRAGA	autophagy_GOKEGG	autophagy_up	7	0	similar_down	independent_Hdown
+aug_v2a.02153	XP_015757553	ras-related GTP-binding protein C-like	RRAGC	autophagy_GOKEGG	autophagy_up	6	0	NA	cancelled_Hdown
+aug_v2a.08292	XP_015755866	serine/threonine-protein kinase ULK2-like	ULK2	autophagy_GOKEGG	autophagy_up	13	0	cancelled_Hdown	NA
+aug_v2a.07791	XP_015757696	WD repeat-containing protein 41-like	WDR41	autophagy_GOKEGG	autophagy_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.11930	XP_015758912	ras-like GTP-binding protein YPT1 isoform X1	YPT1	autophagy_GOKEGG	autophagy_up	7	0	independent_Sdown	NA
+aug_v2a.20570	XP_015747827	anaphase-promoting complex subunit 7	APC7	cell cycle/ DNA damage	cell_cycle_down	22	0	canceled_Hup	NA
+aug_v2a.19156	XP_015772586	cell cycle checkpoint protein RAD17	RAD17	cell cycle/ DNA damage	cell_cycle_down	22	0	similar_up	NA
+aug_v2a.02419	XP_015759676	cell division cycle 14 	CDC14	cell cycle/ DNA damage	cell_cycle_down	17	0	canceled_Sup	NA
+aug_v2a.21823	XP_015759676	cell division cycle 14 	CDC14	cell cycle/ DNA damage	cell_cycle_down	13	0	independent_Sup	canceled_Hdown
+aug_v2a.19335	XP_015763007	cohesin complex subunit SA-1/2	STAG1	cell cycle/ DNA damage	cell_cycle_down	18	0	canceled_Hup	similar_up
+aug_v2a.23188	XP_015754883	histone deacetylase 1/2	HDAC1_2	cell cycle/ DNA damage	cell_cycle_down	22	0	combinatorial_Sup_Hup_Shnone	NA
+aug_v2a.17788	XP_015752936	Jade-1	JADE1	cell cycle/ DNA damage	cell_cycle_down	17	3	similar_up	NA
+aug_v2a.03121	XP_015748546	origin recognition complex subunit 2	ORC2	cell cycle/ DNA damage	cell_cycle_down	17	0	NA	canceled_Hdown
+aug_v2a.08938	XP_015776455	tetratricopeptide repeat protein 28-like		er_processing_stress_GOKEGG	cell_cycle_down	14	0	combinatorial_SHup	NA
+aug_v2a.06821	XP_015767768	hyaluronidase-1-like isoform X2		immune-phagosome_GOKEGG	cell_cycle_down	13	0	independent_Sup	similar_up
+aug_v2a.10736	XP_015748806	"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-1-like, partial"		immune-recognition_GOKEGG	cell_cycle_down	17	0	similar_up	NA
+aug_v2a.18113	XP_015758542	casein kinase I isoform alpha-like		immune-recognition_GOKEGG	cell_cycle_down	18	0	similar_up	cancelled_Sup
+aug_v2a.08641	XP_015756304	serine/threonine-protein kinase N2-like isoform X2		immune-recognition_GOKEGG	cell_cycle_down	18	0	similar_up	NA
+aug_v2a.01992	XP_015780491	serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform-like		immune-recognition_GOKEGG	cell_cycle_down	18	0	NA	cancelled_Sup
+aug_v2a.05155	XP_015755889	14-3-3 protein epsilon	YWHAE	cell cycle/ DNA damage	cell_cycle_up	9	0	combinatorial_Shdown	independent_Hdown
+aug_v2a.05160	XP_015755885	14-3-3 protein epsilon	YWHAE	cell cycle/ DNA damage	cell_cycle_up	9	0	combinatorial_Shdown	independent_Hdown
+aug_v2a.11686	XP_015753784	anaphase-promoting complex subunit 10	APC10	cell cycle/ DNA damage	cell_cycle_up	6	0	NA	independent_Hdown
+aug_v2a.22070	XP_015765222	anaphase-promoting complex subunit 11	APC11	cell cycle/ DNA damage	cell_cycle_up	7	0	similar_down	NA
+aug_v2a.02529	XP_015772504	anaphase-promoting complex subunit 13	ANAPC13	cell cycle/ DNA damage	cell_cycle_up	7	0	similar_down	NA
+aug_v2a.16778	XP_015755630	anaphase-promoting complex subunit 6	APC6	cell cycle/ DNA damage	cell_cycle_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.10881	XP_015768485	anaphase-promoting complex subunit 8	APC8	cell cycle/ DNA damage	cell_cycle_up	4	0	canceled_Hdown	similar_down
+aug_v2a.10402	XP_015776631	cell cycle arrest protein BUB3	BUB3	cell cycle/ DNA damage	cell_cycle_up	6	0	NA	independent_Hdown
+aug_v2a.07616	XP_015749618	"cell division cycle 20, cofactor of APC complex"	CDC20	cell cycle/ DNA damage	cell_cycle_up	4	0	independent_Hdown	NA
+aug_v2a.21552	XP_015765492	cell division cycle protein 23	CDC23	cell cycle/ DNA damage	cell_cycle_up	4	0	canceled_Hdown	similar_down
+aug_v2a.16767	XP_015755425	cyclin D2	CCND2	cell cycle/ DNA damage	cell_cycle_up	8	0	similar_down	NA
+aug_v2a.06295	XP_015751537	DNA replication licensing factor MCM3	MCM3	cell cycle/ DNA damage	cell_cycle_up	6	0	canceled_Hdown	NA
+aug_v2a.04340	XP_015777162	host cell factor	HCF	cell cycle/ DNA damage	cell_cycle_up	4	1	canceled_Hdown	similar_up
+aug_v2a.13971	XP_015754137	membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase	PKMYT	cell cycle/ DNA damage	cell_cycle_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.02246	XP_015751690	origin recognition complex subunit 6	ORC6	cell cycle/ DNA damage	cell_cycle_up	4	0	independent_Hdown	independent_Hdown
+aug_v2a.12592	XP_015771656	RING-box protein 1	ROC1	cell cycle/ DNA damage	cell_cycle_up	7	0	similar_down	independent_Hdown
+aug_v2a.20381	XP_015772632	S-phase kinase-associated protein 2	SKP2	cell cycle/ DNA damage	cell_cycle_up	4	4	canceled_Hdown	combinatorial_Shdown
+aug_v2a.05585	XP_015779647	structural maintenance of chromosome 1	SMC1	cell cycle/ DNA damage	cell_cycle_up	7	0	similar_down	combinatorial_Shdown
+aug_v2a.22313	XP_015779647	structural maintenance of chromosome 1	SMC1	cell cycle/ DNA damage	cell_cycle_up	18	0	independent_Hup	NA
+aug_v2a.16851	XP_015773377	Transcription factor E2F4	E2F4	cell cycle/ DNA damage	cell_cycle_up	4	0	canceled_Hdown	prioritized_Hdown
+aug_v2a.18097	XP_015774803	NEDD8-activating enzyme E1 catalytic subunit-like isoform X2		er_processing_stress_GOKEGG	cell_cycle_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.23449	XP_015761197	NSFL1 cofactor p47-like		er_processing_stress_GOKEGG	cell_cycle_up	6	0	independent_Hdown	prioritized_Hdown
+aug_v2a.06357	XP_015761149	NSFL1 cofactor p47-like		er_processing_stress_GOKEGG	cell_cycle_up	7	0	independent_Sdown	NA
+aug_v2a.22734	XP_015765121	cell division control protein 42 homolog isoform X2		immune-phagosome_GOKEGG	cell_cycle_up	24	0	independent_Sdown	similar_up
+aug_v2a.08924	XP_015760936	hyaluronidase-1-like		immune-phagosome_GOKEGG	cell_cycle_up	4	0	independent_Hdown	similar_down
+aug_v2a.15282	XP_015752268	protein SUPPRESSOR OF K(+) TRANSPORT GROWTH DEFECT 1-like isoform X2		immune-phagosome_GOKEGG	cell_cycle_up	6	0	independent_Hdown	NA
+aug_v2a.20767	XP_015752377	casein kinase I isoform alpha		immune-recognition_GOKEGG	cell_cycle_up	8	0	similar_down	NA
+aug_v2a.00060	XP_015749517	Nucleolar and coiled-body phosphoprotein 1		immune-recognition_GOKEGG	cell_cycle_up	22	0	cancelled_Hup	NA
+aug_v2a.21327	XP_015774881	cyclic GMP-AMP synthase	cGAS	cell senescence	cell_senescence_down	13	0	NA	canceled_Sup
+aug_v2a.18982	XP_015753479	Stimulator of interferon genes protein	STING1	cell senescence	cell_senescence_down	12	0	independent_Hup	similar_up
+aug_v2a.16005	XP_015748178	Stimulator of interferon genes protein	STING1	cell senescence	cell_senescence_down	18	0	NA	NA
+aug_v2a.18983	XP_015753479	Stimulator of interferon genes protein	STING1	cell senescence	cell_senescence_down	21	0	independent_Hup	NA
+aug_v2a.21523	XP_015753479	Stimulator of interferon genes protein	STING1	cell senescence	cell_senescence_down	21	0	independent_Hup	independent_Hup
+aug_v2a.24321	XP_015753478	Stimulator of interferon genes protein	STING1	cell senescence	cell_senescence_down	21	0	independent_Hup	NA
+aug_v2a.20619	XP_015768206	calmodulin	CALM	cell senescence_kegg	cell_senescence_down	18	2	canceled_Hup	NA
+aug_v2a.19897	XP_015766476	calmodulin	CALM	cell senescence_kegg	cell_senescence_down	18	0	independent_Hup	NA
+aug_v2a.15271	XP_015757992	E3 ubiquitin-protein ligase Mdm2	MDM2	cell senescence_kegg	cell_senescence_down	13	0	canceled_Sup_Hdown	independent_Sdown
+aug_v2a.10700	XP_015759867	FKBP12-rapamycin complex-associated protein	mTOR	cell senescence_kegg	cell_senescence_down	13	0	NA	similar_up
+aug_v2a.03390	XP_015748582	FKBP12-rapamycin complex-associated protein	mTOR	cell senescence_kegg	cell_senescence_down	16	0	NA	similar_up
+aug_v2a.00799	XP_015748582	FKBP12-rapamycin complex-associated protein	mTOR	cell senescence_kegg	cell_senescence_down	18	0	independent_Hup	NA
+aug_v2a.09006	XP_015750948	GTPase KRas	KRas	cell senescence_kegg	cell_senescence_down	18	0	canceled_Hup	independent_Sup
+aug_v2a.15908	XP_015779526	hamartin-like	TSC1	cell senescence_kegg	cell_senescence_down	18	0	similar_up	NA
+aug_v2a.03954	XP_015779526	hamartin-like	TSC1	cell senescence_kegg	cell_senescence_down	18	0	similar_up	NA
+aug_v2a.22595	XP_015758099	homeodomain interacting protein kinase 	HIPK	cell senescence_kegg	cell_senescence_down	13	0	prioritized_Sup	NA
+aug_v2a.10681	XP_015765974	"inositol 1,4,5-triphosphate receptor type 1"	ITPR1	cell senescence_kegg	cell_senescence_down	13	0	NA	similar_up
+aug_v2a.10878	XP_015765472	M-phase inducer phosphatase 1	CDC25A	cell senescence_kegg	cell_senescence_down	4	0	independent_Hdown	independent_Hdown
+aug_v2a.17901	XP_015765472	M-phase inducer phosphatase 1	CDC25A	cell senescence_kegg	cell_senescence_down	4	0	canceled_Sup_Hdown	canceled_Sup_Hdown
+aug_v2a.07972	XP_015747283	"phosphatidylinositol-4,5-bisphosphate 3-kinase"	PIK3C	cell senescence_kegg	cell_senescence_down	4	0	canceled_Hdown	NA
+aug_v2a.19527	XP_015755631	"phosphoinositide-3-kinase, regulatory subunit"	PIK3R	cell senescence_kegg	cell_senescence_down	13	0	independent_Sup	NA
+aug_v2a.20462	XP_015755306	protein lin-9	lin9	cell senescence_kegg	cell_senescence_down	17	0	independent_Hup	NA
+aug_v2a.12199	XP_015762795	RAC serine/threonine-protein kinase	AKT	cell senescence_kegg	cell_senescence_down	18	0	canceled_Hup	NA
+aug_v2a.07656	XP_015779835	Ras homolog enriched in brain	RHEB	cell senescence_kegg	cell_senescence_down	24	0	canceled_Sdown_Hup	NA
+aug_v2a.20020	XP_015768229	tuberin-like	TSC2	cell senescence_kegg	cell_senescence_down	13	0	canceled_Hdown	NA
+aug_v2a.21895	XP_015778662	voltage-dependent calcium channel L type alpha-1D	CACNA1D	cell senescence_kegg	cell_senescence_down	13	0	prioritized_Sup	NA
+aug_v2a.10021	XP_015759924	ETS-related transcription factor Elf-4 	ELF4/5	cell senescence	cell_senescence_up	4	4	canceled_Hdown	combinatorial_SHup
+aug_v2a.09299	XP_015775542	transcription factor HES-4	HES1/4	cell senescence	cell_senescence_up	4	0	independent_Hdown	NA
+aug_v2a.03418	XP_015776100	"calcium uniporter protein, mitochondrial"	MCU	cell senescence_kegg	cell_senescence_up	6	0	similar_down	NA
+aug_v2a.17287	XP_015776100	"calcium uniporter protein, mitochondrial"	MCU	cell senescence_kegg	cell_senescence_up	7	0	similar_down	NA
+aug_v2a.01102	XP_015764671	calmodulin	CALM	cell senescence_kegg	cell_senescence_up	6	0	similar_down	independent_Hdown
+aug_v2a.19859	XP_015774480	DNA repair protein RAD50	RAD50	cell senescence_kegg	cell_senescence_up	6	0	similar_down	independent_Hdown
+aug_v2a.05143	XP_015755820	mitogen-activated protein kinase 1/3	MAPK1_3	cell senescence_kegg	cell_senescence_up	6	0	similar_down	independent_Hdown
+aug_v2a.22792	XP_015768588	Myc proto-oncogene protein	Myc	cell senescence_kegg	cell_senescence_up	22	0	similar_up	canceled_Sup_Hdown
+aug_v2a.17252	XP_015762795	RAC serine/threonine-protein kinase	AKT	cell senescence_kegg	cell_senescence_up	7	0	independent_Sdown	independent_Hdown
+aug_v2a.12695	XP_015775231	serine/threonine-protein phosphatase 2B catalytic subunit	PPP3C	cell senescence_kegg	cell_senescence_up	9	0	combinatorial_Shdown	prioritized_Hdown
+aug_v2a.18492	XP_015773624	"solute carrier family 25 (mitochondrial adenine nucleotide translocator), member 4/5/6/31"	SLC25A4S	cell senescence_kegg	cell_senescence_up	6	0	similar_down	independent_Hdown
+aug_v2a.01811	XP_015779582	voltage-dependent anion channel protein 2	VDAC2	cell senescence_kegg	cell_senescence_up	9	0	independent_Sdown	independent_Hdown
+aug_v2a.02729	XP_015778662	voltage-dependent calcium channel L type alpha-1D	CACNA1D	cell senescence_kegg	cell_senescence_up	6	0	canceled_Hdown	similar_down
+aug_v2a.23534	XP_015754583	DNA fragmentation factor subunit beta-like	DFFB	apoptosis_GOKEGG	dna_damage_down	21	0	cancelled_Hup	similar_up
+aug_v2a.21181	XP_015763318	abelson tyrosine-protein kinase 1 	ABL1	cell cycle/ DNA damage	dna_damage_down	18	2	combinatorial_Sup_Hup_Shnone	NA
+aug_v2a.14392	XP_015755464	abelson tyrosine-protein kinase 1 	ABL1	cell cycle/ DNA damage	dna_damage_down	18	0	similar_up	independent_Hup
+aug_v2a.03382	XP_015751271	abelson tyrosine-protein kinase 1 	ABL1	cell cycle/ DNA damage	dna_damage_down	18	0	NA	independent_Sup
+aug_v2a.18853	XP_015762515	MAD1-like	MAD1	cell cycle/ DNA damage	dna_damage_down	18	0	independent_Hup	similar_up
+aug_v2a.11534	XP_015759100	MRE11-like	MRE11	cell cycle/ DNA damage	dna_damage_down	18	0	independent_Hup	similar_up
+aug_v2a.14100	XP_015752405	serine-protein kinase ATM	ATM	cell cycle/ DNA damage	dna_damage_down	18	0	NA	similar_up
+aug_v2a.01044	0	X-ray repair cross-complementing protein 5 	XRCC5	cell cycle/ DNA damage	dna_damage_down	21	8	independent_Hup	combinatorial_Sdown_Hdown_Shnone
+aug_v2a.08714	XP_015764195	Bloom syndrome protein-like isoform X2		DNAdamage_GOKEGG	dna_damage_down	18	0	cancelled_Sup_Hdown	NA
+aug_v2a.12894	XP_015748847	crossover junction endonuclease MUS81-like		DNAdamage_GOKEGG	dna_damage_down	18	0	independent_Sup	similar_up
+aug_v2a.06238	XP_015773877	cullin-4A-like		DNAdamage_GOKEGG	dna_damage_down	18	0	cancelled_Hup	NA
+aug_v2a.18550	XP_015767152	DNA excision repair protein ERCC-6-like		DNAdamage_GOKEGG	dna_damage_down	18	0	cancelled_Hup	similar_up
+aug_v2a.02606	XP_015767152	DNA excision repair protein ERCC-6-like		DNAdamage_GOKEGG	dna_damage_down	7	0	cancelled_Sdown	prioritized_Hup
+aug_v2a.00136	XP_015775022	DNA ligase 3-like		DNAdamage_GOKEGG	dna_damage_down	18	0	similar_up	NA
+aug_v2a.10916	XP_015769270	DNA mismatch repair protein Mlh1-like		DNAdamage_GOKEGG	dna_damage_down	4	0	cancelled_Sup_Hdown	NA
+aug_v2a.11449	XP_015773181	DNA mismatch repair protein Msh2-like		DNAdamage_GOKEGG	dna_damage_down	17	0	similar_up	NA
+aug_v2a.14781	XP_015754748	DNA mismatch repair protein Msh3-like		DNAdamage_GOKEGG	dna_damage_down	4	0	prioritized_Hdown	independent_Hdown
+aug_v2a.22056	XP_015750657	"DNA polymerase delta subunit 2-like, partial"		DNAdamage_GOKEGG	dna_damage_down	4	0	cancelled_Sup_Hdown	independent_Hdown
+aug_v2a.17225	XP_015755735	DNA polymerase delta subunit 3-like		DNAdamage_GOKEGG	dna_damage_down	18	0	similar_up	NA
+aug_v2a.22267	XP_015755645	DNA repair endonuclease XPF-like		DNAdamage_GOKEGG	dna_damage_down	21	0	independent_Hup	independent_Hup
+aug_v2a.11303	XP_015775545	DNA repair protein complementing XP-C cells homolog		DNAdamage_GOKEGG	dna_damage_down	2	0	cancelled_Hup	combinatorial_Sup_Hup_Shdown
+aug_v2a.21827	XP_015775545	DNA repair protein complementing XP-C cells homolog		DNAdamage_GOKEGG	dna_damage_down	2	0	NA	cancelled_Hup
+aug_v2a.01580	XP_015753276	DNA topoisomerase 2-binding protein 1-like		DNAdamage_GOKEGG	dna_damage_down	13	0	independent_Sup	similar_up
+aug_v2a.18775	XP_015753229	DNA topoisomerase 3-beta-1-like		DNAdamage_GOKEGG	dna_damage_down	13	0	independent_Sup	prioritized_Hup
+aug_v2a.15801	XP_015762155	DNA-(apurinic or apyrimidinic site) lyase-like		DNAdamage_GOKEGG	dna_damage_down	10	0	independent_Hdown	independent_Hdown
+aug_v2a.05337	XP_015775227	DNA-directed RNA polymerase III subunit RPC1-like		DNAdamage_GOKEGG	dna_damage_down	18	0	combinatorial_Sup_Hup_Shnone	NA
+aug_v2a.05427	XP_015753993	DNA-directed RNA polymerase III subunit RPC3-like		DNAdamage_GOKEGG	dna_damage_down	17	0	similar_up	NA
+aug_v2a.10372	XP_015759582	DNA-directed RNA polymerase III subunit RPC5-like isoform X1		DNAdamage_GOKEGG	dna_damage_down	18	0	similar_up	NA
+aug_v2a.00108	XP_015775878	DNA-directed RNA polymerases I and III subunit RPAC1-like		DNAdamage_GOKEGG	dna_damage_down	17	0	cancelled_Hup	NA
+aug_v2a.18333	XP_015764982	double-stranded RNA-specific adenosine deaminase		DNAdamage_GOKEGG	dna_damage_down	13	0	prioritized_Sup	NA
+aug_v2a.16527	XP_015777775	E3 ubiquitin-protein ligase TRIP12-like		DNAdamage_GOKEGG	dna_damage_down	13	0	cancelled_Hdown	NA
+aug_v2a.22887	XP_015777775	E3 ubiquitin-protein ligase TRIP12-like		DNAdamage_GOKEGG	dna_damage_down	13	0	NA	NA
+aug_v2a.16187	XP_015777775	E3 ubiquitin-protein ligase TRIP12-like		DNAdamage_GOKEGG	dna_damage_down	13	0	prioritized_Sup	NA
+aug_v2a.16170	XP_015772691	E3 ubiquitin-protein ligase UBR5-like		DNAdamage_GOKEGG	dna_damage_down	13	0	NA	NA
+aug_v2a.20530	XP_015772691	E3 ubiquitin-protein ligase UBR5-like		DNAdamage_GOKEGG	dna_damage_down	13	0	NA	NA
+aug_v2a.10010	XP_015755953	general transcription factor IIH subunit 4-like		DNAdamage_GOKEGG	dna_damage_down	18	0	independent_Hup	NA
+aug_v2a.03990	XP_015749406	LOW QUALITY PROTEIN: DNA mismatch repair protein MutS-like		DNAdamage_GOKEGG	dna_damage_down	13	0	prioritized_Sup	similar_down
+aug_v2a.19896	XP_015766439	LOW QUALITY PROTEIN: DNA polymerase alpha catalytic subunit-like		DNAdamage_GOKEGG	dna_damage_down	22	0	independent_Hup	NA
+aug_v2a.23829	XP_015752897	mitochondrial Rho GTPase 1-A-like isoform X2		DNAdamage_GOKEGG	dna_damage_down	12	0	independent_Hup	NA
+aug_v2a.14700	XP_015769400	next to BRCA1 gene 1 protein-like isoform X1		DNAdamage_GOKEGG	dna_damage_down	18	0	independent_Hup	NA
+aug_v2a.02837	XP_015749941	poly [ADP-ribose] polymerase 4-like		DNAdamage_GOKEGG	dna_damage_down	13	0	prioritized_Sup	similar_up
+aug_v2a.12520	XP_015756071	poly [ADP-ribose] polymerase 4-like		DNAdamage_GOKEGG	dna_damage_down	13	0	NA	similar_up
+aug_v2a.17204	XP_015761114	polyubiquitin 8-like		DNAdamage_GOKEGG	dna_damage_down	12	0	independent_Hup	NA
+aug_v2a.13910	XP_015765050	ribonuclease H2 subunit B-like		DNAdamage_GOKEGG	dna_damage_down	4	1	cancelled_Hdown	NA
+aug_v2a.10900	XP_015756746	TBC1 domain family member 15-like		DNAdamage_GOKEGG	dna_damage_down	18	0	cancelled_Hup	similar_up
+aug_v2a.04752	XP_015756746	TBC1 domain family member 15-like		DNAdamage_GOKEGG	dna_damage_down	18	0	similar_up	NA
+aug_v2a.07474	XP_015768553	DNA damage-binding protein 1-like		er_processing_stress_GOKEGG	dna_damage_down	6	0	independent_Hdown	independent_Hdown
+aug_v2a.07473	XP_015768553	DNA damage-binding protein 1-like		er_processing_stress_GOKEGG	dna_damage_down	13	0	independent_Sup	NA
+aug_v2a.16242	XP_015747590	dnaJ homolog subfamily B member 14-like		er_processing_stress_GOKEGG	dna_damage_down	18	0	similar_up	NA
+aug_v2a.22786	XP_015768547	E3 ubiquitin-protein ligase UBR5		er_processing_stress_GOKEGG	dna_damage_down	13	0	independent_Sup	similar_up
+aug_v2a.22787	XP_015768578	E3 ubiquitin-protein ligase UBR5		er_processing_stress_GOKEGG	dna_damage_down	13	0	NA	similar_up
+aug_v2a.23109	XP_015772691	E3 ubiquitin-protein ligase UBR5-like		er_processing_stress_GOKEGG	dna_damage_down	13	0	prioritized_Sup	NA
+aug_v2a.10766	XP_015772691	E3 ubiquitin-protein ligase UBR5-like		er_processing_stress_GOKEGG	dna_damage_down	6	0	similar_down	NA
+aug_v2a.16981	XP_015767194	LOW QUALITY PROTEIN: regulator of nonsense transcripts 1-like		immune-recognition_GOKEGG	dna_damage_down	13	0	prioritized_Sup	NA
+aug_v2a.14216	XP_015760915	Amyloid beta A4 protein-binding family B member 1-interacting protein	APBB1IP	cell cycle/ DNA damage	dna_damage_up	4	1	canceled_Hdown	NA
+aug_v2a.15306	XP_015760915	Amyloid beta A4 protein-binding family B member 1-interacting protein	APBB1IP	cell cycle/ DNA damage	dna_damage_up	4	4	canceled_Hdown	NA
+aug_v2a.17229	XP_015765694	Caspase-2	CASP2	cell cycle/ DNA damage	dna_damage_up	4	0	canceled_Hdown	canceled_Sup
+aug_v2a.20851	XP_015773272	Caspase-2	CASP2	cell cycle/ DNA damage	dna_damage_up	15	0	NA	similar_up
+aug_v2a.18545	XP_015773255	Caspase-2	CASP2	cell cycle/ DNA damage	dna_damage_up	6	0	NA	canceled_Sup
+aug_v2a.01799	XP_015751475	26S proteasome complex subunit DSS1-like		DNAdamage_GOKEGG	dna_damage_up	7	0	independent_Sdown	NA
+aug_v2a.11803	XP_015766937	"casein kinase II subunit alpha-like, partial"		DNAdamage_GOKEGG	dna_damage_up	4	0	independent_Hdown	independent_Hdown
+aug_v2a.17390	XP_015766936	"casein kinase II subunit alpha-like, partial"		DNAdamage_GOKEGG	dna_damage_up	4	0	independent_Hdown	similar_down
+aug_v2a.15360	XP_015780182	DNA mismatch repair protein Msh6-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	prioritized_Hdown
+aug_v2a.19732	XP_015766071	DNA polymerase alpha subunit B-like		DNAdamage_GOKEGG	dna_damage_up	6	0	cancelled_Sup_Hdown	NA
+aug_v2a.23862	XP_015766071	DNA polymerase alpha subunit B-like		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.04492	XP_015748477	DNA polymerase beta-like		DNAdamage_GOKEGG	dna_damage_up	21	0	independent_Hup	similar_up
+aug_v2a.09571	XP_015754929	DNA polymerase delta subunit 4-like		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	similar_down
+aug_v2a.17548	XP_015753227	DNA polymerase epsilon subunit 3-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.13764	XP_015769980	DNA polymerase epsilon subunit 4-like		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.11739	XP_015767096	DNA-(apurinic or apyrimidinic site) lyase 2-like		DNAdamage_GOKEGG	dna_damage_up	5	0	NA	cancelled_Hdown
+aug_v2a.16163	XP_015750487	DNA-3-methyladenine glycosylase-like		DNAdamage_GOKEGG	dna_damage_up	6	0	similar_down	independent_Hdown
+aug_v2a.10247	XP_015763943	DNA-directed RNA polymerase III subunit RPC7-like isoform X2		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.05789	XP_015761937	"DNA-directed RNA polymerases I, II, and III subunit RPABC3"		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.09461	0	"DNA-directed RNA polymerases I, II, and III subunit RPABC4"		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.14953	XP_015757588	double-stranded RNA-specific adenosine deaminase		DNAdamage_GOKEGG	dna_damage_up	4	1	combinatorial_Sdown_Hdown_Shnone	NA
+aug_v2a.05795	XP_015761928	mitochondrial fission 1 protein-like		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.21456	0	mitochondrial import receptor subunit TOM7		DNAdamage_GOKEGG	dna_damage_up	7	0	similar_down	NA
+aug_v2a.07939	XP_015766725	N-glycosylase/DNA lyase-like		DNAdamage_GOKEGG	dna_damage_up	8	0	similar_down	NA
+aug_v2a.14575	XP_015763157	poly [ADP-ribose] polymerase 2-A-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	NA
+aug_v2a.13235	XP_015770313	replication factor C subunit 2-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.14647	XP_015753063	replication protein A 32 kDa subunit-A-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	similar_down
+aug_v2a.17377	XP_015776049	"ribonuclease H1-like, partial"		DNAdamage_GOKEGG	dna_damage_up	8	0	similar_down	NA
+aug_v2a.09990	XP_015768249	ribonuclease H2 subunit A-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.16699	XP_015765050	ribonuclease H2 subunit B-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	NA
+aug_v2a.09379	XP_015762512	ribonuclease H2 subunit C-like		DNAdamage_GOKEGG	dna_damage_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.16908	XP_015774211	"serine/threonine-protein kinase PINK1, mitochondrial-like"		DNAdamage_GOKEGG	dna_damage_up	8	0	cancelled_Hdown	NA
+aug_v2a.24661	XP_015766454	ubiquitin-60S ribosomal protein L40		er_processing_stress_GOKEGG	dna_damage_up	7	0	similar_down	independent_Hdown
+aug_v2a.06543	XP_015758891	eukaryotic translation initiation factor 5-like	EIF5	apoptosis_GOKEGG	er_stress_down	22	2	cancelled_Hup	similar_up
+aug_v2a.19128	XP_015767372	dnaJ homolog subfamily A member 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	cancelled_Hup	NA
+aug_v2a.08719	XP_015770572	dnaJ homolog subfamily A member 2-like		er_processing_stress_GOKEGG	er_stress_down	7	0	similar_down	NA
+aug_v2a.14710	XP_015769386	dnaJ homolog subfamily B member 11-like isoform X1		er_processing_stress_GOKEGG	er_stress_down	21	0	independent_Hup	independent_Hup
+aug_v2a.21205	XP_015751062	dnaJ homolog subfamily C member 10-like		er_processing_stress_GOKEGG	er_stress_down	18	0	similar_up	independent_Hup
+aug_v2a.05956	XP_015751062	dnaJ homolog subfamily C member 10-like		er_processing_stress_GOKEGG	er_stress_down	18	0	similar_up	NA
+aug_v2a.20109	XP_015779353	dnaJ homolog subfamily C member 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	NA	similar_up
+aug_v2a.16321	XP_015766943	E3 ubiquitin-protein ligase AMFR-like		er_processing_stress_GOKEGG	er_stress_down	18	0	cancelled_Hup	NA
+aug_v2a.17220	XP_015763621	endoplasmic reticulum lectin 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	independent_Hup	NA
+aug_v2a.05402	XP_015763843	endoplasmic reticulum resident protein 29-like		er_processing_stress_GOKEGG	er_stress_down	24	0	prioritized_Hup	independent_Hup
+aug_v2a.20720	XP_015769350	LOW QUALITY PROTEIN: ERO1-like protein beta		er_processing_stress_GOKEGG	er_stress_down	20	0	cancelled_Hup	NA
+aug_v2a.03473	XP_015780829	LOW QUALITY PROTEIN: UBX domain-containing protein 6-like		er_processing_stress_GOKEGG	er_stress_down	18	0	cancelled_Sdown_Hup	NA
+aug_v2a.02435	XP_015780829	LOW QUALITY PROTEIN: UBX domain-containing protein 6-like		er_processing_stress_GOKEGG	er_stress_down	18	0	independent_Hup	cancelled_Sup
+aug_v2a.20122	XP_015771895	protein OS-9-like		er_processing_stress_GOKEGG	er_stress_down	23	0	cancelled_Sdown_Hup	NA
+aug_v2a.12131	XP_015771895	protein OS-9-like		er_processing_stress_GOKEGG	er_stress_down	18	0	independent_Hup	NA
+aug_v2a.21055	XP_015774288	protein sel-1 homolog 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	combinatorial_Sup_Hup_Shnone	NA
+aug_v2a.22009	0	protein transport protein SEC24		er_processing_stress_GOKEGG	er_stress_down	13	0	independent_Sup	NA
+aug_v2a.03545	XP_015780784	protein transport protein Sec31A-like		er_processing_stress_GOKEGG	er_stress_down	4	0	cancelled_Hdown	NA
+aug_v2a.24096	XP_015780784	protein transport protein Sec31A-like		er_processing_stress_GOKEGG	er_stress_down	4	0	cancelled_Hdown	NA
+aug_v2a.05920	XP_015780784	protein transport protein Sec31A-like		er_processing_stress_GOKEGG	er_stress_down	4	0	cancelled_Hdown	NA
+aug_v2a.15119	XP_015751125	protein transport protein Sec61 subunit beta-like		er_processing_stress_GOKEGG	er_stress_down	7	0	independent_Sdown	NA
+aug_v2a.16167	XP_015749838	serine/threonine-protein kinase/endoribonuclease IRE1-like isoform X1		er_processing_stress_GOKEGG	er_stress_down	20	0	independent_Hup	NA
+aug_v2a.07019	XP_015776226	"translocating chain-associated membrane protein 1-like, partial"		er_processing_stress_GOKEGG	er_stress_down	25	0	cancelled_Hup	NA
+aug_v2a.01692	XP_015749296	UDP-glucose:glycoprotein glucosyltransferase 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	similar_up	NA
+aug_v2a.15248	XP_015749296	UDP-glucose:glycoprotein glucosyltransferase 1-like		er_processing_stress_GOKEGG	er_stress_down	18	0	similar_up	NA
+aug_v2a.13789	XP_015770476	cyclic AMP-dependent transcription factor ATF-2-like		immune-recognition_GOKEGG	er_stress_down	21	0	independent_Hup	similar_up
+aug_v2a.11227	XP_015776512	mitofusin-2-like		immune-recognition_GOKEGG	er_stress_down	18	0	independent_Hup	similar_up
+aug_v2a.12080	XP_015770962	cyclic AMP-responsive element-binding protein 3-like protein 2	CREB3L2	ox_er stress	er_stress_down	18	2	canceled_Hup	NA
+aug_v2a.19366	XP_015748149	DnaJ-like subfamily C member 3	DNAJC3	ox_er stress	er_stress_down	21	6	independent_Hup	independent_Hup
+aug_v2a.03049	XP_015770279	E1A/CREB-binding protein 	EP300	ox_er stress	er_stress_down	13	0	canceled_Hdown	similar_up
+aug_v2a.14290	XP_015754870	derlin-1-like		er_processing_stress_GOKEGG	er_stress_up	7	0	similar_down	NA
+aug_v2a.05603	XP_015766325	hsp70-binding protein 1-like		er_processing_stress_GOKEGG	er_stress_up	6	0	independent_Hdown	NA
+aug_v2a.02352	XP_015760000	membrane-bound transcription factor site-2 protease-like		er_processing_stress_GOKEGG	er_stress_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.02652	XP_015766066	probable signal peptidase complex subunit 2		er_processing_stress_GOKEGG	er_stress_up	7	0	independent_Sdown	independent_Hdown
+aug_v2a.02248	XP_015751653	protein disulfide isomerase-like 2-2		er_processing_stress_GOKEGG	er_stress_up	24	0	prioritized_Sdown	NA
+aug_v2a.20741	XP_015759917	signal recognition particle receptor subunit beta-like isoform X1		er_processing_stress_GOKEGG	er_stress_up	7	0	independent_Sdown	NA
+aug_v2a.13656	XP_015759918	signal recognition particle receptor subunit beta-like isoform X2		er_processing_stress_GOKEGG	er_stress_up	7	0	independent_Sdown	NA
+aug_v2a.04865	XP_015752016	signal recognition particle subunit SRP68-like		er_processing_stress_GOKEGG	er_stress_up	7	0	independent_Sdown	independent_Hdown
+aug_v2a.16768	XP_015755423	cyclic AMP-responsive element-binding protein 3-like protein 3-A		immune-recognition_GOKEGG	er_stress_up	22	0	cancelled_Hup	NA
+aug_v2a.10754	XP_015767107	zinc transporter ZIP14-like	SLC39A14	necroptosis_GOKEGG	er_stress_up	4	0	cancelled_Sup_Hdown	NA
+aug_v2a.03632	XP_015762792	1-phosphatidylinositol 3-phosphate 5-kinase-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.11091	XP_015778000	ADP-ribosylation factor 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	24	0	cancelled_Sdown_Hup	NA
+aug_v2a.01516	XP_015754325	ADP-ribosylation factor GTPase-activating protein 1-like		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	cancelled_Sup
+aug_v2a.14630	XP_015760650	ADP-ribosylation factor GTPase-activating protein 3-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	cancelled_Hup	combinatorial_Sup_Hup_Shnone
+aug_v2a.02783	XP_015760650	ADP-ribosylation factor GTPase-activating protein 3-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.15736	XP_015780646	ADP-ribosylation factor-binding protein GGA3-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	cancelled_Sdown	NA
+aug_v2a.13936	XP_015775388	AP-1 complex subunit mu-1-like		immune-phagosome_GOKEGG	immune-phagosome_down	23	0	prioritized_Sdown	NA
+aug_v2a.19160	XP_015756696	AP-1 complex subunit sigma-2-like isoform X1		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	independent_Sdown	independent_Hdown
+aug_v2a.00085	XP_015760053	AP-4 complex subunit beta-1-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	similar_up
+aug_v2a.14481	XP_015753041	AP-4 complex subunit epsilon-1-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.14480	XP_015753041	AP-4 complex subunit epsilon-1-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.19168	XP_015756678	arylsulfatase B	ARSB	immune-phagosome	immune-phagosome_up	8	4	similar_down	independent_Hdown
+aug_v2a.09631	XP_015775079	arylsulfatase B-like		immune-phagosome_GOKEGG	immune-phagosome_down	6	0	independent_Hdown	NA
+aug_v2a.13736	XP_015768614	arylsulfatase B-like		immune-phagosome_GOKEGG	immune-phagosome_up	4	0	cancelled_Sup_Hdown	similar_down
+aug_v2a.19167	XP_015756676	arylsulfatase B-like		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	similar_down	independent_Sdown
+aug_v2a.05786	XP_015761941	arylsulfatase B-like		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	similar_down	NA
+aug_v2a.10011	XP_015754676	ATP-binding cassette sub-family A member 2-like		immune-phagosome_GOKEGG	immune-phagosome_down	13	0	prioritized_Sup	NA
+aug_v2a.13409	XP_015777865	beta-adaptin-like protein A		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.01901	XP_015777770	cation-dependent mannose-6-phosphate receptor	M6PR	immune-phagosome	immune-phagosome_down	24	0	NA	independent_Hup
+aug_v2a.22277	XP_015761339	cation-dependent mannose-6-phosphate receptor	M6PR	immune-phagosome	immune-phagosome_down	21	0	canceled_Sdown_Hup	independent_Hup
+aug_v2a.00030	XP_015759357	CD63 antigen-like		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	similar_down	NA
+aug_v2a.13702	XP_015772120	charged multivesicular body protein 2a-like		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	independent_Sup
+aug_v2a.20642	XP_015772799	charged multivesicular body protein 2b-B-like isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	cancelled_Sup
+aug_v2a.09625	XP_015765970	clathrin light chain A-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	similar_down	NA
+aug_v2a.04741	XP_015756772	cystinosin homolog		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	independent_Sdown	NA
+aug_v2a.19096	XP_015763189	E3 ubiquitin-protein ligase NEDD4-like		immune-phagosome_GOKEGG	immune-phagosome_down	4	0	cancelled_Sup_Hdown	NA
+aug_v2a.14153	XP_015761826	early endosome antigen 1	EEA1	immune-phagosome	immune-phagosome_down	22	0	independent_Hup	independent_Hup
+aug_v2a.09437	XP_015776837	endophilin-B2-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	independent_Sdown	similar_down
+aug_v2a.14222	XP_015778899	engulfment and cell motility protein 1-like		immune-phagosome_GOKEGG	immune-phagosome_down	24	0	cancelled_Sdown_Hup	similar_up
+aug_v2a.12791	XP_015755503	epidermal growth factor receptor substrate 15-like 1 isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	15	0	similar_up	similar_up
+aug_v2a.14390	XP_015755503	epidermal growth factor receptor substrate 15-like 1 isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.19285	XP_015777350	F-actin-capping protein subunit alpha-2-like isoform X6		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	independent_Sdown	NA
+aug_v2a.18517	XP_015754209	F-actin-capping protein subunit beta-like		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	similar_down	independent_Hdown
+aug_v2a.03233	XP_015762260	filamin-A-like		immune-recognition_GOKEGG	immune-phagosome_up	4	4	cancelled_Hdown	NA
+aug_v2a.09800	XP_015762260	filamin-A-like		immune-recognition_GOKEGG	immune-phagosome_up	4	4	independent_Hdown	independent_Hdown
+aug_v2a.13395	XP_015759461	G protein-coupled receptor kinase 5-like		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	NA
+aug_v2a.20638	XP_015763099	"glucosylceramidase-like, partial"		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	similar_down	independent_Hdown
+aug_v2a.22987	XP_015756640	hemicentin-2-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.07191	XP_015754463	heparan-alpha-glucosaminide N-acetyltransferase-like		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	similar_down	NA
+aug_v2a.18556	XP_015754450	heparan-alpha-glucosaminide N-acetyltransferase-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	NA	independent_Sdown
+aug_v2a.01049	XP_015767154	hepatocyte growth factor-regulated tyrosine kinase substrate-like		immune-phagosome_GOKEGG	immune-phagosome_down	13	0	NA	similar_up
+aug_v2a.01697	XP_015752826	lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	similar_down	NA
+aug_v2a.10262	XP_015756522	lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	similar_down	NA
+aug_v2a.10311	XP_015760960	LOW QUALITY PROTEIN: filamin-A-like		immune-recognition_GOKEGG	immune-phagosome_up	13	4	cancelled_Hdown	NA
+aug_v2a.15133	XP_015780384	LOW QUALITY PROTEIN: N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase-like		immune-phagosome_GOKEGG	immune-phagosome_down	25	0	independent_Hup	NA
+aug_v2a.15356	XP_015774454	LOW QUALITY PROTEIN: proto-oncogene vav-like		immune-phagosome_GOKEGG	immune-phagosome_up	4	0	cancelled_Hdown	NA
+aug_v2a.05312	XP_015771433	LOW QUALITY PROTEIN: vacuolar protein sorting-associated protein 41 homolog		immune-recognition_GOKEGG	immune-phagosome_down	18	0	independent_Hup	similar_up
+aug_v2a.05313	XP_015771433	LOW QUALITY PROTEIN: vacuolar protein sorting-associated protein 41 homolog		immune-recognition_GOKEGG	immune-phagosome_up	4	0	prioritized_Hdown	NA
+aug_v2a.01989	XP_015780493	LOW QUALITY PROTEIN: V-type proton ATPase catalytic subunit A isoform 2-like		immune-phagosome_GOKEGG	immune-phagosome_down	8	0	independent_Hdown	NA
+aug_v2a.23309	XP_015756821	LOW QUALITY PROTEIN: V-type proton ATPase subunit E-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	prioritized_Sdown	prioritized_Hdown
+aug_v2a.07047	XP_015776387	LOW QUALITY PROTEIN: WASH complex subunit strumpellin-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	independent_Sup	NA
+aug_v2a.07123	XP_015776387	LOW QUALITY PROTEIN: WASH complex subunit strumpellin-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	NA	similar_up
+aug_v2a.01810	XP_015778761	lysosomal acid lipase/cholesteryl ester hydrolase-like		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	cancelled_Hdown	NA
+aug_v2a.18013	XP_015756576	lysosomal alpha-mannosidase-like		immune-phagosome_GOKEGG	immune-phagosome_down	15	0	similar_up	independent_Hup
+aug_v2a.05940	XP_015758514	lysosomal thioesterase PPT2-A-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	cancelled_Sdown	NA
+aug_v2a.01939	XP_015759386	lysosome-associated membrane glycoprotein 1-like isoform X2		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.24403	XP_015752620	macrophage mannose receptor 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	5	0	cancelled_Sup_Hdown	NA
+aug_v2a.19038	XP_015752253	N-acetylglucosamine-1-phosphotransferase subunit gamma-like isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	20	0	cancelled_Hup	NA
+aug_v2a.07949	XP_015774810	N-acetylglucosamine-1-phosphotransferase subunits alpha/beta-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.14233	XP_015778339	N-acetylglucosamine-6-sulfatase-like		immune-phagosome_GOKEGG	immune-phagosome_up	4	0	cancelled_Hdown	cancelled_Sdown
+aug_v2a.08160	XP_015776664	palmitoyl-protein thioesterase 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	8	0	independent_Sdown	NA
+aug_v2a.16940	XP_015777779	"phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 2-like"		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.01856	XP_015768617	phosphatidylinositol 4-phosphate 5-kinase type-1 alpha-like		immune-phagosome_GOKEGG	immune-phagosome_down	17	0	independent_Hup	NA
+aug_v2a.15181	XP_015751889	protein kinase C delta type-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	independent_Sup
+aug_v2a.18526	XP_015779905	protein kinase C epsilon type-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.05292	XP_015779806	protein kinase C-like 1B		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	independent_Hup	NA
+aug_v2a.02380	XP_015754911	rab GTPase-binding effector protein 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	22	0	cancelled_Hup	NA
+aug_v2a.05950	XP_015751057	rab3 GTPase-activating protein catalytic subunit-like		er_processing_stress_GOKEGG	immune-phagosome_down	13	0	independent_Sup	NA
+aug_v2a.07231	XP_015759121	rab32A	rab32A	immune-phagosome	immune-phagosome_down	22	2	canceled_Hup	NA
+aug_v2a.10443	XP_015751100	ras-related protein Rab-7a-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	independent_Sdown	NA
+aug_v2a.19840	XP_015752411	SH3 domain-containing kinase-binding protein 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	4	0	cancelled_Hdown	NA
+aug_v2a.06883	XP_015771231	sortilin-like		immune-phagosome_GOKEGG	immune-phagosome_down	13	0	independent_Sup	NA
+aug_v2a.21939	XP_015773652	sorting nexin-4-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	similar_down	independent_Hdown
+aug_v2a.12536	XP_015766218	sorting nexin-6-like		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	NA
+aug_v2a.03768	XP_015779506	spartin-like		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	similar_up
+aug_v2a.12986	XP_015752693	tyrosine-protein kinase SYK-like isoform X2		immune-phagosome_GOKEGG	immune-phagosome_down	13	0	prioritized_Sup	NA
+aug_v2a.12987	XP_015752693	tyrosine-protein kinase SYK-like isoform X2		immune-phagosome_GOKEGG	immune-phagosome_up	4	0	similar_down	NA
+aug_v2a.00625	XP_015762704	vacuolar protein sorting-associated protein 11 homolog		immune-recognition_GOKEGG	immune-phagosome_down	17	0	similar_up	NA
+aug_v2a.01380	XP_015764646	vacuolar protein sorting-associated protein 16 homolog	VPS16	autophagy_GOKEGG	immune-phagosome_down	18	0	independent_Sup	NA
+aug_v2a.09311	XP_015753539	vacuolar protein sorting-associated protein 18 homolog		immune-recognition_GOKEGG	immune-phagosome_down	18	0	independent_Hup	combinatorial_SHup
+aug_v2a.16979	XP_015748370	vacuolar protein sorting-associated protein 28 homolog		immune-phagosome_GOKEGG	immune-phagosome_down	21	0	cancelled_Sdown_Hup	similar_up
+aug_v2a.05023	XP_015748370	vacuolar protein sorting-associated protein 28 homolog		immune-phagosome_GOKEGG	immune-phagosome_down	21	0	independent_Hup	NA
+aug_v2a.17791	XP_015776402	vacuolar protein sorting-associated protein 33A-like		immune-recognition_GOKEGG	immune-phagosome_up	8	0	NA	cancelled_Hdown
+aug_v2a.17763	XP_015750363	vacuolar protein sorting-associated protein 37A-like		immune-phagosome_GOKEGG	immune-phagosome_down	4	0	NA	cancelled_Sdown
+aug_v2a.01672	XP_015774023	"vacuolar protein sorting-associated protein 4B-like, partial"		immune-phagosome_GOKEGG	immune-phagosome_down	22	0	cancelled_Hup	NA
+aug_v2a.07276	XP_015770659	vacuolar protein sorting-associated protein 8 homolog	VPS8	autophagy_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.15235	XP_015752744	vam6/Vps39-like protein		immune-recognition_GOKEGG	immune-phagosome_down	18	0	similar_up	similar_up
+aug_v2a.03568	XP_015764199	vesicle-fusing ATPase-like		autophagy_GOKEGG	immune-phagosome_up	17	0	cancelled_Sup_Hdown	NA
+aug_v2a.07316	XP_015762992	VPS24	VPS24	immune-phagosome	immune-phagosome_down	21	2	canceled_Hup	NA
+aug_v2a.01787	XP_015776109	VPS36	VPS36	immune-phagosome	immune-phagosome_down	18	0	independent_Hup	similar_up
+aug_v2a.09111	XP_015766189	V-type proton ATPase 16 kDa proteolipid subunit		oxidative_phosphorylation_GOKEGG	immune-phagosome_up	7	0	similar_down	NA
+aug_v2a.03608	XP_015755488	V-type proton ATPase 21 kDa proteolipid subunit-like		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	similar_down	NA
+aug_v2a.01673	0	V-type proton ATPase subunit d 1		immune-phagosome_GOKEGG	immune-phagosome_up	6	0	NA	independent_Hdown
+aug_v2a.08509	XP_015756547	WAS/WASL-interacting protein family member 1-like		immune-phagosome_GOKEGG	immune-phagosome_up	4	4	cancelled_Hdown	NA
+aug_v2a.13346	XP_015749024	WASH complex subunit 7-like isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	18	2	similar_up	NA
+aug_v2a.20453	XP_015749024	WASH complex subunit 7-like isoform X1		immune-phagosome_GOKEGG	immune-phagosome_down	18	0	similar_up	NA
+aug_v2a.00179	XP_015757233	WASH complex subunit CCDC53-like		immune-phagosome_GOKEGG	immune-phagosome_up	7	0	combinatorial_Sdown_Hdown_Shnone	NA
+aug_v2a.08698	XP_015763844	WD repeat-containing protein 81-like	WDR81	autophagy_GOKEGG	immune-phagosome_down	14	0	independent_Hup	independent_Hup
+aug_v2a.20600	XP_015763844	WD repeat-containing protein 81-like	WDR81	autophagy_GOKEGG	immune-phagosome_down	14	0	similar_up	independent_Hup
+aug_v2a.16995	XP_015754144	transforming growth factor-beta receptor-associated protein 1-like		autophagy_GOKEGG	immune-recognition_down	17	0	similar_up	NA
+aug_v2a.12529	XP_015763045	phosphatidylinositol 4-kinase beta-like		er_processing_stress_GOKEGG	immune-recognition_down	13	0	independent_Sup	similar_up
+aug_v2a.19171	XP_015756684	Complement C1q	C1q	immune-recognition	immune-recognition_down	15	0	NA	NA
+aug_v2a.16069	XP_015770890	Complement C2	C2	immune-recognition	immune-recognition_down	18	7	NA	combinatorial_Sup_Hup_Shnone
+aug_v2a.02128	XP_015777233	Complement C2	C2	immune-recognition	immune-recognition_down	21	0	independent_Hup	independent_Hup
+aug_v2a.17947	XP_015777234	Complement C2	C2	immune-recognition	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.21070	XP_015756257	Complement C3	C3	immune-recognition	immune-recognition_down	13	0	NA	canceled_Sdown_Hup
+aug_v2a.15795	XP_015756257	Complement C3	C3	immune-recognition	immune-recognition_down	17	0	NA	prioritized_Sdown
+aug_v2a.24222	XP_015765685	intelectin-1	ITLN1	immune-recognition	immune-recognition_down	14	0	NA	independent_Hup
+aug_v2a.11635	XP_015776172	intelectin-1	ITLN1	immune-recognition	immune-recognition_down	14	0	NA	independent_Hup
+aug_v2a.08028	XP_015768698	Latent-TGF-beta-binding protein 1	LTBP1 	immune-recognition	immune-recognition_down	21	0	canceled_Hup	prioritized_Sdown
+aug_v2a.11011	XP_015778396	NLRC10	NLRC10	immune-recognition	immune-recognition_down	14	0	similar_up	NA
+aug_v2a.19529	XP_015755120	NLRC12	NLRC12	immune-recognition	immune-recognition_down	14	0	similar_up	NA
+aug_v2a.14184	XP_015775665	NLRC3	NLRC3	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.14167	XP_015755210	NLRC3	NLRC3	immune-recognition	immune-recognition_down	14	0	independent_Hup	combinatorial_SHup
+aug_v2a.00616	XP_015780766	NLRC3	NLRC3	immune-recognition	immune-recognition_down	14	0	similar_up	independent_Hup
+aug_v2a.04439	XP_015760037	NLRC3	NLRC3	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.00365	XP_015759347	NLRC3	NLRC3	immune-recognition	immune-recognition_down	17	8	NA	combinatorial_Sdown_Hdown_Shnone
+aug_v2a.01159	XP_015759265	NLRC4	NLRC4	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.13127	XP_015768546	NLRC4	NLRC4	immune-recognition	immune-recognition_down	14	0	similar_up	NA
+aug_v2a.23855	XP_015776066	NLRC4	NLRC4	immune-recognition	immune-recognition_down	14	0	similar_up	independent_Hup
+aug_v2a.24303	XP_015776067	NLRC4	NLRC4	immune-recognition	immune-recognition_down	14	0	similar_up	independent_Hup
+aug_v2a.16797	XP_015756903	NLRC5	NLRC5	immune-recognition	immune-recognition_down	6	0	NA	similar_down
+aug_v2a.16644	XP_015774736	NLRC5	NLRC5	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.13598	XP_015776301	NLRC5	NLRC5	immune-recognition	immune-recognition_down	14	0	independent_Hup	independent_Hup
+aug_v2a.00751	XP_015776301	NLRC5	NLRC5	immune-recognition	immune-recognition_down	14	0	independent_Hup	independent_Hup
+aug_v2a.18415	XP_015755121	NLRP3	NLRP3	immune-recognition	immune-recognition_down	4	0	NA	similar_down
+aug_v2a.04331	XP_015774340	NOD1	NOD1	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.03424	XP_015750503	NOD2	NOD2	immune-recognition	immune-recognition_down	6	0	independent_Hdown	NA
+aug_v2a.21673	XP_015755398	NOD2	NOD2	immune-recognition	immune-recognition_down	14	0	NA	NA
+aug_v2a.12861	XP_015770212	NOD2	NOD2	immune-recognition	immune-recognition_down	17	0	similar_up	independent_Hup
+aug_v2a.00470	XP_015759212	NOD2	NOD2	immune-recognition	immune-recognition_down	18	0	similar_up	NA
+aug_v2a.15762	XP_015779410	NOD2	NOD2	immune-recognition	immune-recognition_down	18	0	NA	NA
+aug_v2a.23209	XP_015779410	NOD2	NOD2	immune-recognition	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.08386	XP_015779053	NOD2	NOD2	immune-recognition	immune-recognition_down	18	2	canceled_Hup	combinatorial_SHup
+aug_v2a.13046	XP_015765129	Rac1	Rac1	immune-recognition	immune-recognition_down	15	0	NA	similar_up
+aug_v2a.06841	XP_015747593	Rac1	Rac1	immune-recognition	immune-recognition_down	22	0	canceled_Hup	combinatorial_Shdown
+aug_v2a.12034	XP_015779940	Smad4	Smad4	immune-recognition	immune-recognition_down	19	0	independent_Sup	NA
+aug_v2a.24300	XP_015747855	toll-like receptor 2	TLR2	immune-recognition	immune-recognition_down	21	0	canceled_Hup	independent_Hup
+aug_v2a.14728	XP_015747855	toll-like receptor 2	TLR2	immune-recognition	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.10451	XP_015775584	Toll-like receptor 2	TLR2	immune-recognition	immune-recognition_down	22	2	canceled_Hup	independent_Hup
+aug_v2a.01178	XP_015779374	2'-5'-oligoadenylate synthase 3-like		immune-recognition_GOKEGG	immune-recognition_down	14	0	independent_Hup	independent_Hup
+aug_v2a.03319	XP_015751177	balbiani ring protein 3-like isoform X1		immune-recognition_GOKEGG	immune-recognition_down	12	0	cancelled_Sdown_Hup	similar_up
+aug_v2a.14123	XP_015778881	exocyst complex component 2-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	cancelled_Hup	NA
+aug_v2a.13359	XP_015778881	exocyst complex component 2-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	similar_up	similar_up
+aug_v2a.21024	XP_015776184	exocyst complex component 5-like		immune-recognition_GOKEGG	immune-recognition_down	4	0	cancelled_Sup_Hdown	independent_Hdown
+aug_v2a.03573	XP_015753461	fibropellin-1-like		immune-recognition_GOKEGG	immune-recognition_down	13	0	NA	independent_Sup
+aug_v2a.14202	XP_015752882	growth factor receptor-bound protein 2-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	similar_up
+aug_v2a.02744	XP_015762113	guanylate-binding protein 4-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	cancelled_Hup	NA
+aug_v2a.23294	XP_015762113	guanylate-binding protein 4-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.20671	XP_015757564	guanylate-binding protein 7-like		immune-recognition_GOKEGG	immune-recognition_down	11	0	independent_Hup	independent_Sup
+aug_v2a.07666	XP_015757564	guanylate-binding protein 7-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.23130	XP_015757564	guanylate-binding protein 7-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.07669	XP_015757564	guanylate-binding protein 7-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	NA	independent_Sup
+aug_v2a.24129	XP_015758694	HEAT repeat-containing protein 6-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	NA
+aug_v2a.05740	XP_015764342	importin subunit alpha-4-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	combinatorial_SHup	NA
+aug_v2a.19554	XP_015764342	importin subunit alpha-4-like		immune-recognition_GOKEGG	immune-recognition_down	24	0	independent_Hup	NA
+aug_v2a.02819	XP_015775248	kinesin light chain		immune-recognition_GOKEGG	immune-recognition_down	18	0	NA	independent_Hup
+aug_v2a.06545	XP_015758842	kinesin light chain 1-like		immune-recognition_GOKEGG	immune-recognition_down	21	0	independent_Hup	similar_up
+aug_v2a.02051	XP_015766825	lethal(2) giant larvae protein homolog 1-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	similar_up	similar_up
+aug_v2a.15378	XP_015760775	macrophage mannose receptor 1-like		immune-recognition_GOKEGG	immune-recognition_down	13	0	NA	NA
+aug_v2a.01604	XP_015780426	macrophage mannose receptor 1-like		immune-recognition_GOKEGG	immune-recognition_down	13	0	NA	NA
+aug_v2a.08129	XP_015778472	myosin regulatory light chain 12B-like		immune-recognition_GOKEGG	immune-recognition_down	9	0	independent_Sdown	NA
+aug_v2a.14331	XP_015752855	myosin-10-like		immune-recognition_GOKEGG	immune-recognition_down	16	0	NA	similar_up
+aug_v2a.23264	XP_015752855	myosin-10-like		immune-recognition_GOKEGG	immune-recognition_down	16	0	NA	similar_up
+aug_v2a.10605	XP_015756244	myosin-11-like		immune-recognition_GOKEGG	immune-recognition_down	18	0	independent_Hup	similar_up
+aug_v2a.17577	XP_015778219	myosin-9-like		immune-recognition_GOKEGG	immune-recognition_down	16	0	NA	similar_up
+aug_v2a.23412	XP_015750629	"protein lethal(2) giant larvae-like, partial"		immune-recognition_GOKEGG	immune-recognition_down	18	0	similar_up	similar_up
+aug_v2a.20338	XP_015750629	"protein lethal(2) giant larvae-like, partial"		immune-recognition_GOKEGG	immune-recognition_down	18	0	similar_up	NA
+aug_v2a.00696	XP_015759135	SAM and SH3 domain-containing protein 1		immune-recognition_GOKEGG	immune-recognition_down	13	1	cancelled_Hdown	similar_up
+aug_v2a.02831	XP_015752126	"unconventional myosin-Ib-like, partial"		immune-recognition_GOKEGG	immune-recognition_down	17	0	cancelled_Hup	NA
+aug_v2a.24737	XP_015748353	uncharacterized protein LOC107328145 (complement activation)		inflammation-GOKEGG	immune-recognition_down	12	0	NA	cancelled_Sdown_Hup
+aug_v2a.12331	XP_015759947	solute carrier family 15 member 2-like		er_processing_stress_GOKEGG	immune-recognition_up	4	4	independent_Hdown	similar_down
+aug_v2a.20323	XP_015756013	C-type lectin	CLEC	immune-recognition	immune-recognition_up	7	8	independent_Sdown	combinatorial_Sdown_Hdown_Shup
+aug_v2a.23657	XP_015754588	MASP	MASP	immune-recognition	immune-recognition_up	6	0	independent_Hdown	independent_Sdown
+aug_v2a.21732	XP_015755141	MASP	MASP	immune-recognition	immune-recognition_up	6	0	independent_Hdown	NA
+aug_v2a.14606	XP_015748252	NOD2	NOD2	immune-recognition	immune-recognition_up	14	0	NA	NA
+aug_v2a.01641	XP_015758467	Smad3	Smad3	immune-recognition	immune-recognition_up	4	0	canceled_Hdown	similar_down
+aug_v2a.17130	XP_015779689	Smad5	Smad5	immune-recognition	immune-recognition_up	8	0	NA	NA
+aug_v2a.06078	XP_015749272	TGF-beta regulator 1	tbrg1	immune-recognition	immune-recognition_up	4	1	canceled_Hdown	NA
+aug_v2a.13445	XP_015748344	Bactericidal permeability-increasing protein		immune-recognition_GOKEGG	immune-recognition_up	25	0	NA	cancelled_Hup
+aug_v2a.23162	XP_015776184	exocyst complex component 5-like		immune-recognition_GOKEGG	immune-recognition_up	4	0	independent_Hdown	similar_down
+aug_v2a.16793	XP_015753461	fibropellin-1-like		immune-recognition_GOKEGG	immune-recognition_up	7	0	independent_Sdown	NA
+aug_v2a.15775	XP_015752895	growth factor receptor-bound protein 2-like		immune-recognition_GOKEGG	immune-recognition_up	24	0	prioritized_Sdown	independent_Sup
+aug_v2a.16765	XP_015755428	hairy/enhancer-of-split related with YRPW motif protein-like		immune-recognition_GOKEGG	immune-recognition_up	6	0	prioritized_Hdown	cancelled_Sup_Hdown
+aug_v2a.12839	XP_015759356	Kinesin light chain		immune-recognition_GOKEGG	immune-recognition_up	7	0	similar_down	combinatorial_Sdown_Hdown_Shnone
+aug_v2a.05542	XP_015776939	lipopolysaccharide-binding protein		immune-recognition_GOKEGG	immune-recognition_up	6	0	combinatorial_Shdown	similar_down
+aug_v2a.10149	XP_015771858	"muscle, skeletal receptor tyrosine-protein kinase-like"		immune-recognition_GOKEGG	immune-recognition_up	8	0	NA	independent_Sdown
+aug_v2a.08128	XP_015778471	myosin regulatory light chain RLC-A-like		immune-recognition_GOKEGG	immune-recognition_up	21	0	independent_Hup	independent_Hup
+aug_v2a.15346	XP_015778471	myosin regulatory light chain RLC-A-like		immune-recognition_GOKEGG	immune-recognition_up	7	0	similar_down	independent_Hdown
+aug_v2a.21838	XP_015752855	myosin-10-like		immune-recognition_GOKEGG	immune-recognition_up	23	0	independent_Sdown	cancelled_Sup
+aug_v2a.03134	XP_015769035	profilin-like		immune-recognition_GOKEGG	immune-recognition_up	7	0	similar_down	independent_Hdown
+aug_v2a.05478	XP_015769733	protein SGT1 homolog A-like isoform X2		immune-recognition_GOKEGG	immune-recognition_up	7	0	cancelled_Hdown	NA
+aug_v2a.17440	XP_015775240	serine/threonine-protein phosphatase 2B catalytic subunit 2-like		immune-recognition_GOKEGG	immune-recognition_up	9	0	NA	prioritized_Hdown
+aug_v2a.14332	XP_015752893	TGF-beta-activated kinase 1 and MAP3K7-binding protein 1-like		immune-recognition_GOKEGG	immune-recognition_up	4	0	cancelled_Hdown	NA
+aug_v2a.24236	XP_015752893	TGF-beta-activated kinase 1 and MAP3K7-binding protein 1-like		immune-recognition_GOKEGG	immune-recognition_up	4	0	cancelled_Hdown	NA
+aug_v2a.10225	XP_015768529	transmembrane protein Tmp21-like		immune-recognition_GOKEGG	immune-recognition_up	24	0	cancelled_Sdown_Hup	NA
+aug_v2a.01886	XP_015769468	baculoviral IAP repeat-containing protein 2-like		er_processing_stress_GOKEGG	inflammation_pathway_down	13	0	NA	similar_up
+aug_v2a.04171	XP_015767889	Baculoviral IAP repeat-containing protein 6		er_processing_stress_GOKEGG	inflammation_pathway_down	17	0	similar_up	NA
+aug_v2a.24311	XP_015750594	baculoviral IAP repeat-containing protein 6-like		er_processing_stress_GOKEGG	inflammation_pathway_down	18	0	NA	similar_up
+aug_v2a.08388	XP_015750594	baculoviral IAP repeat-containing protein 6-like		er_processing_stress_GOKEGG	inflammation_pathway_down	18	0	NA	similar_up
+aug_v2a.02500	XP_015748247	phospholipid phosphatase 1-like		immune-phagosome_GOKEGG	inflammation_pathway_down	21	0	cancelled_Sdown_Hup	cancelled_Hup
+aug_v2a.11507	XP_015766821	sphingosine kinase 2-like		immune-phagosome_GOKEGG	inflammation_pathway_down	18	0	similar_up	NA
+aug_v2a.16696	XP_015777740	E3 ubiquitin-protein ligase RNF31		immune-recognition_GOKEGG	inflammation_pathway_down	18	0	NA	independent_Sup
+aug_v2a.00983	XP_015777740	E3 ubiquitin-protein ligase RNF31		immune-recognition_GOKEGG	inflammation_pathway_down	18	0	NA	similar_up
+aug_v2a.20353	XP_015767854	inhibitor of nuclear factor kappa-B kinase subunit alpha-like		immune-recognition_GOKEGG	inflammation_pathway_down	18	0	independent_Hup	NA
+aug_v2a.23472	XP_015764594	"multidrug resistance-associated protein 1-like, partial"		immune-recognition_GOKEGG	inflammation_pathway_down	13	0	NA	NA
+aug_v2a.18053	XP_015777930	TNF receptor-associated factor 6		immune-recognition_GOKEGG	inflammation_pathway_down	13	0	NA	NA
+aug_v2a.01739	XP_015776359	TNF receptor-associated factor 6-like		immune-recognition_GOKEGG	inflammation_pathway_down	13	0	NA	NA
+aug_v2a.21711	XP_015777793	TNF receptor-associated factor 6-like		immune-recognition_GOKEGG	inflammation_pathway_down	13	0	NA	NA
+aug_v2a.20154	XP_015765608	Allene oxide synthase	AOS	inflammation	inflammation_pathway_down	18	2	canceled_Hup	NA
+aug_v2a.00464	XP_015771914	Arachidonate 5-lipoxygenase	ALOX5	inflammation	inflammation_pathway_down	19	2	canceled_Hup	NA
+aug_v2a.00190	XP_015762762	c-Jun N-terminal kinase	JNK	inflammation	inflammation_pathway_down	21	0	independent_Hup	NA
+aug_v2a.22121	XP_015753829	E3 ubiquitin-protein ligase TRIM23 	TRIM23	inflammation	inflammation_pathway_down	21	2	canceled_Hup	NA
+aug_v2a.19379	XP_015764234	Galactosylceramide sulfotransferase	GAL3ST1	inflammation	inflammation_pathway_down	21	7	canceled_Hup	combinatorial_Sup_Hup_Shnone
+aug_v2a.17239	XP_015769317	NF-kappa-B inhibitor alpha	NFKBIA	inflammation	inflammation_pathway_down	18	0	canceled_Hup	NA
+aug_v2a.04467	XP_015766406	NF-kappa-B p105 subunit	NFKB1	inflammation	inflammation_pathway_down	15	0	NA	NA
+aug_v2a.15431	XP_015766406	NF-kappa-B p105 subunit	NFKB1	inflammation	inflammation_pathway_down	12	0	NA	NA
+aug_v2a.16327	XP_015762947	NF-kappa-B-activating protein	NKAP	inflammation	inflammation_pathway_down	18	0	similar_up	NA
+aug_v2a.11629	XP_015762947	NF-kappa-B-activating protein	NKAP	inflammation	inflammation_pathway_down	22	2	canceled_Hup	NA
+aug_v2a.23749	XP_015751500	TNF receptor superfamily member 16	NGFR	inflammation	inflammation_pathway_down	18	2	canceled_Hup	similar_up
+aug_v2a.08575	XP_015774088	TRAF1	TRAF1	inflammation	inflammation_pathway_down	14	0	independent_Hup	independent_Hup
+aug_v2a.00435	XP_015778272	TRAF1	TRAF1	inflammation	inflammation_pathway_down	11	0	NA	independent_Sup
+aug_v2a.13869	XP_015767607	TRAF3	TRAF3	inflammation	inflammation_pathway_down	21	0	independent_Hup	independent_Hup
+aug_v2a.17660	XP_015749519	TRAF3	TRAF3	inflammation	inflammation_pathway_down	12	0	independent_Hup	NA
+aug_v2a.06787	XP_015774087	TRAF3	TRAF3	inflammation	inflammation_pathway_down	21	0	independent_Hup	NA
+aug_v2a.20535	XP_015758361	TRAF3	TRAF3	inflammation	inflammation_pathway_down	18	0	independent_Hup	NA
+aug_v2a.03753	XP_015774938	TRAF3	TRAF3	inflammation	inflammation_pathway_down	18	0	NA	canceled_Sup_Hdown
+aug_v2a.20266	XP_015780386	TRAF3	TRAF3	inflammation	inflammation_pathway_down	7	0	canceled_Sdown	NA
+aug_v2a.18413	XP_015766694	TRAF4	TRAF4	inflammation	inflammation_pathway_down	6	0	NA	independent_Hdown
+aug_v2a.11177	XP_015766693	TRAF4	TRAF4	inflammation	inflammation_pathway_down	11	0	independent_Hup	independent_Sup
+aug_v2a.11178	XP_015766693	TRAF4	TRAF4	inflammation	inflammation_pathway_down	11	0	independent_Hup	independent_Sup
+aug_v2a.06710	XP_015766131	TRAF4	TRAF4	inflammation	inflammation_pathway_down	5	8	NA	canceled_Hdown
+aug_v2a.15460	XP_015778037	TRAF5	TRAF5	inflammation	inflammation_pathway_down	18	0	independent_Hup	NA
+aug_v2a.05503	XP_015777921	TRAF6	TRAF6	inflammation	inflammation_pathway_down	12	0	independent_Hup	independent_Hup
+aug_v2a.00824	XP_015777806	TRAF6	TRAF6	inflammation	inflammation_pathway_down	12	0	independent_Hup	independent_Hup
+aug_v2a.04948	XP_015777913	TRAF6	TRAF6	inflammation	inflammation_pathway_down	13	0	NA	canceled_Hup
+aug_v2a.04950	XP_015777915	TRAF6	TRAF6	inflammation	inflammation_pathway_down	12	0	independent_Hup	NA
+aug_v2a.20408	XP_015750498	TRAF6	TRAF6	inflammation	inflammation_pathway_down	12	0	independent_Hup	combinatorial_SHup
+aug_v2a.17985	XP_015777795	TRAF6	TRAF6	inflammation	inflammation_pathway_down	21	0	independent_Hup	NA
+aug_v2a.01740	XP_015776378	TRAF6	TRAF6	inflammation	inflammation_pathway_down	18	0	independent_Hup	NA
+aug_v2a.16140	XP_015750852	TRAF6	TRAF6	inflammation	inflammation_pathway_down	18	0	canceled_Hup	NA
+aug_v2a.03150	XP_015769600	Transcription factor AP-1 	AP-1	inflammation	inflammation_pathway_down	18	7	similar_up	combinatorial_Sup_Hup_Shnone
+aug_v2a.03978	XP_015769133	Transcription factor MafG	MafB	inflammation	inflammation_pathway_down	12	0	prioritized_Hup	independent_Hup
+aug_v2a.03979	XP_015769153	Transcription factor MafK	MafK	inflammation	inflammation_pathway_down	12	0	independent_Hup	independent_Hup
+aug_v2a.06524	XP_015752708	Transmembrane prolyl 4-hydroxylase 	P4HTM	inflammation	inflammation_pathway_down	21	2	canceled_Hup	independent_Hup
+aug_v2a.00656	XP_015754626	E3 SUMO-protein ligase PIAS3-like		inflammation-GOKEGG	inflammation_pathway_down	12	0	NA	NA
+aug_v2a.01004	XP_015748249	nucleotide-binding oligomerization domain-containing protein 2-like isoform X2		inflammation-GOKEGG	inflammation_pathway_down	12	0	NA	NA
+aug_v2a.21708	XP_015777903	TNF receptor-associated factor 6-like isoform X6		inflammation-GOKEGG	inflammation_pathway_down	12	0	NA	NA
+aug_v2a.01029	XP_015751374	myotrophin-like		immune-phagosome_GOKEGG	inflammation_pathway_up	6	0	similar_down	NA
+aug_v2a.05284	XP_015754901	LOW QUALITY PROTEIN: rho-associated protein kinase 1-like		immune-recognition_GOKEGG	inflammation_pathway_up	23	0	independent_Sdown	NA
+aug_v2a.11509	XP_015775822	suppressor of cytokine signaling 3-like		immune-recognition_GOKEGG	inflammation_pathway_up	6	0	NA	cancelled_Sup
+aug_v2a.03765	XP_015775822	suppressor of cytokine signaling 3-like		immune-recognition_GOKEGG	inflammation_pathway_up	7	0	NA	cancelled_Sup
+aug_v2a.20089	XP_015755820	MAPK1	ERK	inflammation	inflammation_pathway_up	6	0	NA	independent_Hdown
+aug_v2a.05390	XP_015760552	MAPK14 (p38)	p38	inflammation	inflammation_pathway_up	25	0	canceled_Sdown_Hup	NA
+aug_v2a.08577	XP_015774088	TRAF1	TRAF1	inflammation	inflammation_pathway_up	7	0	NA	canceled_Sdown
+aug_v2a.16670	XP_015763748	TRAF2	TRAF2	inflammation	inflammation_pathway_up	6	0	NA	prioritized_Hdown
+aug_v2a.19929	XP_015750365	TRAF3	TRAF3	inflammation	inflammation_pathway_up	17	0	NA	prioritized_Hdown
+aug_v2a.06805	XP_015765526	TRAF5	TRAF5	inflammation	inflammation_pathway_up	6	0	independent_Hdown	NA
+aug_v2a.22479	XP_015777911	TRAF6	TRAF6	inflammation	inflammation_pathway_up	4	0	similar_down	canceled_Hdown
+aug_v2a.24104	XP_015777793	TRAF6	TRAF6	inflammation	inflammation_pathway_up	6	0	similar_down	NA
+aug_v2a.16686	XP_015776101	TRAF6	TRAF6	inflammation	inflammation_pathway_up	6	8	similar_down	combinatorial_Sdown_Hdown_Shnone
+aug_v2a.04653	XP_015756222	lysophospholipid acyltransferase 5-like	LPCAT3	necroptosis_GOKEGG	inflammation_pathway_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.16415	XP_015756221	lysophospholipid acyltransferase 5-like	LPCAT3	necroptosis_GOKEGG	inflammation_pathway_up	8	0	similar_down	NA
+aug_v2a.08626	XP_015756075	mitogen-activated protein kinase kinase kinase 7-like		autophagy_GOKEGG	ox_stress_down	13	0	similar_up	NA
+aug_v2a.01035	XP_015751692	eukaryotic translation initiation factor 2-alpha kinase 1-like		er_processing_stress_GOKEGG	ox_stress_down	18	0	independent_Sup	independent_Hup
+aug_v2a.22901	XP_015751692	eukaryotic translation initiation factor 2-alpha kinase 1-like		er_processing_stress_GOKEGG	ox_stress_down	18	0	similar_up	independent_Hup
+aug_v2a.24229	XP_015751692	eukaryotic translation initiation factor 2-alpha kinase 1-like		er_processing_stress_GOKEGG	ox_stress_down	18	0	NA	cancelled_Hup
+aug_v2a.15262	XP_015750918	natural resistance-associated macrophage protein 2-like		immune-phagosome_GOKEGG	ox_stress_down	2	0	independent_Hup	NA
+aug_v2a.11278	XP_015750918	natural resistance-associated macrophage protein 2-like		immune-phagosome_GOKEGG	ox_stress_down	2	0	NA	prioritized_Sdown
+aug_v2a.07815	XP_015762531	protein kinase C beta type-like		immune-recognition_GOKEGG	ox_stress_down	13	0	NA	NA
+aug_v2a.03170	XP_015762669	glutamate--cysteine ligase catalytic subunit-like	GCLC	necroptosis_GOKEGG	ox_stress_down	18	0	similar_up	NA
+aug_v2a.19399	XP_015770551	glutathione synthetase-like isoform X2	GSS	necroptosis_GOKEGG	ox_stress_down	18	0	independent_Hup	independent_Hup
+aug_v2a.22354	XP_015753977	Heat shock cognate 71 kDa protein	HSPA8	ox_er stress	ox_stress_down	13	0	independent_Sup	independent_Hup
+aug_v2a.02262	XP_015753981	Heat shock cognate 71 kDa protein	HSPA8	ox_er stress	ox_stress_down	15	0	combinatorial_SHup	independent_Hup
+aug_v2a.23577	XP_015758700	NOS	NOS	ox_er stress	ox_stress_down	18	0	independent_Hup	canceled_Hup
+aug_v2a.05719	XP_015762400	NOS	NOS	ox_er stress	ox_stress_down	18	0	combinatorial_SHup	independent_Hup
+aug_v2a.19049	XP_015763830	Thioredoxin reductase	TXNRD1	ox_er stress	ox_stress_down	18	2	similar_up	combinatorial_Sup_Hup_Shnone
+aug_v2a.01977	XP_015764849	mitochondrial carnitine/acylcarnitine carrier-like protein		oxidative_phosphorylation_GOKEGG	ox_stress_down	7	0	similar_down	NA
+aug_v2a.22391	XP_015774266	multidrug resistance-associated protein 4-like		oxidative_phosphorylation_GOKEGG	ox_stress_down	17	0	independent_Sup	combinatorial_Shdown
+aug_v2a.02284	XP_015779872	multidrug resistance-associated protein 4-like		oxidative_phosphorylation_GOKEGG	ox_stress_down	18	0	similar_up	cancelled_Sup_Hdown
+aug_v2a.24528	XP_015763404	multidrug resistance-associated protein 4-like		oxidative_phosphorylation_GOKEGG	ox_stress_down	18	0	independent_Sup	NA
+aug_v2a.15609	XP_015763408	multidrug resistance-associated protein 4-like		oxidative_phosphorylation_GOKEGG	ox_stress_down	17	0	independent_Sup	combinatorial_Shdown
+aug_v2a.16209	XP_015769744	lysosomal Pro-X carboxypeptidase-like		er_processing_stress_GOKEGG	ox_stress_up	4	0	independent_Hdown	NA
+aug_v2a.19687	XP_015767722	ferritin heavy chain-like	FTH1	necroptosis_GOKEGG	ox_stress_up	8	0	similar_down	similar_down
+aug_v2a.03688	XP_015775756	glutathione peroxidase-like	GPx	necroptosis_GOKEGG	ox_stress_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.19688	XP_015767720	soma ferritin-like	FTH1	necroptosis_GOKEGG	ox_stress_up	8	0	independent_Sdown	NA
+aug_v2a.18796	XP_015750495	uncharacterized protein LOC107330389	FTH1	necroptosis_GOKEGG	ox_stress_up	8	0	similar_down	independent_Sdown
+aug_v2a.13456	XP_015749314	zinc transporter ZIP6-like	SLC39A6	necroptosis_GOKEGG	ox_stress_up	6	0	similar_down	independent_Hdown
+aug_v2a.09351	XP_015753259	large proline-rich protein BAG6	BAG6	ox_er stress	ox_stress_up	4	4	canceled_Hdown	NA
+aug_v2a.11752	XP_015755474	Peroxidasin-like	PXDNL	ox_er stress	ox_stress_up	13	1	combinatorial_Sdown_Hdown_Shnone	similar_up
+aug_v2a.02038	XP_015775374	Superoxide dismutase [Cu-Zn]	SOD1	ox_er stress	ox_stress_up	25	0	independent_Sdown	NA
+aug_v2a.20324	XP_015756014	"Superoxide dismutase [Mn], mitochondrial "	SOD2	ox_er stress	ox_stress_up	7	0	independent_Sdown	NA
+aug_v2a.05174	XP_015759594	"acyl-coenzyme A oxidase, peroxisomal-like"		oxidative_phosphorylation_GOKEGG	ox_stress_up	21	0	cancelled_Sdown_Hup	independent_Hup
+aug_v2a.08384	XP_015769006	L-xylulose reductase-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	6	0	similar_down	similar_down
+aug_v2a.21346	XP_015753801	peroxisomal membrane protein 2-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	7	0	similar_down	independent_Hdown
+aug_v2a.22914	XP_015775041	peroxisomal membrane protein PMP34-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	7	0	similar_down	independent_Hdown
+aug_v2a.05653	XP_015758733	peroxisomal multifunctional enzyme type 2-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	13	0	cancelled_Hdown	combinatorial_Shdown
+aug_v2a.16431	XP_015780579	peroxisomal sarcosine oxidase-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	7	0	similar_down	NA
+aug_v2a.20337	XP_015759959	peroxisomal targeting signal 2 receptor-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	6	0	independent_Hdown	independent_Hdown
+aug_v2a.04022	XP_015759959	peroxisomal targeting signal 2 receptor-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	6	0	independent_Hdown	NA
+aug_v2a.04791	XP_015753643	peroxisome assembly protein 12-like		oxidative_phosphorylation_GOKEGG	ox_stress_up	24	0	cancelled_Sdown_Hup	NA
+aug_v2a.05625	XP_015747337	uncharacterized protein LOC107327098		oxidative_phosphorylation_GOKEGG	ox_stress_up	7	0	similar_down	NA

@@ -1,0 +1,116 @@
+Module	GO	description	category	p.adjust	plog10
+M12	GO:0042090	interleukin-12 biosynthetic process	BP	4.73789E-05	4.324414702
+M12	GO:0046849	bone remodeling	BP	6.6601E-05	4.176519455
+M12	GO:0048771	tissue remodeling	BP	0.000155421	3.808489694
+M12	GO:0000209	protein polyubiquitination	BP	0.000179972	3.744794909
+M12	GO:2000677	regulation of transcription regulatory region DNA binding	BP	0.000323571	3.490029744
+M12	GO:0007249	I-kappaB kinase/NF-kappaB signaling	BP	0.000489665	3.31010062
+M12	GO:0002009	morphogenesis of an epithelium	BP	0.001045623	2.98062496
+M12	GO:0032946	positive regulation of mononuclear cell proliferation	BP	0.001441519	2.841179491
+M12	GO:0019884	antigen processing and presentation of exogenous antigen	BP	0.002104561	2.676838528
+M12	GO:0097194	execution phase of apoptosis	BP	0.002104561	2.676838528
+M12	GO:0071345	cellular response to cytokine stimulus	BP	0.002047566	2.6887621
+M12	GO:1901797	negative regulation of signal transduction by p53 class mediator	BP	0.003065089	2.513556845
+M12	GO:0043422	protein kinase B binding	MF	0.000137367	3.862116533
+M12	GO:0031996	thioesterase binding	MF	0.000164137	3.784792696
+M12	GO:0061630	ubiquitin protein ligase activity	MF	0.00057866	3.237576642
+M12	GO:0005109	frizzled binding	MF	0.003078805	2.511617781
+M12	GO:0035631	CD40 receptor complex	CC	9.18531E-05	4.036906274
+M13	GO:0032838	cell projection cytoplasm	CC	1.59E-06	5.797508434
+M13	GO:0032421	stereocilium bundle	CC	1.48E-05	4.82834798
+M13	GO:1904949	ATPase complex	CC	1.83E-05	4.737743936
+M13	GO:1990075	periciliary membrane compartment	CC	7.09E-05	4.149237125
+M13	GO:0005635	nuclear envelope	CC	4.50E-04	3.346645359
+M13	GO:0005912	adherens junction	CC	1.26E-03	2.899221417
+M13	GO:0034358	plasma lipoprotein particle	CC	1.39E-03	2.856249944
+M13	GO:0071546	pi-body	CC	1.39E-03	2.856249944
+M13	GO:0045111	intermediate filament cytoskeleton	CC	1.98E-03	2.702870907
+M13	GO:0032994	protein-lipid complex	CC	2.12E-03	2.673898207
+M13	GO:0048471	perinuclear region of cytoplasm	CC	2.66E-03	2.574912129
+M13	GO:0051647	nucleus localization	BP	9.87E-09	8.005663933
+M13	GO:0006325	chromatin organization	BP	2.79E-07	6.553707974
+M13	GO:0001539	cilium or flagellum-dependent cell motility	BP	3.99E-07	6.398732753
+M13	GO:1901071	glucosamine-containing compound metabolic process	BP	4.75E-06	5.32292499
+M13	GO:0040029	"regulation of gene expression, epigenetic"	BP	8.57E-06	5.066884232
+M13	GO:0060271	cilium assembly	BP	1.09E-05	4.961463966
+M13	GO:1903432	regulation of TORC1 signaling	BP	3.44E-05	4.463029565
+M13	GO:0006040	amino sugar metabolic process	BP	5.27E-05	4.278113213
+M13	GO:0061162	establishment of monopolar cell polarity	BP	7.29E-05	4.13712986
+M13	GO:0034661	ncRNA catabolic process	BP	1.26E-04	3.89796313
+M13	GO:0006022	aminoglycan metabolic process	BP	1.37E-04	3.864123979
+M13	GO:0008356	asymmetric cell division	BP	1.84E-04	3.734201821
+M13	GO:0009612	response to mechanical stimulus	BP	2.25E-04	3.647091981
+M13	GO:0048496	maintenance of animal organ identity	BP	2.63E-04	3.579815495
+M13	GO:0031929	TOR signaling	BP	2.87E-04	3.542681848
+M13	GO:0035194	posttranscriptional gene silencing by RNA	BP	3.37E-04	3.472843149
+M13	GO:0016579	protein deubiquitination	BP	3.72E-04	3.429235093
+M13	GO:2000780	negative regulation of double-strand break repair	BP	4.30E-04	3.366718434
+M13	GO:0010842	retina layer formation	BP	5.07E-04	3.294779621
+M13	GO:1903313	positive regulation of mRNA metabolic process	BP	6.36E-04	3.196221279
+M13	GO:0045494	photoreceptor cell maintenance	BP	7.70E-04	3.11334524
+M13	GO:0051236	establishment of RNA localization	BP	8.73E-04	3.059164337
+M13	GO:0031123	RNA 3'-end processing	BP	8.64E-04	3.063593334
+M13	GO:0046834	lipid phosphorylation	BP	8.94E-04	3.04857112
+M13	GO:1904837	beta-catenin-TCF complex assembly	BP	9.80E-04	3.008819312
+M13	GO:0071431	tRNA-containing ribonucleoprotein complex export from nucleus	BP	1.01E-03	2.996435029
+M13	GO:0016032	viral process	BP	1.03E-03	2.98705599
+M13	GO:0051081	nuclear envelope disassembly	BP	1.18E-03	2.929295889
+M13	GO:0045503	dynein light chain binding	MF	9.51E-20	19.02203902
+M13	GO:0003777	microtubule motor activity	MF	6.85E-13	12.16400525
+M13	GO:0003774	motor activity	MF	5.19E-09	8.284909834
+M13	GO:0008061	chitin binding	MF	8.85E-08	7.05327985
+M13	GO:0017056	structural constituent of nuclear pore	MF	3.60E-05	4.443198197
+M13	GO:0061630	ubiquitin protein ligase activity	MF	2.92E-05	4.535061882
+M13	GO:0036459	thiol-dependent ubiquitinyl hydrolase activity	MF	4.01E-05	4.3972996
+M13	GO:0101005	ubiquitinyl hydrolase activity	MF	4.01E-05	4.3972996
+M13	GO:0070410	co-SMAD binding	MF	6.74E-05	4.171054403
+M13	GO:0005085	guanyl-nucleotide exchange factor activity	MF	2.03E-04	3.69179911
+M13	GO:0008381	mechanically-gated ion channel activity	MF	4.85E-04	3.314379738
+M13	GO:0051020	GTPase binding	MF	8.33E-04	3.079562302
+M13	GO:0005548	phospholipid transporter activity	MF	1.03E-03	2.985211231
+M13	GO:0008134	transcription factor binding	MF	1.10E-03	2.959036454
+M13	GO:0035257	nuclear hormone receptor binding	MF	1.36E-03	2.866908263
+M13	GO:0016896	"exoribonuclease activity, producing 5'-phosphomonoesters"	MF	1.91E-03	2.719466243
+M14	GO:0044322	endoplasmic reticulum quality control compartment	CC	0.000100742	3.996789466
+M14	GO:0036513	Derlin-1 retrotranslocation complex	CC	7.50188E-05	4.124829774
+M14	GO:0097574	lateral part of cell	CC	0.000201423	3.695890031
+M14	GO:0000421	autophagosome membrane	CC	0.000308994	3.510049511
+M14	GO:0099738	cell cortex region	CC	0.001724773	2.763268171
+M14	GO:0000151	ubiquitin ligase complex	CC	0.003741899	2.426907901
+M14	GO:0000922	spindle pole	CC	0.003863178	2.41305528
+M14	GO:0044546	NLRP3 inflammasome complex assembly	BP	0.000211604	3.674475938
+M14	GO:0006954	inflammatory response	BP	0.000117032	3.931693947
+M14	GO:1900225	regulation of NLRP3 inflammasome complex assembly	BP	0.000176304	3.753738716
+M14	GO:0072697	protein localization to cell cortex	BP	0.000579571	3.236893391
+M14	GO:0048144	fibroblast proliferation	BP	0.000660195	3.180328076
+M14	GO:0070613	regulation of protein processing	BP	0.00065674	3.182606437
+M14	GO:0031291	Ran protein signal transduction	BP	0.001128288	2.947580183
+M14	GO:0051090	regulation of sequence-specific DNA binding transcription factor activity	BP	0.001627523	2.788472804
+M14	GO:0048015	phosphatidylinositol-mediated signaling	BP	0.001906083	2.719858258
+M14	GO:0035973	aggrephagy	BP	0.002044539	2.689404613
+M14	GO:0051642	centrosome localization	BP	0.002085327	2.680825765
+M14	GO:0035212	cell competition in a multicellular organism	BP	0.002044539	2.689404613
+M14	GO:0015874	norepinephrine transport	BP	0.002487676	2.604206216
+M14	GO:1990164	histone H2A phosphorylation	BP	0.002487676	2.604206216
+M14	GO:0048017	inositol lipid-mediated signaling	BP	0.002328811	2.632865734
+M14	GO:1901222	regulation of NIK/NF-kappaB signaling	BP	0.002591458	2.586455745
+M14	GO:0009116	nucleoside metabolic process	BP	0.002929521	2.533203427
+M14	GO:0038061	NIK/NF-kappaB signaling	BP	0.003299625	2.481535375
+M14	GO:0001816	cytokine production	BP	0.003673496	2.434920458
+M14	GO:0046649	lymphocyte activation	BP	0.003753579	2.425554402
+M14	GO:0035967	cellular response to topologically incorrect protein	BP	0.004351836	2.361327442
+M14	GO:0090224	regulation of spindle organization	BP	0.004395113	2.357029943
+M14	GO:0031593	polyubiquitin binding	MF	8.73367E-05	4.058803145
+M14	GO:0036312	phosphatidylinositol 3-kinase regulatory subunit binding	MF	0.000251853	3.598852756
+M14	GO:0043548	phosphatidylinositol 3-kinase binding	MF	0.000316298	3.499903865
+M14	GO:0043028	cysteine-type endopeptidase regulator activity involved in apoptotic process	MF	0.000451285	3.345549414
+M14	GO:0070840	dynein complex binding	MF	0.002061794	2.685754746
+M14	GO:0001965	G-protein alpha-subunit binding	MF	0.003215068	2.492809815
+M14	GO:0002020	protease binding	MF	0.003198059	2.495113583
+M14	GO:0035184	histone threonine kinase activity	MF	0.003661104	2.436387899
+M15	GO:0030914	STAGA complex	CC	0.000148349	3.828714082
+M15	GO:0097346	INO80-type complex	CC	0.000709752	3.148893114
+M15	GO:0070603	SWI/SNF superfamily-type complex	CC	0.003898859	2.409062421
+M15	GO:1904949	ATPase complex	CC	0.005268749	2.278292489
+M15	GO:0030427	site of polarized growth	CC	0.009599749	2.017740113
+M15	GO:0030426	growth cone	CC	0.008740217	2.05847778

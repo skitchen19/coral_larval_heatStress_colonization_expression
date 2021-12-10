@@ -1,0 +1,10 @@
+Category	ID	Term	GeneRatio	adj_pval	genes
+CC	GO:0070852	cell body fiber	7/554	0.011663565	"aug_v2a.06645,aug_v2a.15191,aug_v2a.12944,aug_v2a.23094,aug_v2a.02429,aug_v2a.03342,aug_v2a.10948"
+CC	GO:0035631	CD40 receptor complex	8/554	0.036789493	"aug_v2a.01886,aug_v2a.00435,aug_v2a.19929,aug_v2a.03753,aug_v2a.13869,aug_v2a.00983,aug_v2a.16696,aug_v2a.16670"
+MF	GO:0051087	chaperone binding	11/572	0.01606808	"aug_v2a.21065,aug_v2a.16887,aug_v2a.22914,aug_v2a.06645,aug_v2a.15191,aug_v2a.12944,aug_v2a.23094,aug_v2a.02429,aug_v2a.03342,aug_v2a.10948,aug_v2a.01886"
+MF	GO:0005126	cytokine receptor binding	14/572	0.01606808	"aug_v2a.02299,aug_v2a.19171,aug_v2a.13071,aug_v2a.11509,aug_v2a.15775,aug_v2a.14202,aug_v2a.11178,aug_v2a.10149,aug_v2a.10962,aug_v2a.00435,aug_v2a.19929,aug_v2a.03753,aug_v2a.13869,aug_v2a.16670"
+MF	GO:0003968	RNA-directed 5'-3' RNA polymerase activity	5/572	0.025304171	"aug_v2a.23797,aug_v2a.11820,aug_v2a.04167,aug_v2a.24177,aug_v2a.12144"
+MF	GO:0005070	SH3/SH2 adaptor activity	6/572	0.025304171	"aug_v2a.17235,aug_v2a.14295,aug_v2a.11509,aug_v2a.05541,aug_v2a.15775,aug_v2a.14202"
+MF	GO:0004525	ribonuclease III activity	5/572	0.025304171	"aug_v2a.24177,aug_v2a.09094,aug_v2a.19226,aug_v2a.03659,aug_v2a.09093"
+MF	GO:0032296	double-stranded RNA-specific ribonuclease activity	5/572	0.025304171	"aug_v2a.24177,aug_v2a.09094,aug_v2a.19226,aug_v2a.03659,aug_v2a.09093"
+MF	GO:0070628	proteasome binding	7/572	0.038629266	"aug_v2a.06645,aug_v2a.15191,aug_v2a.12944,aug_v2a.23094,aug_v2a.02429,aug_v2a.03342,aug_v2a.10948"
