@@ -2,86 +2,50 @@
 
 The following steps were done for processing the larval RNAseq reads.
 
-1.	Index the _A. digitifera_ genome with Bowtie2.
-
-```
-/local/cluster/bin/bowtie2-build /home/zoo/kitchens/A.dig_annotate/adi_v0.9.scaffold.fa adi_v0.9.scaffold
-```
-
-2.	Use fastQC v0.11.2 to check the quality of the .fastq files.
+1.	Use fastQC v0.11.2 to check the quality of the .fastq files.
 
 ```
 ~/tools/fastqc 26_1_ATCACG_L004_R1_001.fastq
 ```
 
-3.	Remove adaptor sequences using cutadapt v1.6 as follows:
+2. Remove adapters using cutadapt v3.1.
 
 ```
-~/tools/cutadapt -a AGATCGGAAGAGC --minimum-length 20 -o trimmed1.fastq -p trimmed2.fastq 26_1_ATCACG_L004_R1_001.fastq 26_1_ATCACG_L004_R2_001.fastq
+cutadapt -j 4 -a AGATCGGAAGAGC -A AGATCGGAAGAGC --minimum-length 20 -o trimmed1.fastq -p trimmed2.fastq *_R1_001.fastq.gz *_R2_001.fastq.gz
 ```
 
-4.	The trimmed.fastq file from each sample was run with TopHat v2.0.12 to align the reads to the genome. 
+3. Make index of the genome.
 
-tophat –p (number of processors) –G (annotated.gff3 file) –o (output directory) (genome fasta file) (input file names)
-
-Ex.
 ```
-/local/cluster/bin/tophat -p 8 -G /home/zoo/kitchens/A.dig_annotate/new_adig.gff3 -o tophat_26.1_trimmed /home/zoo/kitchens/Adig_genome/bowtie2/adi_v0.9.scaffold trimmed1.fastq trimmed2.fastq
+STAR --runThreadN 4 --runMode genomeGenerate --genomeDir /raid1/home/zoo/kitchens/Adig_genome/bowtie2 --genomeFastaFiles /raid1/home/zoo/kitchens/Adig_genome/bowtie2/adi_v0.9.scaffold.fa --sjdbGTFfile /raid1/home/zoo/kitchens/A.dig_annotate/new_adig.gtf
 ```
 
-5.	The number of mapped reads in the accepted_hits.bam file was tabulated using samtools. These values are reported in Table S1. 
+4. Map reads to the genome.
+
 ```
-samtools flagstat ./tophat_26.1_trimmed/accepted_hits.bam
+STAR --runThreadN 4 --genomeDir /raid1/home/zoo/kitchens/Adig_genome/bowtie2 --outSAMtype BAM SortedByCoordinate --twopassMode Basic --outFileNamePrefix ./26.1_trimmed_ --outBAMsortingBinsN 100 --readFilesIn trimmed1.fastq trimmed2.fastq
 ```
 
-6.	The mapped reads in thee accepted_hits.bam file were converted raw counts using samtools and bedtools as follows. 
-
-Each BAM file was sorted and indexed.
+5. Create counts table with FeatureCounts.
 ```
-#Sort:
-/local/cluster/bin/samtools sort ./tophat_26.1_trimmed/accepted_hits.bam sort26.1
-
-# Index:
-/local/cluster/bin/samtools index sort26.1.bam
-```
-Then, read counts were extracted from all sorted-indexed BAM files using all the gene features of the A. digitifera GFF file and combined using bedtools multicov tool.
-```
-# Make table:
-bedtools multicov -bams sort26.1.bam sort26.2.bam sort26.3.bam sort26.4.bam sort26.5.bam sort26.6.bam \
-sort26.1sym.bam sort26.2sym.bam sort26.3sym.bam sort26.4_sym.bam sort26.5_sym.bam  sort26.6sym.bam \
-sort32.1.bam sort32.2.bam sort32.3.bam sort32.4.bam sort32.5.bam sort32.6.bam \
-sort32.1sym.bam  sort32.2sym.bam sort32.3sym.bam sort32.4sym.bam sort32.5sym.bam sort32.6sym.bam \
-72sort26.1.bam 72sort26.2.bam 72sort26.3.bam 72sort26.4.bam 72sort26.5.bam 72sort26.6.bam \
-72sort26.1sym.bam 72sort26.2sym.bam 72sort26.3sym.bam 72sort26.4sym.bam 72sort26.5sym.bam 72sort26.6sym.bam \
-72sort32.1.bam 72sort32.2.bam 72sort32.3.bam 72sort32.4.bam 72sort32.5.bam 72sort32.6.bam \
-72sort32.1sym.bam 72sort32.2sym.bam 72sort32.3sym.bam 72sort32.4sym.bam 72sort32.5sym.bam 72sort32.6sym.bam \
--bed /home/zoo/kitchens/A.dig_annotate/new_adig.gff3 > all_counts.gff
+featureCounts -p -s 0 -T 8 -a /home/zoo/kitchens/A.dig_annotate/new_adig.gtf -o fc_gene_count_STAR.cnt /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/1rep/26.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/2rep/26.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/3rep/26.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/4rep/26.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/5rep/26.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/26/6rep/26.6_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/1rep/26.1_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/2rep/26.2_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/3rep/26.3_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/4rep/26.4_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/5rep/26.5_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym26/6rep/26.6_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/1rep/32.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/2rep/32.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/3rep/32.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/4rep/32.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/5rep/32.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/32/6rep/32.6_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/1rep/32.1_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/2rep/32.2_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/3rep/32.3_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/4rep/32.4_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/5rep/32.5_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour24/sym32/6rep/32.6_sym_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/1rep/72_26.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/2rep/72_26.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/3rep/72_26.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/4rep/72_26.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/5rep/72_26.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/26/6rep/72_26.6_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/1rep/72_sym26.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/2rep/72_sym26.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/3rep/72_sym26.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/4rep/72_sym26.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/5rep/72_sym26.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym26/6rep/72_sym26.6_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/1rep/72_32.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/2rep/72_32.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/3rep/72_32.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/4rep/72_32.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/5rep/72_32.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/32/6rep/72_32.6_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/1rep/72_sym32.1_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/2rep/72_sym32.2_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/3rep/72_sym32.3_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/4rep/72_sym32.4_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/5rep/72_sym32.5_trimmed_Aligned.sortedByCoord.out.bam /nfs0/IB/Weis_Lab/kitchens/Adigitifera/2014/hour72/sym32/6rep/72_sym32.6_trimmed_Aligned.sortedByCoord.out.bam
 ```
 
-The read counts for each gene were extracted and cleaned up.
-```
-# Pull out “gene” only:
-grep -P "\tgene\t" all_counts.gff > gene_only.gff
-
-# Truncate table to gene name and count data:
-sed 's/^.*Name=//' gene_only.gff > gene_counts.tab
-```
-
-7.	Move to R and run deseq2.R script on the counts table.
+6.	Move to R and run deseq2.R script on the counts tables.
 
 ## Read mapping symbiotic larval samples against the symbiont, _Symbiodinium tridacnidorum_ (CCMP 2465, clade A3) genome assembly
 We also mapped the reads from the larvae exposed to symbionts to the draft genome assembly of _S. tridacnidorum_ to determine if they accounted for some of the reads not mapping to the coral host genome.
 
-1.	Index the _S. tridacnidorum_ genome (clade A3) with Bowtie2.
+1.	Index the _S. tridacnidorum_ genome (clade A3) with STAR.
 
 ```
-/local/cluster/bin/bowtie2-build symA3_140711_k2.final.ov1k.removedup.fasta symA3_140711_k2.final.ov1k.removedup.fasta
+STAR --runThreadN 4 --runMode genomeGenerate --genomeDir /raid1/home/zoo/kitchens/SymA3/Symbiodinium_tridacnidorum --genomeFastaFiles /raid1/home/zoo/kitchens/SymA3/Symbiodinium_tridacnidorum/Symbiodinium_tridacnidorum.genome.fa --sjdbGTFfile /raid1/home/zoo/kitchens/SymA3/Symbiodinium_tridacnidorum/Symbiodinium_tridacnidorum.gtf
 ```
 
-2.	The trimmed.fastq file from each symbiotic sample (26 and 32 sym) was run with TopHat to align the reads to the genome. There was no annotation file for this genome at the time these samples were processed (2014). 
+2.	The trimmed.fastq file from each symbiotic sample (26 and 32 sym) was run with STAR to align the reads to the genome. 
 
 ```
-/local/cluster/bin/tophat -p 8 -o SymA3_tophat_26.1sym /nfs0/IB/Weis_Lab/kitchens/symA_genome/symA3_140711_k2.final.ov1k.removedup trimmed1.fastq trimmed2.fastq
+STAR --runThreadN 4 --genomeDir /raid1/home/zoo/kitchens/SymA3 --outSAMtype BAM SortedByCoordinate --twopassMode Basic --outFileNamePrefix ./26.1_A3_trimmed_ --outBAMsortingBinsN 100 --readFilesIn trimmed1.fastq trimmed2.fastq
 ```
 
 ## Phyloflash on all read sets

@@ -1,0 +1,272 @@
+Category	ID	Term	GeneRatio	adj_pval	genes
+CC	GO:0098798	mitochondrial protein complex	52/1515	1.64E-16	"aug_v2a.05783,aug_v2a.17726,aug_v2a.15047,aug_v2a.21456,aug_v2a.03418,aug_v2a.15228,aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.13600,aug_v2a.08881,aug_v2a.12058,aug_v2a.08685,aug_v2a.21917,aug_v2a.02425,aug_v2a.22767,aug_v2a.01628,aug_v2a.02850,aug_v2a.10903,aug_v2a.13262,aug_v2a.05886,aug_v2a.09057,aug_v2a.03905,aug_v2a.18234,aug_v2a.00371,aug_v2a.07509,aug_v2a.11405,aug_v2a.13323,aug_v2a.15754,aug_v2a.20577,aug_v2a.11746,aug_v2a.06008,aug_v2a.08118,aug_v2a.12149,aug_v2a.00772,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.24463,aug_v2a.14322,aug_v2a.02501,aug_v2a.02111,aug_v2a.06376,aug_v2a.00999,aug_v2a.23097,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0005840	ribosome	51/1515	1.66E-11	"aug_v2a.21937,aug_v2a.02923,aug_v2a.15047,aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.14235,aug_v2a.12058,aug_v2a.05432,aug_v2a.05075,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.21742,aug_v2a.04865,aug_v2a.10903,aug_v2a.09751,aug_v2a.05886,aug_v2a.15027,aug_v2a.03905,aug_v2a.11405,aug_v2a.17041,aug_v2a.15006,aug_v2a.15754,aug_v2a.20577,aug_v2a.23295,aug_v2a.12149,aug_v2a.24414,aug_v2a.11987,aug_v2a.09596,aug_v2a.22926,aug_v2a.07045,aug_v2a.05534,aug_v2a.02111,aug_v2a.18520,aug_v2a.09618,aug_v2a.00055,aug_v2a.23097,aug_v2a.04487,aug_v2a.19037,aug_v2a.02276,aug_v2a.21938,aug_v2a.14967,aug_v2a.24661,aug_v2a.07931,aug_v2a.13196,aug_v2a.18712,aug_v2a.11010,aug_v2a.04051,aug_v2a.23098"
+CC	GO:0098800	inner mitochondrial membrane protein complex	29/1515	7.76E-11	"aug_v2a.17726,aug_v2a.03418,aug_v2a.15228,aug_v2a.13600,aug_v2a.08881,aug_v2a.08685,aug_v2a.22767,aug_v2a.09057,aug_v2a.18234,aug_v2a.00371,aug_v2a.07509,aug_v2a.11746,aug_v2a.06008,aug_v2a.08118,aug_v2a.00772,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.24463,aug_v2a.14322,aug_v2a.02501,aug_v2a.06376,aug_v2a.00999,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0044391	ribosomal subunit	35/1515	2.64E-10	"aug_v2a.02923,aug_v2a.15047,aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.14235,aug_v2a.12058,aug_v2a.05432,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.21742,aug_v2a.10903,aug_v2a.09751,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.17041,aug_v2a.15006,aug_v2a.15754,aug_v2a.20577,aug_v2a.23295,aug_v2a.12149,aug_v2a.11987,aug_v2a.05534,aug_v2a.02111,aug_v2a.18520,aug_v2a.09618,aug_v2a.23097,aug_v2a.04487,aug_v2a.24661,aug_v2a.07931,aug_v2a.18712,aug_v2a.11010"
+CC	GO:0005740	mitochondrial envelope	97/1515	6.10E-10	"aug_v2a.17631,aug_v2a.11227,aug_v2a.02795,aug_v2a.16555,aug_v2a.13700,aug_v2a.01024,aug_v2a.00547,aug_v2a.18754,aug_v2a.18957,aug_v2a.06677,aug_v2a.17004,aug_v2a.05522,aug_v2a.05783,aug_v2a.13789,aug_v2a.12529,aug_v2a.06198,aug_v2a.21018,aug_v2a.17726,aug_v2a.01553,aug_v2a.00071,aug_v2a.09437,aug_v2a.15047,aug_v2a.21456,aug_v2a.03418,aug_v2a.15228,aug_v2a.21272,aug_v2a.03085,aug_v2a.10283,aug_v2a.06518,aug_v2a.01811,aug_v2a.11900,aug_v2a.24378,aug_v2a.08139,aug_v2a.19830,aug_v2a.01906,aug_v2a.13600,aug_v2a.01528,aug_v2a.08881,aug_v2a.12058,aug_v2a.22914,aug_v2a.08685,aug_v2a.06769,aug_v2a.11285,aug_v2a.17042,aug_v2a.02425,aug_v2a.22767,aug_v2a.21619,aug_v2a.01628,aug_v2a.02850,aug_v2a.17043,aug_v2a.01483,aug_v2a.00875,aug_v2a.09057,aug_v2a.18234,aug_v2a.17253,aug_v2a.14864,aug_v2a.00371,aug_v2a.07509,aug_v2a.17925,aug_v2a.13323,aug_v2a.04506,aug_v2a.05795,aug_v2a.11746,aug_v2a.09147,aug_v2a.05853,aug_v2a.06008,aug_v2a.09482,aug_v2a.08118,aug_v2a.12149,aug_v2a.07420,aug_v2a.00772,aug_v2a.19715,aug_v2a.19829,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.13524,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.06549,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.02501,aug_v2a.01247,aug_v2a.06376,aug_v2a.00999,aug_v2a.08496,aug_v2a.21303,aug_v2a.10168,aug_v2a.02314,aug_v2a.00181,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0031966	mitochondrial membrane	91/1515	3.14E-09	"aug_v2a.17631,aug_v2a.11227,aug_v2a.02795,aug_v2a.16555,aug_v2a.13700,aug_v2a.01024,aug_v2a.00547,aug_v2a.18754,aug_v2a.18957,aug_v2a.17004,aug_v2a.05522,aug_v2a.05783,aug_v2a.13789,aug_v2a.12529,aug_v2a.06198,aug_v2a.21018,aug_v2a.17726,aug_v2a.01553,aug_v2a.00071,aug_v2a.09437,aug_v2a.15047,aug_v2a.21456,aug_v2a.03418,aug_v2a.15228,aug_v2a.21272,aug_v2a.03085,aug_v2a.10283,aug_v2a.06518,aug_v2a.01811,aug_v2a.11900,aug_v2a.24378,aug_v2a.08139,aug_v2a.19830,aug_v2a.01906,aug_v2a.13600,aug_v2a.08881,aug_v2a.12058,aug_v2a.22914,aug_v2a.08685,aug_v2a.06769,aug_v2a.11285,aug_v2a.02425,aug_v2a.22767,aug_v2a.01628,aug_v2a.02850,aug_v2a.17043,aug_v2a.00875,aug_v2a.09057,aug_v2a.18234,aug_v2a.17253,aug_v2a.00371,aug_v2a.07509,aug_v2a.17925,aug_v2a.13323,aug_v2a.04506,aug_v2a.05795,aug_v2a.11746,aug_v2a.09147,aug_v2a.05853,aug_v2a.06008,aug_v2a.09482,aug_v2a.08118,aug_v2a.12149,aug_v2a.07420,aug_v2a.00772,aug_v2a.19715,aug_v2a.19829,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.13524,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.06549,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.02501,aug_v2a.01247,aug_v2a.06376,aug_v2a.00999,aug_v2a.08496,aug_v2a.21303,aug_v2a.10168,aug_v2a.02314,aug_v2a.00181,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0005743	mitochondrial inner membrane	70/1515	5.04E-09	"aug_v2a.17631,aug_v2a.02795,aug_v2a.01024,aug_v2a.00547,aug_v2a.18957,aug_v2a.17004,aug_v2a.05522,aug_v2a.05783,aug_v2a.06198,aug_v2a.21018,aug_v2a.17726,aug_v2a.00071,aug_v2a.15047,aug_v2a.03418,aug_v2a.15228,aug_v2a.21272,aug_v2a.10283,aug_v2a.06518,aug_v2a.11900,aug_v2a.24378,aug_v2a.08139,aug_v2a.19830,aug_v2a.01906,aug_v2a.13600,aug_v2a.08881,aug_v2a.12058,aug_v2a.22914,aug_v2a.08685,aug_v2a.06769,aug_v2a.11285,aug_v2a.02425,aug_v2a.22767,aug_v2a.01628,aug_v2a.00875,aug_v2a.09057,aug_v2a.18234,aug_v2a.17253,aug_v2a.00371,aug_v2a.07509,aug_v2a.17925,aug_v2a.11746,aug_v2a.09147,aug_v2a.05853,aug_v2a.06008,aug_v2a.09482,aug_v2a.08118,aug_v2a.12149,aug_v2a.07420,aug_v2a.00772,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.13524,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.06549,aug_v2a.24463,aug_v2a.14322,aug_v2a.02501,aug_v2a.01247,aug_v2a.06376,aug_v2a.00999,aug_v2a.21303,aug_v2a.10168,aug_v2a.02314,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0019866	organelle inner membrane	74/1515	5.83E-09	"aug_v2a.17631,aug_v2a.00700,aug_v2a.10708,aug_v2a.02795,aug_v2a.20522,aug_v2a.01024,aug_v2a.00547,aug_v2a.18957,aug_v2a.17004,aug_v2a.05522,aug_v2a.05783,aug_v2a.05805,aug_v2a.06198,aug_v2a.21018,aug_v2a.17726,aug_v2a.00071,aug_v2a.15047,aug_v2a.03418,aug_v2a.15228,aug_v2a.21272,aug_v2a.10283,aug_v2a.06518,aug_v2a.11900,aug_v2a.24378,aug_v2a.08139,aug_v2a.19830,aug_v2a.01906,aug_v2a.13600,aug_v2a.08881,aug_v2a.12058,aug_v2a.22914,aug_v2a.08685,aug_v2a.06769,aug_v2a.11285,aug_v2a.02425,aug_v2a.22767,aug_v2a.01628,aug_v2a.00875,aug_v2a.09057,aug_v2a.18234,aug_v2a.17253,aug_v2a.00371,aug_v2a.07509,aug_v2a.17925,aug_v2a.11746,aug_v2a.09147,aug_v2a.05853,aug_v2a.06008,aug_v2a.09482,aug_v2a.08118,aug_v2a.12149,aug_v2a.07420,aug_v2a.00772,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.13524,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.06549,aug_v2a.24463,aug_v2a.14322,aug_v2a.02501,aug_v2a.01247,aug_v2a.06376,aug_v2a.00999,aug_v2a.21303,aug_v2a.10168,aug_v2a.02314,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352,aug_v2a.15570"
+CC	GO:0005746	mitochondrial respirasome	18/1515	2.75E-07	"aug_v2a.15228,aug_v2a.13600,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.07420,aug_v2a.00772,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352"
+CC	GO:0098803	respiratory chain complex	18/1515	2.75E-07	"aug_v2a.15228,aug_v2a.13600,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.00772,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352"
+CC	GO:0015934	large ribosomal subunit	23/1515	3.09E-07	"aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.21742,aug_v2a.10903,aug_v2a.09751,aug_v2a.05886,aug_v2a.17041,aug_v2a.15006,aug_v2a.15754,aug_v2a.11987,aug_v2a.05534,aug_v2a.02111,aug_v2a.18520,aug_v2a.23097,aug_v2a.04487,aug_v2a.24661,aug_v2a.07931,aug_v2a.18712,aug_v2a.11010"
+CC	GO:0000313	organellar ribosome	18/1515	3.56E-07	"aug_v2a.15047,aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.10903,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.15754,aug_v2a.20577,aug_v2a.12149,aug_v2a.02111,aug_v2a.23097"
+CC	GO:0005761	mitochondrial ribosome	18/1515	3.56E-07	"aug_v2a.15047,aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.10903,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.15754,aug_v2a.20577,aug_v2a.12149,aug_v2a.02111,aug_v2a.23097"
+CC	GO:0070469	respirasome	20/1515	6.69E-07	"aug_v2a.15228,aug_v2a.13600,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.07420,aug_v2a.00772,aug_v2a.20591,aug_v2a.07730,aug_v2a.15215,aug_v2a.09541,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677,aug_v2a.20029,aug_v2a.12352"
+CC	GO:0016469	proton-transporting two-sector ATPase complex	13/1515	2.03E-05	"aug_v2a.01673,aug_v2a.16618,aug_v2a.03608,aug_v2a.02862,aug_v2a.18234,aug_v2a.00371,aug_v2a.09111,aug_v2a.19829,aug_v2a.00969,aug_v2a.24463,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+CC	GO:0097525	spliceosomal snRNP complex	35/1515	4.21E-05	"aug_v2a.16331,aug_v2a.00119,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.22104,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.06682,aug_v2a.08618,aug_v2a.18050,aug_v2a.21819,aug_v2a.06757,aug_v2a.10484,aug_v2a.01578,aug_v2a.06862,aug_v2a.11687,aug_v2a.17005,aug_v2a.01265,aug_v2a.17550,aug_v2a.06521,aug_v2a.10933,aug_v2a.12811,aug_v2a.17597,aug_v2a.03078,aug_v2a.21839"
+CC	GO:0022626	cytosolic ribosome	17/1515	6.98E-05	"aug_v2a.02923,aug_v2a.14235,aug_v2a.12058,aug_v2a.05432,aug_v2a.21742,aug_v2a.09751,aug_v2a.17041,aug_v2a.15006,aug_v2a.23295,aug_v2a.11987,aug_v2a.05534,aug_v2a.18520,aug_v2a.04487,aug_v2a.24661,aug_v2a.07931,aug_v2a.18712,aug_v2a.11010"
+CC	GO:0005839	proteasome core complex	11/1515	8.03E-05	"aug_v2a.19870,aug_v2a.21909,aug_v2a.22817,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.08236,aug_v2a.19581,aug_v2a.13198"
+CC	GO:0030990	intraciliary transport particle	16/1515	8.31E-05	"aug_v2a.02714,aug_v2a.03931,aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.17047,aug_v2a.24037,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.05785,aug_v2a.09475,aug_v2a.12348,aug_v2a.05972,aug_v2a.06812,aug_v2a.16432"
+CC	GO:0030532	small nuclear ribonucleoprotein complex	35/1515	8.91E-05	"aug_v2a.16331,aug_v2a.00119,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.22104,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.06682,aug_v2a.08618,aug_v2a.18050,aug_v2a.21819,aug_v2a.06757,aug_v2a.10484,aug_v2a.01578,aug_v2a.06862,aug_v2a.11687,aug_v2a.17005,aug_v2a.01265,aug_v2a.17550,aug_v2a.06521,aug_v2a.10933,aug_v2a.12811,aug_v2a.17597,aug_v2a.03078,aug_v2a.21839"
+CC	GO:0022625	cytosolic large ribosomal subunit	12/1515	0.000182592	"aug_v2a.21742,aug_v2a.09751,aug_v2a.17041,aug_v2a.15006,aug_v2a.11987,aug_v2a.05534,aug_v2a.18520,aug_v2a.04487,aug_v2a.24661,aug_v2a.07931,aug_v2a.18712,aug_v2a.11010"
+CC	GO:0120114	Sm-like protein family complex	35/1515	0.000267493	"aug_v2a.16331,aug_v2a.00119,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.22104,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.06682,aug_v2a.08618,aug_v2a.18050,aug_v2a.21819,aug_v2a.06757,aug_v2a.10484,aug_v2a.01578,aug_v2a.06862,aug_v2a.11687,aug_v2a.17005,aug_v2a.01265,aug_v2a.17550,aug_v2a.06521,aug_v2a.10933,aug_v2a.12811,aug_v2a.17597,aug_v2a.03078,aug_v2a.21839"
+CC	GO:1905368	peptidase complex	24/1515	0.000279582	"aug_v2a.16543,aug_v2a.19304,aug_v2a.13922,aug_v2a.00877,aug_v2a.19870,aug_v2a.21909,aug_v2a.04503,aug_v2a.00899,aug_v2a.01932,aug_v2a.22817,aug_v2a.10957,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.24255,aug_v2a.22206,aug_v2a.01847,aug_v2a.08236,aug_v2a.02652,aug_v2a.19581,aug_v2a.01799,aug_v2a.13198"
+CC	GO:0005747	mitochondrial respiratory chain complex I	10/1515	0.000279582	"aug_v2a.15228,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.00772,aug_v2a.15215,aug_v2a.06506,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677"
+CC	GO:0030964	NADH dehydrogenase complex	10/1515	0.000279582	"aug_v2a.15228,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.00772,aug_v2a.15215,aug_v2a.06506,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677"
+CC	GO:0045271	respiratory chain complex I	10/1515	0.000279582	"aug_v2a.15228,aug_v2a.09057,aug_v2a.11746,aug_v2a.08118,aug_v2a.00772,aug_v2a.15215,aug_v2a.06506,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677"
+CC	GO:0000315	organellar large ribosomal subunit	11/1515	0.000383653	"aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.10903,aug_v2a.05886,aug_v2a.15754,aug_v2a.02111,aug_v2a.23097"
+CC	GO:0005762	mitochondrial large ribosomal subunit	11/1515	0.000383653	"aug_v2a.05513,aug_v2a.18158,aug_v2a.06304,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.10903,aug_v2a.05886,aug_v2a.15754,aug_v2a.02111,aug_v2a.23097"
+CC	GO:0000502	proteasome complex	21/1515	0.000383653	"aug_v2a.16543,aug_v2a.19304,aug_v2a.13922,aug_v2a.19870,aug_v2a.21909,aug_v2a.04503,aug_v2a.01932,aug_v2a.22817,aug_v2a.10957,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.24255,aug_v2a.22206,aug_v2a.01847,aug_v2a.08236,aug_v2a.19581,aug_v2a.01799,aug_v2a.13198"
+CC	GO:1905369	endopeptidase complex	22/1515	0.000383653	"aug_v2a.16543,aug_v2a.19304,aug_v2a.13922,aug_v2a.19870,aug_v2a.21909,aug_v2a.04503,aug_v2a.00899,aug_v2a.01932,aug_v2a.22817,aug_v2a.10957,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.24255,aug_v2a.22206,aug_v2a.01847,aug_v2a.08236,aug_v2a.19581,aug_v2a.01799,aug_v2a.13198"
+CC	GO:1990204	oxidoreductase complex	17/1515	0.000403359	"aug_v2a.15228,aug_v2a.13600,aug_v2a.13262,aug_v2a.09057,aug_v2a.15002,aug_v2a.11746,aug_v2a.08118,aug_v2a.00772,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.02501,aug_v2a.00999,aug_v2a.14677,aug_v2a.20029"
+CC	GO:0045259	proton-transporting ATP synthase complex	7/1515	0.000413568	"aug_v2a.18234,aug_v2a.00371,aug_v2a.19829,aug_v2a.24463,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+CC	GO:0030991	intraciliary transport particle A	8/1515	0.000591342	"aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.09475,aug_v2a.05972"
+CC	GO:0000314	organellar small ribosomal subunit	7/1515	0.000805121	"aug_v2a.15047,aug_v2a.11900,aug_v2a.01628,aug_v2a.03905,aug_v2a.11405,aug_v2a.20577,aug_v2a.12149"
+CC	GO:0005763	mitochondrial small ribosomal subunit	7/1515	0.000805121	"aug_v2a.15047,aug_v2a.11900,aug_v2a.01628,aug_v2a.03905,aug_v2a.11405,aug_v2a.20577,aug_v2a.12149"
+CC	GO:0019774	"proteasome core complex, beta-subunit complex"	7/1515	0.000805121	"aug_v2a.19870,aug_v2a.22817,aug_v2a.20908,aug_v2a.07756,aug_v2a.08236,aug_v2a.19581,aug_v2a.13198"
+CC	GO:0015935	small ribosomal subunit	12/1515	0.001050468	"aug_v2a.02923,aug_v2a.15047,aug_v2a.11900,aug_v2a.14235,aug_v2a.05432,aug_v2a.01628,aug_v2a.03905,aug_v2a.11405,aug_v2a.20577,aug_v2a.23295,aug_v2a.12149,aug_v2a.09618"
+CC	GO:0005689	U12-type spliceosomal complex	9/1515	0.001461808	"aug_v2a.08670,aug_v2a.06682,aug_v2a.21819,aug_v2a.11444,aug_v2a.11687,aug_v2a.10933,aug_v2a.12811,aug_v2a.17597,aug_v2a.24148"
+CC	GO:0005759	mitochondrial matrix	46/1515	0.001883305	"aug_v2a.10708,aug_v2a.02795,aug_v2a.03838,aug_v2a.09074,aug_v2a.17297,aug_v2a.00547,aug_v2a.13239,aug_v2a.17004,aug_v2a.05783,aug_v2a.12375,aug_v2a.04819,aug_v2a.08370,aug_v2a.07613,aug_v2a.15047,aug_v2a.21272,aug_v2a.05513,aug_v2a.10283,aug_v2a.18158,aug_v2a.06518,aug_v2a.06304,aug_v2a.11900,aug_v2a.16163,aug_v2a.08232,aug_v2a.12058,aug_v2a.21917,aug_v2a.02425,aug_v2a.13624,aug_v2a.01628,aug_v2a.10903,aug_v2a.13262,aug_v2a.05886,aug_v2a.06974,aug_v2a.03905,aug_v2a.11405,aug_v2a.08691,aug_v2a.22071,aug_v2a.20324,aug_v2a.15754,aug_v2a.20577,aug_v2a.12149,aug_v2a.22829,aug_v2a.02111,aug_v2a.08496,aug_v2a.23097,aug_v2a.10168,aug_v2a.08507"
+CC	GO:0005643	nuclear pore	21/1515	0.001900697	"aug_v2a.21763,aug_v2a.16207,aug_v2a.19592,aug_v2a.17413,aug_v2a.19138,aug_v2a.01098,aug_v2a.19268,aug_v2a.10886,aug_v2a.11869,aug_v2a.03809,aug_v2a.03013,aug_v2a.24279,aug_v2a.08897,aug_v2a.09780,aug_v2a.03505,aug_v2a.12891,aug_v2a.21207,aug_v2a.09176,aug_v2a.08841,aug_v2a.09704,aug_v2a.00926"
+CC	GO:0030867	rough endoplasmic reticulum membrane	9/1515	0.002088133	"aug_v2a.18018,aug_v2a.17807,aug_v2a.12529,aug_v2a.13656,aug_v2a.04477,aug_v2a.20741,aug_v2a.24535,aug_v2a.15119,aug_v2a.22534"
+CC	GO:0036064	ciliary basal body	24/1515	0.002395695	"aug_v2a.02714,aug_v2a.03931,aug_v2a.23343,aug_v2a.14383,aug_v2a.11643,aug_v2a.04764,aug_v2a.24037,aug_v2a.02122,aug_v2a.23559,aug_v2a.09356,aug_v2a.12348,aug_v2a.13424,aug_v2a.15388,aug_v2a.06095,aug_v2a.06096,aug_v2a.18038,aug_v2a.05972,aug_v2a.06812,aug_v2a.18113,aug_v2a.07300,aug_v2a.16432,aug_v2a.08634,aug_v2a.10329,aug_v2a.02422"
+CC	GO:0098573	intrinsic component of mitochondrial membrane	13/1515	0.005761476	"aug_v2a.11227,aug_v2a.13700,aug_v2a.01024,aug_v2a.18957,aug_v2a.21456,aug_v2a.03418,aug_v2a.24378,aug_v2a.06769,aug_v2a.02850,aug_v2a.17043,aug_v2a.00875,aug_v2a.05795,aug_v2a.21303"
+CC	GO:0032592	integral component of mitochondrial membrane	12/1515	0.008303604	"aug_v2a.13700,aug_v2a.01024,aug_v2a.18957,aug_v2a.21456,aug_v2a.03418,aug_v2a.24378,aug_v2a.06769,aug_v2a.02850,aug_v2a.17043,aug_v2a.00875,aug_v2a.05795,aug_v2a.21303"
+CC	GO:0005685	U1 snRNP	20/1515	0.008866636	"aug_v2a.00119,aug_v2a.08305,aug_v2a.18224,aug_v2a.02226,aug_v2a.22104,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.08618,aug_v2a.18050,aug_v2a.06862,aug_v2a.17005,aug_v2a.03078"
+CC	GO:0005686	U2 snRNP	6/1515	0.017969141	"aug_v2a.06682,aug_v2a.21819,aug_v2a.01578,aug_v2a.11687,aug_v2a.12811,aug_v2a.17597"
+CC	GO:0033176	proton-transporting V-type ATPase complex	6/1515	0.017969141	"aug_v2a.01673,aug_v2a.16618,aug_v2a.03608,aug_v2a.02862,aug_v2a.09111,aug_v2a.00969"
+CC	GO:0005828	kinetochore microtubule	5/1515	0.019415662	"aug_v2a.21790,aug_v2a.10463,aug_v2a.00986,aug_v2a.07581,aug_v2a.22278"
+CC	GO:0031902	late endosome membrane	19/1515	0.020751731	"aug_v2a.12932,aug_v2a.20600,aug_v2a.15235,aug_v2a.19271,aug_v2a.18979,aug_v2a.01380,aug_v2a.15889,aug_v2a.16968,aug_v2a.02171,aug_v2a.05326,aug_v2a.08341,aug_v2a.13003,aug_v2a.14563,aug_v2a.10443,aug_v2a.00030,aug_v2a.10262,aug_v2a.00059,aug_v2a.15904,aug_v2a.04109"
+CC	GO:0005791	rough endoplasmic reticulum	12/1515	0.026062058	"aug_v2a.18018,aug_v2a.10681,aug_v2a.21468,aug_v2a.17807,aug_v2a.12529,aug_v2a.19168,aug_v2a.13656,aug_v2a.04477,aug_v2a.20741,aug_v2a.24535,aug_v2a.15119,aug_v2a.22534"
+CC	GO:0031968	organelle outer membrane	25/1515	0.035596248	"aug_v2a.11227,aug_v2a.10708,aug_v2a.02795,aug_v2a.16555,aug_v2a.13700,aug_v2a.00547,aug_v2a.18754,aug_v2a.18957,aug_v2a.13789,aug_v2a.12529,aug_v2a.01553,aug_v2a.19525,aug_v2a.00071,aug_v2a.09437,aug_v2a.21456,aug_v2a.03085,aug_v2a.01811,aug_v2a.01906,aug_v2a.02850,aug_v2a.17043,aug_v2a.13323,aug_v2a.05795,aug_v2a.19715,aug_v2a.13524,aug_v2a.00181"
+CC	GO:0031306	intrinsic component of mitochondrial outer membrane	7/1515	0.035596248	"aug_v2a.11227,aug_v2a.13700,aug_v2a.18957,aug_v2a.21456,aug_v2a.02850,aug_v2a.17043,aug_v2a.05795"
+CC	GO:0005671	Ada2/Gcn5/Ada3 transcription activator complex	6/1515	0.035596248	"aug_v2a.15070,aug_v2a.08626,aug_v2a.04893,aug_v2a.13764,aug_v2a.23302,aug_v2a.17744"
+CC	GO:0019867	outer membrane	25/1515	0.037240719	"aug_v2a.11227,aug_v2a.10708,aug_v2a.02795,aug_v2a.16555,aug_v2a.13700,aug_v2a.00547,aug_v2a.18754,aug_v2a.18957,aug_v2a.13789,aug_v2a.12529,aug_v2a.01553,aug_v2a.19525,aug_v2a.00071,aug_v2a.09437,aug_v2a.21456,aug_v2a.03085,aug_v2a.01811,aug_v2a.01906,aug_v2a.02850,aug_v2a.17043,aug_v2a.13323,aug_v2a.05795,aug_v2a.19715,aug_v2a.13524,aug_v2a.00181"
+CC	GO:0005681	spliceosomal complex	33/1515	0.037240719	"aug_v2a.08670,aug_v2a.16331,aug_v2a.21396,aug_v2a.19268,aug_v2a.20762,aug_v2a.22354,aug_v2a.03013,aug_v2a.06682,aug_v2a.21924,aug_v2a.08132,aug_v2a.16788,aug_v2a.21819,aug_v2a.11444,aug_v2a.12580,aug_v2a.07656,aug_v2a.06757,aug_v2a.01993,aug_v2a.10243,aug_v2a.01578,aug_v2a.06862,aug_v2a.23087,aug_v2a.11687,aug_v2a.17005,aug_v2a.01265,aug_v2a.17550,aug_v2a.06521,aug_v2a.10933,aug_v2a.12811,aug_v2a.17597,aug_v2a.03078,aug_v2a.21839,aug_v2a.05594,aug_v2a.24148"
+CC	GO:0031300	intrinsic component of organelle membrane	31/1515	0.037977478	"aug_v2a.00700,aug_v2a.11227,aug_v2a.10681,aug_v2a.18980,aug_v2a.20522,aug_v2a.13700,aug_v2a.01024,aug_v2a.18957,aug_v2a.05352,aug_v2a.11819,aug_v2a.21456,aug_v2a.03418,aug_v2a.24378,aug_v2a.23919,aug_v2a.05824,aug_v2a.00899,aug_v2a.16060,aug_v2a.22914,aug_v2a.06769,aug_v2a.02850,aug_v2a.17043,aug_v2a.00875,aug_v2a.03413,aug_v2a.01129,aug_v2a.16389,aug_v2a.21346,aug_v2a.11649,aug_v2a.01075,aug_v2a.05795,aug_v2a.12256,aug_v2a.21303"
+CC	GO:0008250	oligosaccharyltransferase complex	5/1515	0.043241581	"aug_v2a.12409,aug_v2a.21468,aug_v2a.03307,aug_v2a.04878,aug_v2a.05028"
+CC	GO:0005774	vacuolar membrane	43/1515	0.045244304	"aug_v2a.23649,aug_v2a.00862,aug_v2a.09496,aug_v2a.11774,aug_v2a.06451,aug_v2a.04914,aug_v2a.20600,aug_v2a.15235,aug_v2a.12086,aug_v2a.19271,aug_v2a.18979,aug_v2a.01380,aug_v2a.10829,aug_v2a.01673,aug_v2a.09437,aug_v2a.02171,aug_v2a.11200,aug_v2a.07656,aug_v2a.15397,aug_v2a.09704,aug_v2a.05326,aug_v2a.08341,aug_v2a.13003,aug_v2a.08139,aug_v2a.00176,aug_v2a.09069,aug_v2a.03759,aug_v2a.07348,aug_v2a.14165,aug_v2a.16618,aug_v2a.10443,aug_v2a.03608,aug_v2a.20638,aug_v2a.07559,aug_v2a.02862,aug_v2a.09494,aug_v2a.00030,aug_v2a.19160,aug_v2a.10262,aug_v2a.09111,aug_v2a.19715,aug_v2a.15904,aug_v2a.00969"
+CC	GO:0031307	integral component of mitochondrial outer membrane	6/1515	0.045244304	"aug_v2a.13700,aug_v2a.18957,aug_v2a.21456,aug_v2a.02850,aug_v2a.17043,aug_v2a.05795"
+BP	GO:0015985	"energy coupled proton transport, down electrochemical gradient"	10/1370	0.000834436	"aug_v2a.00883,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0015986	ATP synthesis coupled proton transport	10/1370	0.000834436	"aug_v2a.00883,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0090150	establishment of protein localization to membrane	32/1370	0.000840144	"aug_v2a.02893,aug_v2a.16430,aug_v2a.21133,aug_v2a.08861,aug_v2a.23547,aug_v2a.21495,aug_v2a.22413,aug_v2a.05950,aug_v2a.19271,aug_v2a.06095,aug_v2a.02605,aug_v2a.17807,aug_v2a.06579,aug_v2a.17726,aug_v2a.09437,aug_v2a.21456,aug_v2a.13406,aug_v2a.22278,aug_v2a.16714,aug_v2a.08685,aug_v2a.22767,aug_v2a.21742,aug_v2a.04865,aug_v2a.21663,aug_v2a.21853,aug_v2a.06930,aug_v2a.05795,aug_v2a.09359,aug_v2a.06008,aug_v2a.10507,aug_v2a.24535,aug_v2a.07931"
+BP	GO:0055114	oxidation-reduction process	62/1370	0.004577486	"aug_v2a.00279,aug_v2a.22717,aug_v2a.24164,aug_v2a.16555,aug_v2a.08352,aug_v2a.04399,aug_v2a.09605,aug_v2a.15363,aug_v2a.08353,aug_v2a.13239,aug_v2a.18957,aug_v2a.13238,aug_v2a.23181,aug_v2a.21797,aug_v2a.02480,aug_v2a.19010,aug_v2a.04819,aug_v2a.17956,aug_v2a.18094,aug_v2a.15228,aug_v2a.17973,aug_v2a.20473,aug_v2a.10283,aug_v2a.07131,aug_v2a.08232,aug_v2a.13600,aug_v2a.13860,aug_v2a.22914,aug_v2a.12628,aug_v2a.07559,aug_v2a.09107,aug_v2a.06974,aug_v2a.09057,aug_v2a.14864,aug_v2a.17870,aug_v2a.20498,aug_v2a.08691,aug_v2a.22071,aug_v2a.18524,aug_v2a.12227,aug_v2a.08118,aug_v2a.19715,aug_v2a.02207,aug_v2a.16431,aug_v2a.07730,aug_v2a.15215,aug_v2a.13524,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.21286,aug_v2a.14322,aug_v2a.02501,aug_v2a.01247,aug_v2a.00999,aug_v2a.08496,aug_v2a.02097,aug_v2a.02766,aug_v2a.14677,aug_v2a.20029,aug_v2a.12360,aug_v2a.13432"
+BP	GO:1902600	proton transmembrane transport	11/1370	0.004577486	"aug_v2a.00883,aug_v2a.21663,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0009206	purine ribonucleoside triphosphate biosynthetic process	14/1370	0.004577486	"aug_v2a.22324,aug_v2a.00883,aug_v2a.24663,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.11455,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0072599	establishment of protein localization to endoplasmic reticulum	12/1370	0.004577486	"aug_v2a.16430,aug_v2a.21133,aug_v2a.22413,aug_v2a.05950,aug_v2a.17807,aug_v2a.21742,aug_v2a.04865,aug_v2a.09359,aug_v2a.02652,aug_v2a.24535,aug_v2a.07931,aug_v2a.16511"
+BP	GO:0009144	purine nucleoside triphosphate metabolic process	19/1370	0.004577486	"aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.14288,aug_v2a.24663,aug_v2a.08370,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.17108,aug_v2a.11455,aug_v2a.19829,aug_v2a.22072,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0045047	protein targeting to ER	10/1370	0.004577486	"aug_v2a.16430,aug_v2a.22413,aug_v2a.17807,aug_v2a.21742,aug_v2a.04865,aug_v2a.09359,aug_v2a.02652,aug_v2a.24535,aug_v2a.07931,aug_v2a.16511"
+BP	GO:0009145	purine nucleoside triphosphate biosynthetic process	14/1370	0.004577486	"aug_v2a.22324,aug_v2a.00883,aug_v2a.24663,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.11455,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0045333	cellular respiration	25/1370	0.004577486	"aug_v2a.21797,aug_v2a.04819,aug_v2a.15228,aug_v2a.20473,aug_v2a.07131,aug_v2a.08232,aug_v2a.13600,aug_v2a.12628,aug_v2a.07559,aug_v2a.06974,aug_v2a.09057,aug_v2a.14864,aug_v2a.22071,aug_v2a.08118,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.01247,aug_v2a.00999,aug_v2a.08496,aug_v2a.20029,aug_v2a.12360"
+BP	GO:0006412	translation	73/1370	0.004577486	"aug_v2a.04808,aug_v2a.06265,aug_v2a.08019,aug_v2a.16889,aug_v2a.24093,aug_v2a.10708,aug_v2a.03717,aug_v2a.01098,aug_v2a.03954,aug_v2a.09021,aug_v2a.21937,aug_v2a.01035,aug_v2a.06535,aug_v2a.15128,aug_v2a.11920,aug_v2a.02923,aug_v2a.05027,aug_v2a.04392,aug_v2a.10433,aug_v2a.15047,aug_v2a.01547,aug_v2a.18158,aug_v2a.06518,aug_v2a.19063,aug_v2a.06304,aug_v2a.18919,aug_v2a.11900,aug_v2a.14235,aug_v2a.04936,aug_v2a.00926,aug_v2a.12058,aug_v2a.16609,aug_v2a.05432,aug_v2a.05075,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.21742,aug_v2a.10903,aug_v2a.09751,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.17041,aug_v2a.15006,aug_v2a.15754,aug_v2a.20577,aug_v2a.23295,aug_v2a.12149,aug_v2a.24414,aug_v2a.11987,aug_v2a.09596,aug_v2a.22926,aug_v2a.03665,aug_v2a.08307,aug_v2a.05534,aug_v2a.02111,aug_v2a.18520,aug_v2a.09618,aug_v2a.00055,aug_v2a.23097,aug_v2a.04487,aug_v2a.19037,aug_v2a.02276,aug_v2a.21938,aug_v2a.14967,aug_v2a.24661,aug_v2a.07931,aug_v2a.13196,aug_v2a.18712,aug_v2a.11010,aug_v2a.04051,aug_v2a.23098"
+BP	GO:0015980	energy derivation by oxidation of organic compounds	32/1370	0.004577486	"aug_v2a.08352,aug_v2a.09605,aug_v2a.15363,aug_v2a.08353,aug_v2a.21797,aug_v2a.04819,aug_v2a.17956,aug_v2a.15228,aug_v2a.17973,aug_v2a.20473,aug_v2a.07131,aug_v2a.08232,aug_v2a.13600,aug_v2a.12628,aug_v2a.07559,aug_v2a.06974,aug_v2a.09057,aug_v2a.14864,aug_v2a.22071,aug_v2a.08118,aug_v2a.07730,aug_v2a.15215,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.01247,aug_v2a.00999,aug_v2a.08496,aug_v2a.20029,aug_v2a.12360,aug_v2a.13432"
+BP	GO:0009205	purine ribonucleoside triphosphate metabolic process	17/1370	0.005001019	"aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.24663,aug_v2a.08370,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.17108,aug_v2a.11455,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0034404	nucleobase-containing small molecule biosynthetic process	20/1370	0.005001019	"aug_v2a.06044,aug_v2a.22324,aug_v2a.24022,aug_v2a.10724,aug_v2a.00547,aug_v2a.14288,aug_v2a.24663,aug_v2a.21561,aug_v2a.24543,aug_v2a.01553,aug_v2a.14841,aug_v2a.11339,aug_v2a.13860,aug_v2a.09549,aug_v2a.17729,aug_v2a.11455,aug_v2a.04741,aug_v2a.16427,aug_v2a.22072,aug_v2a.17894"
+BP	GO:0042073	intraciliary transport	17/1370	0.005253072	"aug_v2a.02714,aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.17047,aug_v2a.24037,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.09356,aug_v2a.05785,aug_v2a.09475,aug_v2a.12348,aug_v2a.05972,aug_v2a.06812,aug_v2a.16432,aug_v2a.10329"
+BP	GO:0098840	protein transport along microtubule	17/1370	0.005253072	"aug_v2a.02714,aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.17047,aug_v2a.24037,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.09356,aug_v2a.05785,aug_v2a.09475,aug_v2a.12348,aug_v2a.05972,aug_v2a.06812,aug_v2a.16432,aug_v2a.10329"
+BP	GO:0099118	microtubule-based protein transport	17/1370	0.005253072	"aug_v2a.02714,aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.17047,aug_v2a.24037,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.09356,aug_v2a.05785,aug_v2a.09475,aug_v2a.12348,aug_v2a.05972,aug_v2a.06812,aug_v2a.16432,aug_v2a.10329"
+BP	GO:0022613	ribonucleoprotein complex biogenesis	74/1370	0.006279007	"aug_v2a.21747,aug_v2a.01682,aug_v2a.00119,aug_v2a.05923,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.20835,aug_v2a.22104,aug_v2a.04777,aug_v2a.20688,aug_v2a.24303,aug_v2a.19362,aug_v2a.06462,aug_v2a.04707,aug_v2a.01377,aug_v2a.05727,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.20762,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.06414,aug_v2a.03954,aug_v2a.08618,aug_v2a.12414,aug_v2a.16227,aug_v2a.18050,aug_v2a.21924,aug_v2a.08132,aug_v2a.12316,aug_v2a.02923,aug_v2a.21819,aug_v2a.09946,aug_v2a.08841,aug_v2a.09673,aug_v2a.06494,aug_v2a.05801,aug_v2a.19819,aug_v2a.23102,aug_v2a.12047,aug_v2a.04428,aug_v2a.01578,aug_v2a.10650,aug_v2a.04936,aug_v2a.22686,aug_v2a.06862,aug_v2a.05432,aug_v2a.01425,aug_v2a.21742,aug_v2a.16316,aug_v2a.09751,aug_v2a.05886,aug_v2a.15027,aug_v2a.16763,aug_v2a.15313,aug_v2a.22754,aug_v2a.17005,aug_v2a.15006,aug_v2a.14661,aug_v2a.23295,aug_v2a.17550,aug_v2a.06521,aug_v2a.05535,aug_v2a.03078,aug_v2a.09618,aug_v2a.21839,aug_v2a.07931,aug_v2a.18712,aug_v2a.01721"
+BP	GO:0006613	cotranslational protein targeting to membrane	8/1370	0.006398635	"aug_v2a.22413,aug_v2a.17807,aug_v2a.06579,aug_v2a.21742,aug_v2a.04865,aug_v2a.09359,aug_v2a.24535,aug_v2a.07931"
+BP	GO:0032543	mitochondrial translation	13/1370	0.008321424	"aug_v2a.10708,aug_v2a.04392,aug_v2a.15047,aug_v2a.11900,aug_v2a.21917,aug_v2a.01628,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.15754,aug_v2a.20577,aug_v2a.12149,aug_v2a.02111"
+BP	GO:0072657	protein localization to membrane	51/1370	0.014371668	"aug_v2a.02893,aug_v2a.16430,aug_v2a.21133,aug_v2a.12747,aug_v2a.10285,aug_v2a.23786,aug_v2a.05589,aug_v2a.16413,aug_v2a.08861,aug_v2a.12959,aug_v2a.23547,aug_v2a.20141,aug_v2a.14821,aug_v2a.02964,aug_v2a.21495,aug_v2a.18887,aug_v2a.22413,aug_v2a.05950,aug_v2a.19271,aug_v2a.08288,aug_v2a.04798,aug_v2a.05967,aug_v2a.06095,aug_v2a.06096,aug_v2a.02605,aug_v2a.17807,aug_v2a.06579,aug_v2a.17726,aug_v2a.09437,aug_v2a.13036,aug_v2a.21456,aug_v2a.03085,aug_v2a.13406,aug_v2a.22278,aug_v2a.16714,aug_v2a.08685,aug_v2a.22767,aug_v2a.10329,aug_v2a.21742,aug_v2a.04865,aug_v2a.21663,aug_v2a.21853,aug_v2a.06930,aug_v2a.05795,aug_v2a.09359,aug_v2a.06008,aug_v2a.10507,aug_v2a.24535,aug_v2a.05284,aug_v2a.07931,aug_v2a.22364"
+BP	GO:0009201	ribonucleoside triphosphate biosynthetic process	14/1370	0.016098516	"aug_v2a.22324,aug_v2a.00883,aug_v2a.24663,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.11455,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:1901292	nucleoside phosphate catabolic process	14/1370	0.016098516	"aug_v2a.06044,aug_v2a.24022,aug_v2a.10724,aug_v2a.00547,aug_v2a.14288,aug_v2a.21561,aug_v2a.24543,aug_v2a.11339,aug_v2a.13860,aug_v2a.17729,aug_v2a.04741,aug_v2a.16427,aug_v2a.22072,aug_v2a.17894"
+BP	GO:0009166	nucleotide catabolic process	13/1370	0.016487407	"aug_v2a.06044,aug_v2a.24022,aug_v2a.10724,aug_v2a.00547,aug_v2a.14288,aug_v2a.21561,aug_v2a.24543,aug_v2a.13860,aug_v2a.17729,aug_v2a.04741,aug_v2a.16427,aug_v2a.22072,aug_v2a.17894"
+BP	GO:0070972	protein localization to endoplasmic reticulum	13/1370	0.016487407	"aug_v2a.16430,aug_v2a.21133,aug_v2a.22413,aug_v2a.05950,aug_v2a.11609,aug_v2a.17807,aug_v2a.21742,aug_v2a.04865,aug_v2a.09359,aug_v2a.02652,aug_v2a.24535,aug_v2a.07931,aug_v2a.16511"
+BP	GO:0006612	protein targeting to membrane	16/1370	0.017174866	"aug_v2a.16430,aug_v2a.08861,aug_v2a.21495,aug_v2a.22413,aug_v2a.02605,aug_v2a.17807,aug_v2a.06579,aug_v2a.13406,aug_v2a.21742,aug_v2a.04865,aug_v2a.21663,aug_v2a.21853,aug_v2a.05795,aug_v2a.09359,aug_v2a.24535,aug_v2a.07931"
+BP	GO:0009199	ribonucleoside triphosphate metabolic process	17/1370	0.021029793	"aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.24663,aug_v2a.08370,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.17108,aug_v2a.11455,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0006614	SRP-dependent cotranslational protein targeting to membrane	7/1370	0.022530743	"aug_v2a.22413,aug_v2a.17807,aug_v2a.21742,aug_v2a.04865,aug_v2a.09359,aug_v2a.24535,aug_v2a.07931"
+BP	GO:0051204	protein insertion into mitochondrial membrane	7/1370	0.022530743	"aug_v2a.17726,aug_v2a.09437,aug_v2a.21456,aug_v2a.16714,aug_v2a.08685,aug_v2a.22767,aug_v2a.06008"
+BP	GO:0090151	establishment of protein localization to mitochondrial membrane	7/1370	0.022530743	"aug_v2a.17726,aug_v2a.09437,aug_v2a.21456,aug_v2a.16714,aug_v2a.08685,aug_v2a.22767,aug_v2a.06008"
+BP	GO:0009060	aerobic respiration	17/1370	0.022530743	"aug_v2a.21797,aug_v2a.04819,aug_v2a.20473,aug_v2a.07131,aug_v2a.08232,aug_v2a.13600,aug_v2a.12628,aug_v2a.07559,aug_v2a.14864,aug_v2a.22071,aug_v2a.07730,aug_v2a.20028,aug_v2a.17730,aug_v2a.14322,aug_v2a.01247,aug_v2a.20029,aug_v2a.12360"
+BP	GO:0009141	nucleoside triphosphate metabolic process	20/1370	0.027700701	"aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.14288,aug_v2a.24663,aug_v2a.08370,aug_v2a.09549,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.17729,aug_v2a.17108,aug_v2a.11455,aug_v2a.19829,aug_v2a.22072,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0042775	mitochondrial ATP synthesis coupled electron transport	9/1370	0.035853608	"aug_v2a.15228,aug_v2a.06974,aug_v2a.08118,aug_v2a.07730,aug_v2a.20028,aug_v2a.06506,aug_v2a.17730,aug_v2a.14322,aug_v2a.00999"
+BP	GO:0072594	establishment of protein localization to organelle	49/1370	0.03903358	"aug_v2a.11227,aug_v2a.12932,aug_v2a.16430,aug_v2a.21133,aug_v2a.17413,aug_v2a.02795,aug_v2a.19138,aug_v2a.02810,aug_v2a.10886,aug_v2a.22413,aug_v2a.24279,aug_v2a.05950,aug_v2a.00547,aug_v2a.10683,aug_v2a.03505,aug_v2a.12891,aug_v2a.21207,aug_v2a.17807,aug_v2a.04893,aug_v2a.09176,aug_v2a.17726,aug_v2a.08841,aug_v2a.09437,aug_v2a.21456,aug_v2a.13003,aug_v2a.22278,aug_v2a.16714,aug_v2a.07289,aug_v2a.05982,aug_v2a.01528,aug_v2a.08881,aug_v2a.10443,aug_v2a.08685,aug_v2a.22767,aug_v2a.02850,aug_v2a.21742,aug_v2a.04865,aug_v2a.21663,aug_v2a.07509,aug_v2a.16790,aug_v2a.13323,aug_v2a.05795,aug_v2a.22643,aug_v2a.09359,aug_v2a.06008,aug_v2a.02652,aug_v2a.24535,aug_v2a.07931,aug_v2a.16511"
+BP	GO:0006605	protein targeting	40/1370	0.041754437	"aug_v2a.11227,aug_v2a.18327,aug_v2a.16430,aug_v2a.02795,aug_v2a.02810,aug_v2a.08861,aug_v2a.21495,aug_v2a.22413,aug_v2a.00547,aug_v2a.02605,aug_v2a.17807,aug_v2a.04893,aug_v2a.06579,aug_v2a.17726,aug_v2a.21456,aug_v2a.13406,aug_v2a.13003,aug_v2a.16714,aug_v2a.05982,aug_v2a.01528,aug_v2a.08881,aug_v2a.10443,aug_v2a.08685,aug_v2a.22767,aug_v2a.02850,aug_v2a.21742,aug_v2a.04865,aug_v2a.21663,aug_v2a.21853,aug_v2a.07509,aug_v2a.13323,aug_v2a.05795,aug_v2a.22643,aug_v2a.09359,aug_v2a.06008,aug_v2a.02652,aug_v2a.24535,aug_v2a.07931,aug_v2a.18712,aug_v2a.16511"
+BP	GO:0035721	intraciliary retrograde transport	8/1370	0.041754437	"aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.03842,aug_v2a.12959,aug_v2a.23559,aug_v2a.09475,aug_v2a.05972"
+BP	GO:0051205	protein insertion into membrane	8/1370	0.041754437	"aug_v2a.17726,aug_v2a.09437,aug_v2a.21456,aug_v2a.16714,aug_v2a.08685,aug_v2a.22767,aug_v2a.06930,aug_v2a.06008"
+BP	GO:0009117	nucleotide metabolic process	56/1370	0.041754437	"aug_v2a.21763,aug_v2a.06044,aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.15812,aug_v2a.24022,aug_v2a.10170,aug_v2a.10724,aug_v2a.24279,aug_v2a.09605,aug_v2a.11885,aug_v2a.21390,aug_v2a.00547,aug_v2a.14288,aug_v2a.19626,aug_v2a.24663,aug_v2a.21561,aug_v2a.11920,aug_v2a.24602,aug_v2a.24543,aug_v2a.10748,aug_v2a.05352,aug_v2a.06198,aug_v2a.21797,aug_v2a.18918,aug_v2a.08370,aug_v2a.09722,aug_v2a.09243,aug_v2a.11339,aug_v2a.16384,aug_v2a.18114,aug_v2a.13860,aug_v2a.09549,aug_v2a.13262,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.01129,aug_v2a.17729,aug_v2a.17108,aug_v2a.11455,aug_v2a.01020,aug_v2a.04741,aug_v2a.19829,aug_v2a.16431,aug_v2a.16427,aug_v2a.22072,aug_v2a.24463,aug_v2a.19135,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.21303,aug_v2a.17894,aug_v2a.15570"
+BP	GO:0006754	ATP biosynthetic process	10/1370	0.042788073	"aug_v2a.00883,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.19829,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.15570"
+BP	GO:0016032	viral process	39/1370	0.044508386	"aug_v2a.21763,aug_v2a.24164,aug_v2a.17413,aug_v2a.18448,aug_v2a.08422,aug_v2a.07473,aug_v2a.22595,aug_v2a.19142,aug_v2a.06682,aug_v2a.07929,aug_v2a.24279,aug_v2a.19271,aug_v2a.10683,aug_v2a.08423,aug_v2a.11609,aug_v2a.22894,aug_v2a.03505,aug_v2a.21207,aug_v2a.02923,aug_v2a.10220,aug_v2a.10807,aug_v2a.01380,aug_v2a.08641,aug_v2a.04893,aug_v2a.16968,aug_v2a.08699,aug_v2a.19870,aug_v2a.19063,aug_v2a.14165,aug_v2a.10443,aug_v2a.21742,aug_v2a.20300,aug_v2a.15158,aug_v2a.19160,aug_v2a.01265,aug_v2a.08236,aug_v2a.04109,aug_v2a.05284,aug_v2a.07931"
+BP	GO:0006753	nucleoside phosphate metabolic process	56/1370	0.044631112	"aug_v2a.21763,aug_v2a.06044,aug_v2a.02795,aug_v2a.22324,aug_v2a.00883,aug_v2a.15812,aug_v2a.24022,aug_v2a.10170,aug_v2a.10724,aug_v2a.24279,aug_v2a.09605,aug_v2a.11885,aug_v2a.21390,aug_v2a.00547,aug_v2a.14288,aug_v2a.19626,aug_v2a.24663,aug_v2a.21561,aug_v2a.11920,aug_v2a.24602,aug_v2a.24543,aug_v2a.10748,aug_v2a.05352,aug_v2a.06198,aug_v2a.21797,aug_v2a.18918,aug_v2a.08370,aug_v2a.09722,aug_v2a.09243,aug_v2a.11339,aug_v2a.16384,aug_v2a.18114,aug_v2a.13860,aug_v2a.09549,aug_v2a.13262,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.01129,aug_v2a.17729,aug_v2a.17108,aug_v2a.11455,aug_v2a.01020,aug_v2a.04741,aug_v2a.19829,aug_v2a.16431,aug_v2a.16427,aug_v2a.22072,aug_v2a.24463,aug_v2a.19135,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.21303,aug_v2a.17894,aug_v2a.15570"
+BP	GO:0022618	ribonucleoprotein complex assembly	40/1370	0.04675479	"aug_v2a.00119,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.20835,aug_v2a.22104,aug_v2a.20688,aug_v2a.24303,aug_v2a.06462,aug_v2a.04707,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.20762,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.08618,aug_v2a.18050,aug_v2a.21924,aug_v2a.08132,aug_v2a.02923,aug_v2a.21819,aug_v2a.06494,aug_v2a.05801,aug_v2a.01578,aug_v2a.10650,aug_v2a.04936,aug_v2a.06862,aug_v2a.17005,aug_v2a.15006,aug_v2a.23295,aug_v2a.17550,aug_v2a.06521,aug_v2a.05535,aug_v2a.03078,aug_v2a.18712"
+BP	GO:0051346	negative regulation of hydrolase activity	40/1370	0.04675479	"aug_v2a.17942,aug_v2a.00347,aug_v2a.21820,aug_v2a.02795,aug_v2a.18425,aug_v2a.18224,aug_v2a.23375,aug_v2a.02226,aug_v2a.15662,aug_v2a.24303,aug_v2a.06462,aug_v2a.15647,aug_v2a.01377,aug_v2a.20384,aug_v2a.05315,aug_v2a.07775,aug_v2a.00484,aug_v2a.24070,aug_v2a.07945,aug_v2a.03452,aug_v2a.23855,aug_v2a.20600,aug_v2a.03954,aug_v2a.08618,aug_v2a.07418,aug_v2a.07419,aug_v2a.11011,aug_v2a.19429,aug_v2a.06844,aug_v2a.13477,aug_v2a.01158,aug_v2a.03646,aug_v2a.21663,aug_v2a.16790,aug_v2a.21193,aug_v2a.08606,aug_v2a.04109,aug_v2a.20171,aug_v2a.05284,aug_v2a.08230"
+BP	GO:0071826	ribonucleoprotein complex subunit organization	40/1370	0.049871184	"aug_v2a.00119,aug_v2a.08305,aug_v2a.21396,aug_v2a.18224,aug_v2a.02226,aug_v2a.20835,aug_v2a.22104,aug_v2a.20688,aug_v2a.24303,aug_v2a.06462,aug_v2a.04707,aug_v2a.01377,aug_v2a.20384,aug_v2a.00065,aug_v2a.20842,aug_v2a.07775,aug_v2a.20762,aug_v2a.23479,aug_v2a.07945,aug_v2a.23855,aug_v2a.08618,aug_v2a.18050,aug_v2a.21924,aug_v2a.08132,aug_v2a.02923,aug_v2a.21819,aug_v2a.06494,aug_v2a.05801,aug_v2a.01578,aug_v2a.10650,aug_v2a.04936,aug_v2a.06862,aug_v2a.17005,aug_v2a.15006,aug_v2a.23295,aug_v2a.17550,aug_v2a.06521,aug_v2a.05535,aug_v2a.03078,aug_v2a.18712"
+BP	GO:0006879	cellular iron ion homeostasis	10/1370	0.049951141	"aug_v2a.01673,aug_v2a.16618,aug_v2a.02862,aug_v2a.22071,aug_v2a.02038,aug_v2a.18795,aug_v2a.19687,aug_v2a.19688,aug_v2a.12360,aug_v2a.18796"
+BP	GO:0031503	protein-containing complex localization	32/1370	0.049951141	"aug_v2a.21763,aug_v2a.21747,aug_v2a.02714,aug_v2a.23343,aug_v2a.23461,aug_v2a.12747,aug_v2a.17047,aug_v2a.19138,aug_v2a.24037,aug_v2a.03842,aug_v2a.01098,aug_v2a.12959,aug_v2a.10886,aug_v2a.23559,aug_v2a.03954,aug_v2a.24279,aug_v2a.09356,aug_v2a.05785,aug_v2a.09475,aug_v2a.12348,aug_v2a.09780,aug_v2a.12891,aug_v2a.05972,aug_v2a.06812,aug_v2a.08841,aug_v2a.22278,aug_v2a.10243,aug_v2a.04936,aug_v2a.16432,aug_v2a.10329,aug_v2a.16763,aug_v2a.01799"
+MF	GO:0003735	structural constituent of ribosome	43/1398	2.04E-13	"aug_v2a.21937,aug_v2a.15047,aug_v2a.18158,aug_v2a.06304,aug_v2a.11900,aug_v2a.14235,aug_v2a.12058,aug_v2a.05432,aug_v2a.05075,aug_v2a.21917,aug_v2a.02425,aug_v2a.01628,aug_v2a.21742,aug_v2a.10903,aug_v2a.05886,aug_v2a.03905,aug_v2a.11405,aug_v2a.17041,aug_v2a.15006,aug_v2a.15754,aug_v2a.20577,aug_v2a.12149,aug_v2a.24414,aug_v2a.11987,aug_v2a.22926,aug_v2a.05534,aug_v2a.02111,aug_v2a.18520,aug_v2a.09618,aug_v2a.00055,aug_v2a.23097,aug_v2a.04487,aug_v2a.19037,aug_v2a.02276,aug_v2a.21938,aug_v2a.14967,aug_v2a.24661,aug_v2a.07931,aug_v2a.13196,aug_v2a.18712,aug_v2a.11010,aug_v2a.04051,aug_v2a.23098"
+MF	GO:0004298	threonine-type endopeptidase activity	11/1398	0.000146476	"aug_v2a.19870,aug_v2a.21909,aug_v2a.22817,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.08236,aug_v2a.19581,aug_v2a.13198"
+MF	GO:0015078	proton transmembrane transporter activity	19/1398	0.001725735	"aug_v2a.01673,aug_v2a.14563,aug_v2a.09096,aug_v2a.19306,aug_v2a.03608,aug_v2a.08665,aug_v2a.18234,aug_v2a.00371,aug_v2a.05853,aug_v2a.07420,aug_v2a.09111,aug_v2a.19829,aug_v2a.00969,aug_v2a.24463,aug_v2a.14322,aug_v2a.08506,aug_v2a.06376,aug_v2a.12352,aug_v2a.15570"
+MF	GO:0070003	threonine-type peptidase activity	13/1398	0.001725735	"aug_v2a.01062,aug_v2a.19870,aug_v2a.21909,aug_v2a.22817,aug_v2a.15492,aug_v2a.20908,aug_v2a.14417,aug_v2a.05104,aug_v2a.09732,aug_v2a.07756,aug_v2a.08236,aug_v2a.19581,aug_v2a.13198"
+MF	GO:0016722	"oxidoreductase activity, oxidizing metal ions"	7/1398	0.005253219	"aug_v2a.00279,aug_v2a.20498,aug_v2a.22071,aug_v2a.18795,aug_v2a.19687,aug_v2a.19688,aug_v2a.18796"
+MF	GO:0008199	ferric iron binding	6/1398	0.01358005	"aug_v2a.06366,aug_v2a.22071,aug_v2a.18795,aug_v2a.19687,aug_v2a.19688,aug_v2a.18796"
+MF	GO:0009055	electron transfer activity	15/1398	0.025477137	"aug_v2a.24164,aug_v2a.03187,aug_v2a.05473,aug_v2a.13600,aug_v2a.21619,aug_v2a.05853,aug_v2a.07420,aug_v2a.16134,aug_v2a.03328,aug_v2a.14322,aug_v2a.00999,aug_v2a.18608,aug_v2a.05997,aug_v2a.20029,aug_v2a.12352"
+MF	GO:0016616	"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"	27/1398	0.037544298	"aug_v2a.22391,aug_v2a.15609,aug_v2a.08282,aug_v2a.20473,aug_v2a.10283,aug_v2a.08961,aug_v2a.19310,aug_v2a.07131,aug_v2a.08232,aug_v2a.05078,aug_v2a.06192,aug_v2a.09086,aug_v2a.02926,aug_v2a.09361,aug_v2a.12628,aug_v2a.11658,aug_v2a.08384,aug_v2a.07559,aug_v2a.09107,aug_v2a.22924,aug_v2a.04506,aug_v2a.18524,aug_v2a.14588,aug_v2a.12227,aug_v2a.17734,aug_v2a.02207,aug_v2a.01789"
+MF	GO:0004869	cysteine-type endopeptidase inhibitor activity	26/1398	0.044091201	"aug_v2a.17942,aug_v2a.00347,aug_v2a.21820,aug_v2a.18425,aug_v2a.18224,aug_v2a.23375,aug_v2a.02226,aug_v2a.15662,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.05315,aug_v2a.07775,aug_v2a.00484,aug_v2a.24070,aug_v2a.07945,aug_v2a.03452,aug_v2a.23855,aug_v2a.08618,aug_v2a.11011,aug_v2a.19429,aug_v2a.18254,aug_v2a.08691,aug_v2a.18858,aug_v2a.22486"
+MF	GO:0004866	endopeptidase inhibitor activity	34/1398	0.046746121	"aug_v2a.17942,aug_v2a.00347,aug_v2a.21820,aug_v2a.18425,aug_v2a.18224,aug_v2a.23375,aug_v2a.02226,aug_v2a.15662,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.05315,aug_v2a.07775,aug_v2a.00484,aug_v2a.24070,aug_v2a.07945,aug_v2a.03452,aug_v2a.23855,aug_v2a.08618,aug_v2a.12125,aug_v2a.11011,aug_v2a.19429,aug_v2a.14808,aug_v2a.13922,aug_v2a.02129,aug_v2a.04348,aug_v2a.18254,aug_v2a.08691,aug_v2a.21193,aug_v2a.24618,aug_v2a.18858,aug_v2a.03982,aug_v2a.22486"
+MF	GO:0003899	DNA-directed 5'-3' RNA polymerase activity	13/1398	0.0478932	"aug_v2a.20379,aug_v2a.02810,aug_v2a.22299,aug_v2a.05427,aug_v2a.24055,aug_v2a.04936,aug_v2a.01425,aug_v2a.20300,aug_v2a.13512,aug_v2a.14579,aug_v2a.10869,aug_v2a.06856,aug_v2a.05789"
+MF	GO:0043027	cysteine-type endopeptidase inhibitor activity involved in apoptotic process	23/1398	0.0478932	"aug_v2a.17942,aug_v2a.00347,aug_v2a.21820,aug_v2a.18425,aug_v2a.18224,aug_v2a.23375,aug_v2a.02226,aug_v2a.15662,aug_v2a.24303,aug_v2a.06462,aug_v2a.01377,aug_v2a.20384,aug_v2a.05315,aug_v2a.07775,aug_v2a.00484,aug_v2a.24070,aug_v2a.07945,aug_v2a.03452,aug_v2a.23855,aug_v2a.08618,aug_v2a.11011,aug_v2a.19429,aug_v2a.08691"
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

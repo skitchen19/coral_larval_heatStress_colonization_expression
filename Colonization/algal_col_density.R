@@ -5,33 +5,26 @@ library(rms)
 library(nlme)
 library(multcomp)
 
-col<-read.csv("col_success_algal_density_combined.csv", head=T)
+col<-read.csv("C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/Colonization/col_success_algal_density_combined.csv", head=T)
 attach(col)
 names(col)
 
 col$temp<-as.factor(col$temperature)
+#col$day<-as.numeric(col$Day)
 col$day<-as.factor(col$Day)
 col$tube<-as.factor(col$replicate_tube)
 col$int <- interaction(col$temperature, col$Day)
 
+mod1=glmer(infection~(1|tube)+day*temp, family=binomial, data=col)
 
-mod1=glmer(infection.1.~(1|tube)+day+temp, family=binomial, data=col)
-
-mod1=glm(infection.1.~day*temp, family=binomial, data=col)
 summary(mod1)
 r.squaredGLMM(mod1)
-drop1(mod1, test="Chisq")
-resid=residuals(mod1)
-TukeyHSD(mod1)
 
-boxplot(replicate_tube, residuals (mod1))
+exp(1.34)
 
-mod2=glmer(infection.1.~(1|tube)+day+temp, family=binomial, data=col)
+mod2=glmer(infection~(1|tube)+day+temp, family=binomial, data=col)
 summary(mod2)
 resid2=residuals(mod2)
-phoc2<- glht(mod2, linfct=mcp(day="Tukey"))
-
-phoc2
 
 anova(mod2, mod1, test="Chisq")
 
@@ -42,7 +35,7 @@ new<-ftable(tabCount, col.vars="infection.1.")
 prop.table(new,1)*100 #compares across the row
 
 #plot frequencies
-per<-read.csv("colonization_avg.csv", head=T)
+per<-read.csv("C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/Colonization/colonization_avg.csv", head=T)
 attach(per)
 names(per)
 
@@ -79,9 +72,13 @@ library(lme4)
 library(lattice)
 library(ggplot2)
 library(MASS)
+library(dplyr)
+
+col<-col %>% filter(!day == 5)    
 
 col$temp<-as.factor(col$temperature)
-col$day<-as.factor(col$Day)
+col$day<-as.numeric(col$Day)
+#col$day<-as.factor(col$Day)
 col$count<-as.numeric(col$Algal_count)
 
 ggplot(col,aes(x=col$day,y=col$count,colour=col$temp)) +
@@ -92,47 +89,26 @@ ggplot(col,aes(x=col$day,y=col$count,colour=col$temp)) +
 mod3<- glm(count~temp*day, family="quasipoisson", data=col)
 mod4<- glm(count~temp+day, family="quasipoisson", data=col)
 
-library(pscl)
-mod5<-hurdle(count~temp*day, dist="negbin", data=col)
-summary(mod6)
-mod6<-zeroinfl(count~temp*day, dist="negbin", data=col)
+summary(mod3)
+summary(mod4)
 
-mod7<-glm.nb(count~temp*day, data=col)
-summary(mod7)
-
-install.packages("R2admb")
-install.packages("glmmADMB", 
-    repos=c("http://glmmadmb.r-forge.r-project.org/repos",
-            getOption("repos")),
-    type="source")
-library(glmmADMB)
-mod7<-glmmadmb(count~temp*day+(1|tube),data=col, family="nbinom")
+anova(mod4,mod3, test="Chisq")
 
 r.squaredGLMM(mod3)
 
 sum(resid(mod3, type = "pearson")^2)/mod3$df.res
-
+sum(resid(mod4, type = "pearson")^2)/mod4$df.res
 
 aov1<- glmmPQL(count~temp+day,random=~1|tube, family="quasipoisson", data=col)
-79424.7/1787
-9805.4/1786
 summary(aov1)
-r.squaredGLMM(aov1)
 
-
-aov2<- glmer(Algal_count~(1|tube)+temp+day, data=col, family="quasipoisson")
+aov2<- glmmPQL(count~temp*day,random=~1|tube, family="quasipoisson", data=col)
 summary(aov2)
-
-
-aov3<- lmer(count~(1|replicate_tube)+temp)
-
-anova(mod3,mod4, test="Chisq")
-
 
 ##To break axis##
 library(plotrix)
 
-ag<-read.csv("algal_avg.csv", head=T)
+ag<-read.csv("C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/Colonization/algal_avg.csv", head=T)
 attach(ag)
 
 par(mar=c(5,8,5,2),bty="l",lwd=2)

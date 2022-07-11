@@ -6,7 +6,7 @@
 library(dplyr)
 library(tidyr)
 
-aGO<-read.table("adig_go.txt",
+aGO<-read.table("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/GO_clusterProfiler/adig_go.txt",
                 check.names=FALSE, header=F,
                 na.strings=c("", "NA"), stringsAsFactors=FALSE, sep="\t",quote="")
 head(aGO)
@@ -16,7 +16,7 @@ colnames(aGO)<-c("GID","GO_terms")
 sample_tibble <- aGO %>%
   dplyr::group_by(row_number()) %>%
   dplyr::rename(group="row_number()") %>%
-  mutate(GO = strsplit(GO_terms, ";")) %>%
+  mutate(GO = strsplit(GO_terms, "; ")) %>%
   unnest(GO) %>%
   mutate(EVIDENCE="blast")%>%
   dplyr::select(-group, -GO_terms)
@@ -28,7 +28,7 @@ head(aGO2)
 dim(aGO2)
 
 # Write out the formatted table to not repeat everytime
-write.table(aGO2,"Adig_v1_GO.txt", sep="\t", row.names = F, quote=FALSE)
+write.table(aGO2,"C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/GO_database/Adig_v1_GO.txt", sep="\t", row.names = F, quote=FALSE)
 
 #############################
 # make the database
@@ -36,32 +36,33 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
 BiocManager::install("AnnotationForge")
+
 BiocManager::install("clusterProfiler")
 BiocManager::install("AnnotationHub")
 
 library(AnnotationForge)
+library(AnnotationHub)
 
 #import the gene symbol table
-setwd("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/KEGG_OR")
-aSym<-read.table("Adig_v1_SYM.txt",
+aSym<-read.table("C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/GO_database/Adig_v1_SYM.txt",
              check.names=FALSE, header=T,
              na.strings=c("", "NA"), stringsAsFactors=FALSE, sep="\t",quote="")
 head(aSym)
 dim(aSym)
 
-aGO2<-read.table("Adig_v1_GO.txt",
+aGO2<-read.table("C:/Users/Sheila's Comp/Documents/GitHub/coral_larval_heatStress_colonization_expression/GO_database/Adig_v1_GO.txt",
                  check.names=FALSE, header=T,
                  na.strings=c("", "NA"), stringsAsFactors=FALSE, sep="\t",quote="")
 head(aGO2)
 dim(aGO2)
 
-setwd("E:/OSU/EAPSI/Data")
+setwd("E:/OSU/EAPSI/")
 
 ## Then call the function to make the database
 makeOrgPackage(gene_info=aSym, go=aGO2,
-               version="0.2",
-               maintainer="Sheila <so@someplace.org>",
-               author="Sheila <so@someplace.org>",
+               version="0.3",
+               maintainer="Sheila Kitchen <kitchens.osu@gmail.com>",
+               author="Sheila Kitchen <kitchens.osu@gmail.com>",
                outputDir = ".",
                tax_id="70779",
                genus="Acropora",
@@ -71,21 +72,24 @@ makeOrgPackage(gene_info=aSym, go=aGO2,
 
 
 ## then you can call install.packages based on the return value
-install.packages("./org.Adigitifera.eg.db", repos=NULL,type="source")
+install.packages("org.Adigitifera.eg.db", repos=NULL,type="source")
 ##################################
 
 library(clusterProfiler)
 library("pathview")
+library("enrichplot")
 
-setwd("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/GO_clusterProfiler")
+setwd("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/GO_clusterProfiler/2022_repeat")
 
-lis<-read.table("all_list.txt",
+lis<-read.table("all_list_DEGs.txt",
                  check.names=FALSE, header=T, fill=TRUE)
+lis<-read.table("all_list_WGCNAmodules.txt",
+                check.names=FALSE, header=T, fill=TRUE)
 #colnames(lis)<-"GID"
 dim(lis)
 
 # Cellular Component
-egoCC <- enrichGO(gene         = lis$M21,
+egoCC <- enrichGO(gene         = lis$M25,
                  OrgDb         = "org.Adigitifera.eg.db",
                  keyType       = 'GID',
                  ont           = "CC",
@@ -98,10 +102,10 @@ cc2 <- simplify(egoCC, cutoff=0.7, by="p.adjust", select_fun=min)
 cc2
 barplot(cc2, showCategory = 30)
 
-write.table(egoCC,"Met_CCterms.txt",sep="\t")
+write.table(egoCC,"M25_CCterms.txt",sep="\t")
 
 # Biological Process
-egoBP <- enrichGO(gene         = lis$M21,
+egoBP <- enrichGO(gene         = lis$M20,
                   OrgDb         = "org.Adigitifera.eg.db",
                   keyType       = 'GID',
                   ont           = "BP",
@@ -114,9 +118,8 @@ bp2
 barplot(bp2, showCategory = 30)
 write.table(egoBP,"M25_BPterms.txt",sep="\t")
 
-
 # Molecular Function
-egoMF <- enrichGO(gene         = lis$M21,
+egoMF <- enrichGO(gene         = lis$M25,
                   OrgDb         = "org.Adigitifera.eg.db",
                   keyType       = 'GID',
                   ont           = "MF",
@@ -128,10 +131,10 @@ mf2 <- simplify(egoMF, cutoff=0.7, by="p.adjust", select_fun=min)
 mf2
 barplot(mf2,showCategory = 30)
 
-write.table(egoMF,"M24_MFterms.txt",sep="\t")
+write.table(egoMF,"M25_MFterms.txt",sep="\t")
 
-
-cmf <- compareCluster(geneCluster = lis[,8:14],
+## compare together
+cmf <- compareCluster(geneCluster = lis,
                       OrgDb         = "org.Adigitifera.eg.db",
                      fun = "enrichGO",
                      keyType       = 'GID',
@@ -142,7 +145,7 @@ cmf
 cmf2 <- simplify(cmf, cutoff=0.7, by="p.adjust", select_fun=min)
 dotplot(cmf2,font.size = 12,showCategory=20,by="rowPercentage")###Only top 20 p-values displayed
 
-ccc <- compareCluster(geneCluster = lis[,8:14],
+ccc <- compareCluster(geneCluster = lis,
                       OrgDb         = "org.Adigitifera.eg.db",
                       fun = "enrichGO",
                       keyType       = 'GID',
@@ -153,7 +156,7 @@ ccc
 ccc2 <- simplify(ccc, cutoff=0.7, by="p.adjust", select_fun=min)
 dotplot(ccc2,font.size = 12,showCategory=30,by="rowPercentage")###Only top 20 p-values displayed
 
-cbp <- compareCluster(geneCluster = lis[,8:14],
+cbp <- compareCluster(geneCluster = lis,
                       OrgDb         = "org.Adigitifera.eg.db",
                       fun = "enrichGO",
                       keyType       = 'GID',
@@ -164,13 +167,14 @@ cbp
 cbp2 <- simplify(cbp, cutoff=0.7, by="p.adjust", select_fun=min)
 dotplot(cbp2,font.size = 10,showCategory=30,by="rowPercentage")###Only top 20 p-values displayed
 
+##################
 # calculate z-scores
 install.packages('GOplot')
 library("GOplot")
 
-deseq_data<-read.table("Met_genes.txt",
+deseq_data<-read.table("./2022_repeat/SC.1d_LFC_padj.txt",
                 check.names=FALSE, header=T, fill=TRUE)
-goenrich_data<-read.delim("Met_go.txt", sep="\t",
+goenrich_data<-read.delim("./2022_repeat/SC1_go.txt", sep="\t",
                     check.names=FALSE, header=T, fill=TRUE)
 
 circ <- circle_dat(goenrich_data, deseq_data)
@@ -185,35 +189,35 @@ sub <- circ[!duplicated(circ$term), ]
 sub2<-sub%>%
   left_join(meanLogFC, by=c("ID"))
 
-rang <- c(min(sub2$count)/20, max(sub2$count)/20)
+rang <- c(min(sub2$count)/10, max(sub2$count)/10)
 
 g <- ggplot(sub2, aes(zscore, adj_pval, fill = meanLogFC, size = count, shape=category))+
-  labs(x = 'z-score', y = '-log (adj p-value)')+ xlim(-8.5,7)+ ylim(0,12)+
+  labs(x = 'z-score', y = '-log (adj p-value)')+ xlim(-8.5,7)+ ylim(0,20)+
   geom_point(col = 'black', alpha = 0.6)+
   theme_classic()+scale_shape_manual(values=c(21,22, 23))+
-  scale_size(range = rang)+ scale_fill_gradient(low="red", high="blue",limits = c(-1.1,1.1))
+  scale_size(range = rang)+ scale_fill_gradient(low="red", high="blue",limits = c(-2.5,2.5))
 g
 
-write.table(circ,"met_zscore.txt",sep="\t")
+write.table(circ,"./2022_repeat/AH3_zscore.txt",sep="\t")
 
 ###################
-setwd("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/KEGG_OR")
+setwd("C:/Users/Sheila's Comp/Dropbox/RNASeq2014/NCC/Figures/Supplmental Figures/KEGG_OR/2022_repeat")
 
 # KEGG enrichment (need gene list with KO ids)
-k<-read.table("all_v3_exp.txt",header=TRUE, fill=TRUE)
+k<-read.table("all_v4.txt",header=TRUE, fill=TRUE)
 head(k)
 
-kCL1 <- enrichKEGG(gene         = k$CL.1d,
-                 organism     = "ko",
+kSC1 <- enrichKEGG(gene         = k$SC.1d,
+                organism     = "ko",
                  pvalueCutoff = 0.05)
-head(as.data.frame(kCL1))
-cl1<-as.data.frame(kCL1)
+head(as.data.frame(kSC1))
+SC1<-as.data.frame(kSC1)
 
-kCL3 <- enrichKEGG(gene         = k$CL.3d,
+kSC3 <- enrichKEGG(gene         = k$SC.3d,
                    organism     = "ko",
                    pvalueCutoff = 0.05)
-head(as.data.frame(kCL3))
-cl3<-as.data.frame(kCL3)
+head(as.data.frame(kSC3))
+SC3<-as.data.frame(kSC3)
 
 kAH1 <- enrichKEGG(gene         = k$AH.1d,
                    organism     = "ko",
@@ -227,17 +231,17 @@ kAH3 <- enrichKEGG(gene         = k$AH.3d,
 head(as.data.frame(kAH3))
 ah3<-as.data.frame(kAH3)
 
-kCH1 <- enrichKEGG(gene         = k$CH.1d,
+kSH1 <- enrichKEGG(gene         = k$SH.1d,
                    organism     = "ko",
                    pvalueCutoff = 0.05)
-head(as.data.frame(kCH1))
-ch1<-as.data.frame(kCH1)
+head(as.data.frame(kSH1))
+SH1 <-as.data.frame(kSH1)
 
-kCH3 <- enrichKEGG(gene         = k$CH.3d,
+kSH3 <- enrichKEGG(gene         = k$SH.3d,
                    organism     = "ko",
                    pvalueCutoff = 0.05)
-head(as.data.frame(kCH3))
-ch3<-as.data.frame(kCH3)
+head(as.data.frame(kSH3))
+SH3<-as.data.frame(kSH3)
 
 kMET <- enrichKEGG(gene         = k$Met,
                    organism     = "ko",
@@ -246,219 +250,36 @@ head(as.data.frame(kMET))
 met<-as.data.frame(kMET)
 
 #write output to file
-#write.table(cl1, "KEGGor_CL1d_720.tab", sep="\t")
-#write.table(cl3, "KEGGor_CL3d_720.tab", sep="\t")
+#write.table(SC1, "KEGGor_SC1d.tab", sep="\t")
+#write.table(SC3, "KEGGor_SC3d.tab", sep="\t")
 
-#write.table(ah1, "KEGGor_AH1d_720.tab", sep="\t")
-#write.table(ah3, "KEGGor_AH3d_720.tab", sep="\t")
+#write.table(ah1, "KEGGor_AH1d.tab", sep="\t")
+#write.table(ah3, "KEGGor_AH3d.tab", sep="\t")
 
-#write.table(ch1, "KEGGor_CH1d_720.tab", sep="\t")
-#write.table(ch3, "KEGGor_CH3d_720.tab", sep="\t")
+#write.table(SH1, "KEGGor_SH1d.tab", sep="\t")
+#write.table(SH3, "KEGGor_SH3d.tab", sep="\t")
 
-#write.table(met, "KEGGor_met_720.tab", sep="\t")
+#write.table(met, "KEGGor_met.tab", sep="\t")
+
+# WGCNA modules
+k<-read.table("all_modules.txt",header=TRUE, fill=TRUE)
+
+kM <- enrichKEGG(gene         = k$M25,
+                   organism     = "ko",
+                   pvalueCutoff = 0.05)
+head(as.data.frame(kM))
+mod_kegg<-as.data.frame(kM)
+write.table(mod_kegg, "KEGGor_M25.tab", sep="\t")
+
 
 barplot(kMET, drop=TRUE, showCategory=20, font=12)
-dotplot(kMET, showCategory=30, font=12)
-cnetplot(kMET, showCategory = 8,categorySize="geneNum", colorEdge=TRUE)
-emapplot(kMET)
+dotplot(kSC1, showCategory=30, font=12)
+cnetplot(kAH1, showCategory = 8, colorEdge=TRUE)
+kMET.2 <- pairwise_termsim(kSH3)
+emapplot(kMET.2)
 
-ck <- compareCluster(geneCluster = k[,c(1,3,5,7,9,11)],
-                     fun = "enrichKEGG",
-                     organism     = "ko",
-                     pvalueCutoff = 0.05)
-ck2<-as.data.frame(ck)
-write.table(ck2, "KEGG_Modules.txt", sep="\t")
-dotplot(ck,font.size = 10,showCategory=30,by="rowPercentage")###Only top 20 p-values displayed
-
-ck <- compareCluster(geneCluster = k[,14:20],
-                     fun = "enrichKEGG",
-                     organism     = "ko",
-                     pvalueCutoff = 0.05)
-ck2<-as.data.frame(ck)
-write.table(ck2, "KEGG_Modules_M24-M25.txt", sep="\t")
-dotplot(ck,font.size = 10,showCategory=20,by="rowPercentage")###Only top 20 p-values displayed
-
-
-mCL1 <- enrichMKEGG(gene = k$CL.1d,
-                   organism = 'ko',
-                   pvalueCutoff = 0.05)
-mcl1<-as.data.frame(mCL1)
-head(mcl1)
-
-mCL3 <- enrichMKEGG(gene = k$CL.3d,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mcl3<-as.data.frame(mCL3)
-head(mcl3)
-
-mCH1 <- enrichMKEGG(gene = k$CH.1d,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mch1<-as.data.frame(mCH1)
-head(mch1)
-
-mCH3 <- enrichMKEGG(gene = k$CH.3d,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mch3<-as.data.frame(mCH3)
-head(mch3)
-
-mAH1 <- enrichMKEGG(gene = k$AH.1d,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mah1<-as.data.frame(mAH1)
-head(mah1)
-
-mAH3 <- enrichMKEGG(gene = k$AH.3d,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mah3<-as.data.frame(mAH3)
-head(mah3)
-
-mmet <- enrichMKEGG(gene = k$Met,
-                    organism = 'ko',
-                    pvalueCutoff = 0.05)
-mmet2<-as.data.frame(mmet)
-head(mmet2)
-
-library("pathview")
-## feature 1: numeric vector
-geneListCL1 = k$CL.1d.exp
-## feature 2: named vector
-names(geneListCL1) = as.character(k$CL.1d)
-## feature 3: decreasing orde
-geneListCL1 = sort(geneListCL1, decreasing = TRUE)
-
-pathview(gene.data  = geneListCL1,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "CL.1d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-geneListCL3 = k$CL.3d.exp
-## feature 2: named vector
-names(geneListCL3) = as.character(k$CL.3d)
-## feature 3: decreasing orde
-geneListCL3 = sort(geneListCL3, decreasing = TRUE)
-
-pathview(gene.data  = geneListCL3,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "CL.3d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-
-geneListCH1 = k$CH.1d.exp
-## feature 2: named vector
-names(geneListCH1) = as.character(k$CH.1d)
-## feature 3: decreasing orde
-geneListCH1 = sort(geneListCH1, decreasing = TRUE)
-
-pathview(gene.data  = geneListCH1,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "CH.1d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-geneListCH3 = k$CH.3d.exp
-## feature 2: named vector
-names(geneListCH3) = as.character(k$CH.3d)
-## feature 3: decreasing orde
-geneListCH3 = sort(geneListCH3, decreasing = TRUE)
-
-pathview(gene.data  = geneListCH3,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "CH.3d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-geneListAH1 = k$AH.1d.exp
-## feature 2: named vector
-names(geneListAH1) = as.character(k$AH.1d)
-## feature 3: decreasing orde
-geneListAH1 = sort(geneListAH1, decreasing = TRUE)
-
-pathview(gene.data  = geneListAH1,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "AH.1d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-geneListAH3 = k$AH.3d.exp
-## feature 2: named vector
-names(geneListAH3) = as.character(k$AH.3d)
-## feature 3: decreasing orde
-geneListAH3 = sort(geneListAH3, decreasing = TRUE)
-
-pathview(gene.data  = geneListAH3,
-         pathway.id = "ko04624",
-         species    = "ko",
-         out.suffix = "AH.3d.layer",
-         limit = list(gene = 2),
-         low = list(gene = "blue"), mid =
-           list(gene = "lightgray"), high = list(gene = "red"))
-
-
-#cell cycle
-browseKEGG(kMET, 'ko04110')
-#sphingolipids
-browseKEGG(kAH3, 'ko04071')
-browseKEGG(kAH3, 'ko00600')
-#endocytosis
-browseKEGG(kAH1, 'ko04144')
-#mTOR
-browseKEGG(kCL1, 'ko04150')
-#NOD signaling
-browseKEGG(kAH3, 'ko04621')
-#NFkappaB
-ko04064
-#lysosome
-ko04142
-#TNF signaling
-ko04668
-#MAPK signaling
-ko04013
-#autophagy
-ko04140
-#oxidative phosphorylation
-ko00190
-#apoptosis
-ko04210
-#antifolate resistance
-ko01523
-#phagosome
-ko04145
-#fattyacid elongation
-ko00062
-#c-type lectin signaling
-ko04625
-#calcium signaling
-ko04020
-#toll-like receptor signaling
-ko04620
-#Amphetiamine addiction
-ko05031
-#Adrenic signaling in cardiocytes
-ko04261
-#transcription misregulation cancer
-ko05202
-#hepatocellular carcinoma
-ko05225
-#viral carcinogins
-ko05203
-#toll and imd signaling
-ko04624
-#hippo signaling-fly
-ko04391
-#cellular senescence
-ko04218
+xx <- compareCluster(k, fun="enrichKEGG",
+                     organism="ko", pvalueCutoff=0.05)
+dotplot(xx, showCategory=20, font=12)
+xx <- pairwise_termsim(xx)
+emapplot(xx)
